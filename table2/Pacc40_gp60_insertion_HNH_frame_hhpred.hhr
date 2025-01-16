@@ -1,0 +1,2311 @@
+Query         Pacc40_gp60_insertion_HNH
+Match_columns 159
+No_of_seqs    178 out of 1688
+Neff          9.47712
+Searched_HMMs 140033
+Date          Thu Jan 16 19:33:12 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -d /cluster/toolkit/production/databases/hh-suite/phrogs/phrogs_v4 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -o ../results/Pacc40_HNH.hhr -oa3m ../results/Pacc40_HNH.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 phrog_38544 PHROGs annotation:  99.9 2.3E-25 1.7E-30  164.9  11.2  126    4-151    60-186 (241)
+  2 phrog_22195 PHROGs annotation:  99.9 9.2E-21 6.5E-26  130.2  10.1  127   13-151     1-130 (136)
+  3 phrog_8790 PHROGs annotation:   99.8 5.6E-20   4E-25  127.7   9.3   82   70-151    17-116 (141)
+  4 phrog_3377 PHROGs annotation:   99.8 1.1E-19 8.1E-25  132.5   5.3   88   67-154     1-94  (204)
+  5 phrog_28742 PHROGs annotation:  99.7 3.7E-16 2.6E-21  111.5   8.2   86   64-154    14-109 (165)
+  6 phrog_2081 PHROGs annotation:   99.7 1.4E-15   1E-20  107.2   8.3   94   59-152    14-109 (158)
+  7 phrog_953 PHROGs annotation: H  99.6 2.8E-15   2E-20  110.0   3.9   96   60-157     2-106 (203)
+  8 phrog_30929 PHROGs annotation:  99.4 3.4E-13 2.4E-18  109.1   5.1   86   69-157    35-131 (413)
+  9 phrog_374 PHROGs annotation: H  99.3 2.9E-11 2.1E-16   85.2   6.5   59    3-62      1-60  (165)
+ 10 phrog_13470 PHROGs annotation:  99.2 2.5E-10 1.8E-15   79.4   7.9   62    1-62      3-66  (153)
+ 11 phrog_3190 PHROGs annotation:   99.2 5.7E-11 4.1E-16   86.3   4.2   63   91-154     7-86  (177)
+ 12 phrog_18493 PHROGs annotation:  99.0 3.7E-09 2.7E-14   73.8   6.9   58    1-60     52-112 (136)
+ 13 phrog_27240 PHROGs annotation:  98.8 3.3E-08 2.3E-13   68.9   6.6   54    4-60      1-55  (132)
+ 14 phrog_16521 PHROGs annotation:  98.1 2.2E-05 1.5E-10   56.6   5.3   67   73-150     2-74  (157)
+ 15 phrog_4578 PHROGs annotation:   97.2  0.0019 1.4E-08   41.4   4.4   44  115-158     3-47  (102)
+ 16 P03797 Y38_BPT7 Protein 3.8 OS  97.1  0.0047 3.4E-08   41.4   5.0   50  109-158    17-67  (121)
+ 17 P39420 Y01B_BPT4 Uncharacteriz  94.1     0.5 3.6E-06   37.7   5.7   70   71-151    10-90  (248)
+ 18 phrog_20519 PHROGs annotation:  93.7    0.31 2.2E-06   35.9   3.8   50    8-60      1-59  (201)
+ 19 phrog_1400 PHROGs annotation:   92.9    0.68 4.8E-06   37.3   4.8   70   71-151     8-88  (261)
+ 20 PF21817.2 ; CapR ; CapR homolo  89.7       2 1.4E-05   26.5   3.6   44   16-60     15-65  (66)
+ 21 phrog_3593 PHROGs annotation:   87.6     4.5 3.2E-05   29.9   4.9   51  109-159    75-126 (179)
+ 22 phrog_10495 PHROGs annotation:  87.2       3 2.1E-05   24.8   3.1   50  109-158    13-63  (63)
+ 23 phrog_3118 PHROGs annotation:   86.6     1.6 1.2E-05   34.2   2.2   31  121-151   185-215 (235)
+ 24 3M7K_A restriction endonucleas  86.5     3.2 2.3E-05   29.3   3.4   36  116-151    83-118 (142)
+ 25 phrog_37115 PHROGs annotation:  85.3     4.8 3.4E-05   23.4   3.3   49  109-157     4-53  (53)
+ 26 phrog_35306 PHROGs annotation:  83.9     2.4 1.7E-05   26.1   1.7   17  135-151     2-18  (90)
+ 27 phrog_4842 PHROGs annotation:   81.8     8.9 6.4E-05   28.0   4.1   41  110-150   104-145 (151)
+ 28 phrog_30933 PHROGs annotation:  81.6     5.7 4.1E-05   23.3   2.7   24  135-158     1-24  (76)
+ 29 phrog_21964 PHROGs annotation:  81.0      10 7.3E-05   23.9   3.7   49  109-157    12-62  (77)
+ 30 PF13392.11 ; HNH_3 ; HNH endon  79.9     8.5 6.1E-05   22.5   2.9   38  111-148     8-55  (55)
+ 31 2JYN_A UPF0368 protein YPL225W  78.3       9 6.5E-05   28.5   3.2   40  104-143    84-123 (146)
+ 32 phrog_14913 PHROGs annotation:  78.0      23 0.00016   25.5   5.1   51  109-159    43-95  (138)
+ 33 O64175 YOSQ_BPSPB Putative HNH  76.5      10 7.2E-05   28.2   3.1   48  111-158    59-107 (173)
+ 34 Q5UPT4 YL247_MIMIV Uncharacter  76.0      16 0.00012   31.5   4.5   50  109-158   244-295 (398)
+ 35 P03796 Y77_BPT7 Protein 7.7 OS  75.7     9.3 6.6E-05   26.6   2.6   40  111-150    33-73  (130)
+ 36 phrog_3322 PHROGs annotation:   74.6     3.1 2.2E-05   29.3   0.1   32  121-152    90-121 (138)
+ 37 phrog_30377 PHROGs annotation:  73.8      13 9.6E-05   23.7   2.8   40  120-159    24-64  (82)
+ 38 Q5UQL9 YR423_MIMIV Uncharacter  73.3     6.2 4.5E-05   35.4   1.6   29  122-150   414-442 (530)
+ 39 phrog_28753 PHROGs annotation:  73.0      41  0.0003   20.8   4.5   45    1-47      1-45  (57)
+ 40 P03795 Y28_BPT7 Protein 2.8 OS  72.6     9.9   7E-05   26.9   2.2   43  115-158    49-92  (139)
+ 41 P20327 Y53_BPT3 Uncharacterize  72.1      27 0.00019   23.3   4.0   50  109-158    50-100 (101)
+ 42 phrog_20290 PHROGs annotation:  70.8     8.4   6E-05   23.9   1.3   28   33-62     16-44  (58)
+ 43 Q5UQL8 YR424_MIMIV Uncharacter  70.3      26 0.00019   30.0   4.3   38  120-157    79-117 (342)
+ 44 phrog_3118 PHROGs annotation:   69.7     5.7 4.1E-05   31.3   0.5   35  122-156    53-87  (235)
+ 45 phrog_28475 PHROGs annotation:  69.4      18 0.00013   29.1   3.1   35  116-150    88-132 (227)
+ 46 phrog_15471 PHROGs annotation:  69.1      45 0.00032   24.9   5.0   41  109-149    30-72  (176)
+ 47 phrog_12376 PHROGs annotation:  67.7      25 0.00018   27.3   3.5   35  115-149   125-163 (192)
+ 48 phrog_1492 PHROGs annotation:   67.6      30 0.00021   27.2   4.0   48  111-158    84-132 (216)
+ 49 phrog_959 PHROGs annotation: H  66.1      28  0.0002   24.1   3.3   43  116-158    76-120 (120)
+ 50 PF04669.18 ; PBDC1 ; PBDC1 pro  65.4      30 0.00022   25.2   3.3   43  103-145    66-108 (127)
+ 51 1U3E_M HNH homing endonuclease  64.7      41 0.00029   24.6   4.0   50  109-158    58-108 (174)
+ 52 phrog_25114 PHROGs annotation:  64.5      59 0.00042   24.1   4.7   40  110-149    80-128 (153)
+ 53 P34081 HMUI_BPSP1 DNA endonucl  64.1      46 0.00033   24.8   4.2   47  109-155    58-105 (174)
+ 54 phrog_7410 PHROGs annotation:   63.9      21 0.00015   20.4   1.8   13   32-44      5-18  (42)
+ 55 Q5UR39 YL560_MIMIV Uncharacter  62.2      36 0.00025   25.6   3.4   37  116-152    90-127 (187)
+ 56 phrog_10730 PHROGs annotation:  62.0      68 0.00049   20.9   4.3   39  111-149    45-85  (90)
+ 57 phrog_99 PHROGs annotation: HN  61.6      39 0.00028   24.4   3.4   43  109-151    59-102 (158)
+ 58 Q5UQL9 YR423_MIMIV Uncharacter  59.3      33 0.00024   31.2   3.2   31  122-152   306-336 (530)
+ 59 phrog_1872 PHROGs annotation:   58.0      38 0.00027   23.4   2.7   50  109-158    59-110 (116)
+ 60 phrog_20162 PHROGs annotation:  57.9      23 0.00017   21.8   1.6   14  135-148     4-17  (88)
+ 61 phrog_37683 PHROGs annotation:  56.0      53 0.00038   26.5   3.6   40  111-150   143-183 (254)
+ 62 phrog_37416 PHROGs annotation:  54.6      75 0.00053   20.5   3.2   23   33-55      8-31  (64)
+ 63 phrog_15625 PHROGs annotation:  54.2      29 0.00021   24.3   1.6   13   29-41     53-65  (133)
+ 64 phrog_1891 PHROGs annotation:   53.7      70  0.0005   24.8   3.8   48  111-158   117-165 (195)
+ 65 phrog_12324 PHROGs annotation:  52.7   1E+02 0.00072   26.0   4.6   41  109-149     5-51  (269)
+ 66 phrog_38861 PHROGs annotation:  52.0      49 0.00035   24.0   2.4   14   33-46    103-117 (142)
+ 67 Q6QGM3 TFLI_BPT5 H-N-H endonuc  51.9      79 0.00057   24.5   3.8   41  118-158    68-110 (194)
+ 68 phrog_6254 PHROGs annotation:   50.9      68 0.00048   22.8   3.1   38  111-148    45-83  (131)
+ 69 phrog_23266 PHROGs annotation:  50.8      46 0.00033   23.9   2.1   45   97-141   104-150 (152)
+ 70 phrog_9529 PHROGs annotation:   49.4      55 0.00039   25.6   2.7   29   32-60      1-34  (247)
+ 71 phrog_21581 PHROGs annotation:  49.3      59 0.00042   21.9   2.3   18   33-50     19-37  (81)
+ 72 Q5UQS5 YR328_MIMIV Uncharacter  49.2 1.6E+02  0.0012   25.8   5.3   50  109-158   268-319 (343)
+ 73 phrog_6725 PHROGs annotation:   47.4   1E+02 0.00073   18.3   2.8   21   21-41     15-36  (47)
+ 74 phrog_22151 PHROGs annotation:  47.0 1.3E+02 0.00091   18.0   3.5   28   33-60     12-43  (57)
+ 75 phrog_34373 PHROGs annotation:  46.7      61 0.00044   19.9   2.0   35   26-60      9-45  (53)
+ 76 phrog_59 PHROGs annotation: HN  46.4      83  0.0006   23.0   3.1   28  122-149    70-98  (161)
+ 77 phrog_4592 PHROGs annotation:   45.8      49 0.00035   25.0   1.9   29  122-150   115-143 (175)
+ 78 phrog_826 PHROGs annotation: H  45.2   1E+02 0.00072   22.3   3.3   41  109-150    50-91  (138)
+ 79 phrog_19102 PHROGs annotation:  44.1      65 0.00047   18.4   1.7   25   36-60     10-35  (38)
+ 80 phrog_10944 PHROGs annotation:  40.9 1.8E+02  0.0013   19.3   3.7   35    1-40      1-36  (79)
+ 81 phrog_21416 PHROGs annotation:  40.2      48 0.00034   25.2   1.1   26   34-59    107-132 (153)
+ 82 phrog_22897 PHROGs annotation:  39.8      61 0.00044   20.7   1.4   27   32-58     47-74  (78)
+ 83 phrog_8931 PHROGs annotation:   39.3      83 0.00059   19.7   1.8   13   32-44     22-35  (56)
+ 84 phrog_20332 PHROGs annotation:  39.1      61 0.00044   24.3   1.4   26   34-59      5-31  (139)
+ 85 PF09723.15 ; Zn-ribbon_8 ; Zin  38.6      98  0.0007   16.3   2.0   28   32-60      3-32  (40)
+ 86 phrog_19902 PHROGs annotation:  38.3 1.1E+02 0.00081   24.4   2.9   44  115-158    98-144 (221)
+ 87 phrog_8294 PHROGs annotation:   37.9 1.6E+02  0.0011   17.6   2.9   15   32-46     36-51  (53)
+ 88 Q5UPT6 YL245_MIMIV Uncharacter  37.2 1.4E+02   0.001   24.7   3.4   36  115-150   232-268 (330)
+ 89 PF05551.16 ; zf-His_Me_endon ;  37.0 3.2E+02  0.0023   19.1   4.8   43  109-151    34-80  (117)
+ 90 phrog_15827 PHROGs annotation:  37.0 1.9E+02  0.0014   17.7   3.3   29   32-60      4-36  (69)
+ 91 4X33_A Diphthamide biosynthesi  36.3 1.4E+02   0.001   18.3   2.6   29   32-60     20-50  (63)
+ 92 phrog_5735 PHROGs annotation:   35.5 2.1E+02  0.0015   17.4   3.4   33  116-149     5-37  (88)
+ 93 phrog_29406 PHROGs annotation:  35.0      65 0.00046   19.5   0.9   27   36-62      2-29  (63)
+ 94 phrog_36769 PHROGs annotation:  34.9      90 0.00064   27.3   2.0   39  120-158   249-288 (358)
+ 95 Q6QGM6 TFLII_BPT5 H-N-H endonu  34.8 2.3E+02  0.0016   22.0   3.9   40  111-150    62-104 (193)
+ 96 Q38419 TEV3_BPR03 Intron-assoc  34.1 3.2E+02  0.0023   23.0   4.8   41  109-149     5-51  (269)
+ 97 Q5UPT4 YL247_MIMIV Uncharacter  33.8 1.8E+02  0.0013   25.6   3.6   47  111-157    71-120 (398)
+ 98 phrog_27264 PHROGs annotation:  33.7   1E+02 0.00073   19.6   1.6   11   33-43     38-48  (74)
+ 99 phrog_21717 PHROGs annotation:  32.9 1.5E+02  0.0011   18.8   2.1   20   34-53     35-54  (58)
+100 PF07150.16 ; DUF1390 ; Protein  31.9      96 0.00068   25.2   1.6   26   34-60      7-32  (220)
+101 PF05207.18 ; zf-CSL ; CSL zinc  31.7 1.7E+02  0.0012   16.7   2.3   29   32-60     16-46  (55)
+102 PF03128.19 ; CXCXC ; CXCXC rep  31.4      49 0.00035   14.1   0.0    5   35-39      9-13  (13)
+103 phrog_32704 PHROGs annotation:  31.3 1.9E+02  0.0014   14.9   2.5   23   36-60      3-27  (35)
+104 phrog_4208 PHROGs annotation:   30.5 2.7E+02  0.0019   22.4   3.7   51  108-158    79-133 (200)
+105 6ZOP_A DDE_Tnp_1_7 domain-cont  30.4 1.2E+02 0.00089   19.5   1.6   12   34-45     25-37  (84)
+106 Q5UPT6 YL245_MIMIV Uncharacter  30.3 1.7E+02  0.0012   24.2   2.9   47  111-157    60-107 (330)
+107 phrog_22080 PHROGs annotation:  30.0 2.4E+02  0.0017   18.1   3.0   27   32-60      4-31  (74)
+108 4QIW_W DNA-directed RNA polyme  28.9 2.3E+02  0.0016   15.0   2.7   28   32-59      3-31  (49)
+109 phrog_11913 PHROGs annotation:  28.9 2.4E+02  0.0017   19.3   2.9   27   32-59     13-40  (86)
+110 phrog_9735 PHROGs annotation:   28.8 2.1E+02  0.0015   21.3   2.7   26   33-60     12-39  (126)
+111 phrog_4538 PHROGs annotation:   28.8 3.1E+02  0.0022   23.8   4.2   36   16-54     52-88  (386)
+112 3VPB_E Alpha-aminoadipate carr  28.8 2.4E+02  0.0017   17.1   2.7   26   34-60      3-29  (56)
+113 2GMG_A hypothetical protein Pf  27.5 1.9E+02  0.0014   20.2   2.3   26   32-59     65-91  (105)
+114 phrog_385 PHROGs annotation: t  26.9 2.3E+02  0.0016   18.3   2.5   14   32-45      3-17  (82)
+115 phrog_11983 PHROGs annotation:  26.3 5.1E+02  0.0036   19.6   4.1   36   17-52     34-70  (186)
+116 PF11403.13 ; Yeast_MT ; Yeast   26.1      80 0.00057   17.4   0.3    8   34-41      6-13  (39)
+117 9EH1_L RNA polymerase II subun  26.0 2.4E+02  0.0017   15.7   2.2   25   33-59      4-29  (47)
+118 5IP7_L DNA-directed RNA polyme  25.3 2.1E+02  0.0015   15.9   1.9   25   33-59      3-28  (46)
+119 PF10122.14 ; Mu-like_Com ; Mu-  25.1 2.3E+02  0.0016   16.0   2.0   27   33-59      3-30  (51)
+120 phrog_6361 PHROGs annotation:   25.0 2.3E+02  0.0017   21.9   2.6   31   32-62    167-198 (204)
+121 phrog_33739 PHROGs annotation:  24.5   3E+02  0.0022   17.5   2.4   19   32-50      6-24  (69)
+122 1RJU_V Metallothionein; Yeast   24.5      80 0.00057   17.2   0.1    7   35-41      3-9   (36)
+123 phrog_19178 PHROGs annotation:  24.2 5.7E+02  0.0041   19.7   4.2   35   11-46    106-141 (145)
+124 phrog_17408 PHROGs annotation:  24.1 1.3E+02 0.00095   21.9   1.0   14   33-47     96-109 (151)
+125 2L6L_A DnaJ homolog subfamily   24.0 2.2E+02  0.0016   20.6   2.2   29   32-60    110-139 (155)
+126 1TWF_L DNA-directed RNA polyme  23.4 2.2E+02  0.0016   18.2   1.9   26   33-60     27-53  (70)
+127 5XOG_L RNA polymerase subunit   23.2 2.4E+02  0.0017   18.3   2.0   26   33-60     29-55  (72)
+128 phrog_29975 PHROGs annotation:  23.1 1.6E+02  0.0011   21.8   1.4   14  135-148     7-20  (160)
+129 1GH9_A 8.3 KDA PROTEIN (GENE M  23.1 3.8E+02  0.0027   17.4   2.9   26   32-59      2-27  (71)
+130 phrog_5768 PHROGs annotation:   23.1 2.1E+02  0.0015   18.6   1.6   54    1-59      1-56  (63)
+131 Q6QGE6 ENDO2_BPT5 Putative end  22.7 5.4E+02  0.0038   20.4   4.2   41   18-60     92-136 (250)
+132 phrog_22195 PHROGs annotation:  22.7      85 0.00061   22.5  -0.0   33   10-43     54-87  (136)
+133 phrog_22597 PHROGs annotation:  22.6 3.4E+02  0.0024   20.6   2.8   28   33-60     14-44  (133)
+134 phrog_21057 PHROGs annotation:  22.6 1.6E+02  0.0011   19.3   1.2   18   33-50     23-41  (73)
+135 phrog_17657 PHROGs annotation:  22.5 2.8E+02   0.002   20.6   2.5   33  111-143   118-155 (156)
+136 3H0G_L DNA-directed RNA polyme  22.5 2.9E+02  0.0021   17.5   2.2   26   33-60     20-46  (63)
+137 PF09845.14 ; DUF2072 ; Zn-ribb  22.3 1.3E+02 0.00096   22.4   0.9   24   36-60      3-27  (136)
+138 phrog_3212 PHROGs annotation:   22.2 3.4E+02  0.0024   18.5   2.6   14   32-45      3-17  (84)
+139 phrog_4538 PHROGs annotation:   21.8 5.6E+02   0.004   22.4   4.4   43   18-62    108-152 (386)
+140 phrog_2834 PHROGs annotation:   21.7 2.3E+02  0.0017   17.6   1.7   20   32-51      9-29  (65)
+141 phrog_34162 PHROGs annotation:  21.3      88 0.00063   20.9  -0.1   13   99-111    47-59  (94)
+142 phrog_37038 PHROGs annotation:  21.1 3.6E+02  0.0026   17.0   2.4   14   32-45     17-31  (61)
+143 phrog_5841 PHROGs annotation:   21.1 5.3E+02  0.0038   17.4   3.1   19   28-46     48-67  (71)
+144 Q5UQM9 YL426_MIMIV Uncharacter  21.1 1.4E+02   0.001   23.5   0.9   33  121-153   162-206 (227)
+145 phrog_17137 PHROGs annotation:  21.1 2.2E+02  0.0016   20.0   1.6   27   32-58      5-32  (95)
+146 9BZ0_L RNA polymerase II subun  20.9 3.2E+02  0.0023   16.5   2.2   24   34-59     16-40  (58)
+147 phrog_20891 PHROGs annotation:  20.8 2.1E+02  0.0015   22.4   1.7   38  113-150   161-200 (222)
+148 phrog_9579 PHROGs annotation:   20.7 4.6E+02  0.0033   16.0   2.8   20   32-51     11-31  (56)
+149 PF09082.15 ; DUF1922 ; Domain   20.5 4.6E+02  0.0033   16.0   2.8   26   32-59      2-27  (56)
+150 phrog_6489 PHROGs annotation:   20.5 1.2E+02 0.00087   17.8   0.3    8   36-43      3-11  (47)
+151 phrog_10481 PHROGs annotation:  20.4 2.8E+02   0.002   19.2   1.9   12   33-44     18-30  (85)
+152 phrog_31283 PHROGs annotation:  20.4   4E+02  0.0028   21.8   2.9   26   34-63      5-32  (207)
+153 phrog_9496 PHROGs annotation:   20.2   2E+02  0.0014   18.3   1.2   25   34-58      6-34  (61)
+154 phrog_22070 PHROGs annotation:  20.2 5.6E+02   0.004   17.0   3.0   24   28-51     48-73  (79)
+155 8J07_c2 IQ and ubiquitin-like   20.2 3.6E+02  0.0026   26.8   3.2   28  121-148   695-722 (791)
+
+No 1
+>phrog_38544 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Putative DNA-binding domain; EUF07902; AM32 | 
+Probab=99.93  E-value=2.3e-25  Score=164.87  Aligned_cols=126  Identities=15%  Similarity=0.166  Sum_probs=93.6  Template_Neff=5.600
+
+Q ss_pred             CCCCCccCCCEECeEEEEEEcCCCCCCeEEEEEeCCCCEEEEECcccCCCceeccccccccCCCCCChhHHhHHhHHHcc
+Q Pacc40_gp60_in    4 PRRHPQLEGQRFGKLVVEQWDPDAKRDGAWICRCECGGTHIATTTHLRAGRVLSCGCIRPKHGGKGTRIYRIWQGMHDRC   83 (159)
+Q Consensus         4 ~~~~~~~~G~~~g~l~v~~~~~~~~~~~~~~c~C~CG~~~~~~~~~l~~g~~~~Cgc~~~~~~~~~~~~y~~w~~m~~rc   83 (159)
+                      |....+++|++||+|+|++....   ...|.|+|+||++..+...+|++|.  +|+|... ++. ....+    .+.   
+T Consensus        60 ~~~~~~~~G~rfGrLtVl~~~~~---~~~w~C~CdCG~~~~v~~~~L~~G~--sC~~~~~-~g~-~~~~~----~hg---  125 (241)
+T phrog_38544      60 RELPLIAQFEFFGQWQILNDKPT---SQGYNCACVCGATATLSPRQLGERP--LCNHRGS-DQN-FRQNR----EAA---  125 (241)
+T ss_pred             CCCCcccCCCEEeeEEEEEeCCC---CceEEEEccCCCeEEECHHHcCCCC--CccccCc-ccc-ccccc----ccc---
+Confidence            45567899999999999975431   2389999999999999999999986  7988632 110 00000    000   
+
+
+Q ss_pred             CCCCCCcccccccCCeeeCCchhcHHHHHHHcCCCCCCCcEEEECCCCCcccccEEECCHHHHH-HhCC
+Q Pacc40_gp60_in   84 RRPGHKNWADYGGRGITVCERWRSFPNFLADMGHPPDGHTIDRIDNDGNYEPGNCRWATPAEQA-RNRR  151 (159)
+Q Consensus        84 ~~~~~~~~~~yg~~gi~v~~~w~~f~~F~~~~g~~~~~~~ldRi~~~~~Y~~~Nc~wv~~~~n~-~~~~  151 (159)
+                          ......|  .+|+||++|.+|++|+.|+|..+++++|||||++++|+|+|  |++..++. .|++
+T Consensus       126 ----~~~~~~Y--~~ItVC~rW~sFe~Fl~DmG~~~~g~tLDRIDn~g~Y~P~N--WaT~~~qq~~Nrr  186 (241)
+T phrog_38544     126 ----KEFKALV--SAGLIPNRWINFNVWLKRRAKVKRGYTLITVAPGFMWDENN--LIEVASRQRPGAL  186 (241)
+T ss_pred             ----cccCccc--eeEEeChhhhcHHHHHHHcCCCCCCCeEEEECCCCCCCcch--hcCHHHHHccCCC
+Confidence                0111223  45999999999999999999555799999999999999999  99998664 4555
+
+
+No 2
+>phrog_22195 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | 
+Probab=99.86  E-value=9.2e-21  Score=130.22  Aligned_cols=127  Identities=16%  Similarity=0.294  Sum_probs=93.2  Template_Neff=9.700
+
+Q ss_pred             CEECeEEEEEEcCCCCCCeEEEEEeCCCCEEEEECcccCCCceeccccccccCCCCCChhHHhHHhHHHccCCCCCCccc
+Q Pacc40_gp60_in   13 QRFGKLVVEQWDPDAKRDGAWICRCECGGTHIATTTHLRAGRVLSCGCIRPKHGGKGTRIYRIWQGMHDRCRRPGHKNWA   92 (159)
+Q Consensus        13 ~~~g~l~v~~~~~~~~~~~~~~c~C~CG~~~~~~~~~l~~g~~~~Cgc~~~~~~~~~~~~y~~w~~m~~rc~~~~~~~~~   92 (159)
+                      ++||.|+|++...   ....|.|+|+||++..+....|++|.+++|||...............|..|+.||++++...  
+T Consensus         1 ~~fG~ltv~~~~~---~~~~~~c~C~CG~~~~v~~~~l~~g~~~sCgC~~~~~~~~~~~~~~~y~~~~~r~~~~~~~~--   75 (136)
+T phrog_22195       1 MVFGELTLVERHA---KRGRWVVRCSCGTVKDVLAQNVVRGCTRTCGNLEVHRTGRFRSGTVEYTAMHHRLYVDRGQA--   75 (136)
+T ss_pred             CeEeeEEEEEEcC---CceEEEEEcCCCCEEEEEhhHcccCcccccCCceecccCCCCCcchhhHhhhhhhhccCCCC--
+Confidence            4799999997653   23389999999999999999999999999999765221111122335568888988764332  
+
+
+Q ss_pred             ccccCCeeeCCchhcHHHHHH---HcCCCCCCCcEEEECCCCCcccccEEECCHHHHHHhCC
+Q Pacc40_gp60_in   93 DYGGRGITVCERWRSFPNFLA---DMGHPPDGHTIDRIDNDGNYEPGNCRWATPAEQARNRR  151 (159)
+Q Consensus        93 ~yg~~gi~v~~~w~~f~~F~~---~~g~~~~~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~~  151 (159)
+                           ++.+|  |..+..|..   +.|..++.++|||||++++|+|+||+|++.-.+-.++.
+T Consensus        76 -----~i~~C--~~cg~~~~~~~~~~~~~~~~~~idrid~~~~Y~~~n~~w~~~c~~c~~~~  130 (136)
+T phrog_22195      76 -----SSHRC--IDCDNEATDWSYRGGDPDELASTEAANEGRVYSLDPSYYDPRCRSCHKIY  130 (136)
+T ss_pred             -----ccEEe--cCCCccHHHHHHhCCCCcccccccccCCCCCCCCCceeEecCCHHHHHHH
+Confidence                 56788  875555555   45555544599999999999999999999987665544
+
+
+No 3
+>phrog_8790 PHROGs annotation: restriction endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=99.84  E-value=5.6e-20  Score=127.65  Aligned_cols=82  Identities=41%  Similarity=0.859  Sum_probs=71.8  Template_Neff=7.800
+
+Q ss_pred             ChhHHhHHhHHHccCCCCCCcccccccCCeeeCCchh-----cHHHHHHHcCCCC-------------CCCcEEEECCCC
+Q Pacc40_gp60_in   70 TRIYRIWQGMHDRCRRPGHKNWADYGGRGITVCERWR-----SFPNFLADMGHPP-------------DGHTIDRIDNDG  131 (159)
+Q Consensus        70 ~~~y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w~-----~f~~F~~~~g~~~-------------~~~~ldRi~~~~  131 (159)
+                      ++.+..|..|+.||+.++...+..|+++++.+|++|.     +|..|..|++..+             ..++||||++++
+T Consensus        17 ~~~y~~W~~M~~RC~~~~~~~y~~Yg~~gi~v~~~W~~~~~~~f~~F~~~~~~~~~~~~~~~~~~~~~~~~~LDrid~~~   96 (141)
+T phrog_8790       17 HPFYPMWNTMIQRCTNPRYKDFNNYGAIGITCCEEWLPPKESGFLNFLRDMVDPFLLSGEDYFDPYFKHSKSLDRRFGPA   96 (141)
+T ss_pred             CcHHHHHHHHHHHhcCCCCCCcccccCCCcEECCccCCCcchhHHHHHHHhcCccccCCccccCccccCCcEEEEeCCCC
+Confidence            4688899999999999999899999889999999998     9999998765442             257899999999
+
+
+Q ss_pred             CcccccEEECCHHHHHHhCC
+Q Pacc40_gp60_in  132 NYEPGNCRWATPAEQARNRR  151 (159)
+Q Consensus       132 ~Y~~~Nc~wv~~~~n~~~~~  151 (159)
+                      .|+|+||+||+...+..++.
+T Consensus        97 ~Ysp~Nc~wv~~~~n~~n~~  116 (141)
+T phrog_8790       97 GYNPENCRWVSHEVQTLNRR  116 (141)
+T ss_pred             CcccccEEEEcHHHHHHhcc
+Confidence            99999999999999986654
+
+
+No 4
+>phrog_3377 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: Putative DNA-binding domain; EUF07902; AM32 | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | Putative DNA-binding domain; EUF07902; AM32 | 
+Probab=99.80  E-value=1.1e-19  Score=132.53  Aligned_cols=88  Identities=48%  Similarity=0.909  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCChhHHhHHhHHHccCCCCCCcccccccCCeeeCCchh----cHHHHHHH-cCCCC-CCCcEEEECCCCCcccccEEE
+Q Pacc40_gp60_in   67 GKGTRIYRIWQGMHDRCRRPGHKNWADYGGRGITVCERWR----SFPNFLAD-MGHPP-DGHTIDRIDNDGNYEPGNCRW  140 (159)
+Q Consensus        67 ~~~~~~y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w~----~f~~F~~~-~g~~~-~~~~ldRi~~~~~Y~~~Nc~w  140 (159)
+                      ...+++|.+|.+|+.||++++...|..||++||+||++|.    +|.+|+.| ++..+ ++++|||||++++|+|+||+|
+T Consensus         1 ~~~~~~~~~w~~m~~rc~~~~~~~y~~yg~rgi~v~~~w~~~~~~f~~f~~~~~~~~~~~~~~ldrid~~~~Y~p~Nc~w   80 (204)
+T phrog_3377        1 MSRTRIYRVYHGMIARVTNPNNISYARYGGRGIEVCDEWLDKDKGFMNFYNWAISNGYSDDLTIDRIEVNGNYEPGNCRW   80 (204)
+T ss_pred             CCCCHHHHHHHHHHHHhcCCCCcccccccCCceEECHHHhccCccHHHHHHHHHHCCCCCCCceecccCCCCccccceEE
+
+
+Q ss_pred             CCHHHHHHhCCCCC
+Q Pacc40_gp60_in  141 ATPAEQARNRRPRR  154 (159)
+Q Consensus       141 v~~~~n~~~~~~~~  154 (159)
+                      ++..+|..|++...
+T Consensus        81 ~~~~~q~~n~~~~~   94 (204)
+T phrog_3377       81 MTLGDQQNNRTDSH   94 (204)
+T ss_pred             eecCCcccCCCCCe
+
+
+No 5
+>phrog_28742 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Putative DNA-binding domain; EUF07902; AM32 | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=99.69  E-value=3.7e-16  Score=111.53  Aligned_cols=86  Identities=24%  Similarity=0.393  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             cCC-CCCChhHHhHHhHHHccCCCCCCcccccccCCeeeCCch---hcHHHHHHHc-C-----CCCCCCcEEEECCCCCc
+Q Pacc40_gp60_in   64 KHG-GKGTRIYRIWQGMHDRCRRPGHKNWADYGGRGITVCERW---RSFPNFLADM-G-----HPPDGHTIDRIDNDGNY  133 (159)
+Q Consensus        64 ~~~-~~~~~~y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w---~~f~~F~~~~-g-----~~~~~~~ldRi~~~~~Y  133 (159)
+                      .|+ ...+++|.+|.+|+.||++++...|+.||++   |  +|   ..|..|+.++ |     +.+++++|||+|++++|
+T Consensus        14 ~h~~~~~~~ly~~w~~m~~RC~n~~~~~y~~Ygg~---V--~W~~~~~F~~~~~~~~g~g~~~~~~~~~~ldRid~~~~Y   88 (165)
+T phrog_28742      14 EFGVEVWHKFRNSYRYAKERCCNPNCKDYPRYSGM---W--NFADTVEYYNTCFNEFLLGLDKYGLDDLSIDRKDSKIPY   88 (165)
+T ss_pred             hhCCccCCHHHHHHHHHHHHhcCCCCCCCCCcCcc---c--eeCChHHHHHHHHHhcccCccccCCCCCEEEecCCCCCc
+
+
+Q ss_pred             ccccEEECCHHHHHHhCCCCC
+Q Pacc40_gp60_in  134 EPGNCRWATPAEQARNRRPRR  154 (159)
+Q Consensus       134 ~~~Nc~wv~~~~n~~~~~~~~  154 (159)
+                      +|+||+|++..+|.++++...
+T Consensus        89 ~p~Nc~wv~~~~n~~n~~~~~  109 (165)
+T phrog_28742      89 QPGNIRFVSMKENLRNKPNVK  109 (165)
+T ss_pred             chhhEEEeeHHHHHhCCCCCC
+
+
+No 6
+>phrog_2081 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: DNA-binding domain of intron-encoded endonucleases; IENR1; HNH homing endonuclease | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=99.66  E-value=1.4e-15  Score=107.20  Aligned_cols=94  Identities=28%  Similarity=0.644  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ccccccCCCCCChhHHhHHhHHHccCCCCCCcccccccCCeeeCCchhcHHHHHHHcCCCC-CCCcEEEEC-CCCCcccc
+Q Pacc40_gp60_in   59 GCIRPKHGGKGTRIYRIWQGMHDRCRRPGHKNWADYGGRGITVCERWRSFPNFLADMGHPP-DGHTIDRID-NDGNYEPG  136 (159)
+Q Consensus        59 gc~~~~~~~~~~~~y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w~~f~~F~~~~g~~~-~~~~ldRi~-~~~~Y~~~  136 (159)
+                      |+.........+++|.+|..|+.||++++...+..||++||+|+++|.+|..|+.+++..+ +++.|||++ +...|+|+
+T Consensus        14 g~~~~~~~~~~~~~y~~w~~m~~rc~~~~~~~~~~~g~~~i~v~~~w~~~~~F~~~~~~~~~~~~~ldr~d~~~~~y~~~   93 (158)
+T phrog_2081       14 GYRGVGDYATTHPSYKIWQAMLQRCYSKEFRQYHNYGGKGVTVCEDWHNFQNFAKWYDDNYIEGYHLDKDAGGGMEYSPS   93 (158)
+T ss_pred             EEcCCCCCCCCCHHHHHHHHHHHHhcCCCCcccccCCCCCEEECCCcccHHHHHHHhhhcCCCCeEEeccCCCCCCcchh
+
+
+Q ss_pred             cEEECCHHHHHHhCCC
+Q Pacc40_gp60_in  137 NCRWATPAEQARNRRP  152 (159)
+Q Consensus       137 Nc~wv~~~~n~~~~~~  152 (159)
+                      ||+|++..+|.+++..
+T Consensus        94 N~~w~t~~~n~~~~~~  109 (158)
+T phrog_2081       94 TCTFMSQSDNTRESQS  109 (158)
+T ss_pred             heEEcCHHHHhHhhhc
+
+
+No 7
+>phrog_953 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=99.59  E-value=2.8e-15  Score=110.02  Aligned_cols=96  Identities=15%  Similarity=0.374  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             cccccCCCCCChhHHhHHhHHHccCCCCCC-cccccccCCeeeCCchhcHHHHHHHcCCC----CCCCcEEE---ECCCC
+Q Pacc40_gp60_in   60 CIRPKHGGKGTRIYRIWQGMHDRCRRPGHK-NWADYGGRGITVCERWRSFPNFLADMGHP----PDGHTIDR---IDNDG  131 (159)
+Q Consensus        60 c~~~~~~~~~~~~y~~w~~m~~rc~~~~~~-~~~~yg~~gi~v~~~w~~f~~F~~~~g~~----~~~~~ldR---i~~~~  131 (159)
+                      +.........+++|.+|.+|+.||++++.. .++.|  .||+||++|.+|..|..|+...    .++++|||   +++++
+T Consensus         2 ~~~~~~~~~~~~~y~~w~~m~~Rc~~~~~~~~~~~Y--~~~~vc~~w~~~~~f~~w~~~~~~~~~~g~~lDkd~~~~~n~   79 (203)
+T phrog_953         2 CKGSDGKRIKYKEFSYWLDMSTRCNNPNYALKFPTY--KDVIMSDTFEDYNIFVEWCRSKPQFFEDNFVLDKDIVLPKNK   79 (203)
+T ss_pred             ccCCCCcccCCHHHHHHHHHHHHhcCccchhhCCCC--CCeEECCccCCHHHHHHHHHhCCCCCCCCeEEccccccCCCc
+
+
+Q ss_pred             CcccccEEECCHHHHHHhCCCC-CCCC
+Q Pacc40_gp60_in  132 NYEPGNCRWATPAEQARNRRPR-RRSV  157 (159)
+Q Consensus       132 ~Y~~~Nc~wv~~~~n~~~~~~~-~~~~  157 (159)
+                      .|+|+||+|+|..+|..+++.. ....
+T Consensus        80 ~y~p~nc~~v~~~~N~~n~~~~~~~~~  106 (203)
+T phrog_953        80 IYHEDFCNFVPPQVNGFFVMRTNGRNK  106 (203)
+T ss_pred             ccChhhhccCCCccccEEEEEecCCCC
+
+
+No 8
+>phrog_30929 PHROGs annotation: NA; unknown function || Predicted ECOD domains: HD-domain/PDEase-like; HD_4; (P)ppGpp synthetase I, SpoT/RelA | GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=99.44  E-value=3.4e-13  Score=109.06  Aligned_cols=86  Identities=21%  Similarity=0.439  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CChhHHhHHhHHHccCCCCCCc-ccccccCCeeeCCchhcHHHHHHHcCCCC-------CCCcEEE---ECCCCCccccc
+Q Pacc40_gp60_in   69 GTRIYRIWQGMHDRCRRPGHKN-WADYGGRGITVCERWRSFPNFLADMGHPP-------DGHTIDR---IDNDGNYEPGN  137 (159)
+Q Consensus        69 ~~~~y~~w~~m~~rc~~~~~~~-~~~yg~~gi~v~~~w~~f~~F~~~~g~~~-------~~~~ldR---i~~~~~Y~~~N  137 (159)
+                      .++.|..|.+|+.||++++... ++.|  .|++||++|..|..|..|+....       +++.|||   +++++.|+|+|
+T Consensus        35 ~~~~y~~w~~m~~Rc~~~~~~~~~~~Y--~~~~v~~~w~~~~~f~~w~~~~~~~~~~~~~~~~ld~d~~~~~~~~y~p~n  112 (413)
+T phrog_30929      35 RCPYHQTWLSVIRRCYSQTYLKKCPAY--KGCSVDQRWKKLSSFIAWMKIQPEHDLWVSHNYQVDKDFLFPNERVYGPDT  112 (413)
+T ss_pred             CCHHHHHHHHHHHHhcCccchhhCCCc--CCEEECCccCCHHHHHHHHHhCcccccccCCCeEEccccccCCCCCCcccc
+
+
+Q ss_pred             EEECCHHHHHHhCCCCCCCC
+Q Pacc40_gp60_in  138 CRWATPAEQARNRRPRRRSV  157 (159)
+Q Consensus       138 c~wv~~~~n~~~~~~~~~~~  157 (159)
+                      |+|++..+|..++ ....+.
+T Consensus       113 c~~v~~~~N~~n~-~~~~~~  131 (413)
+T phrog_30929     113 CVLLPPSINGLFG-GMKKGR  131 (413)
+T ss_pred             eEEeCCccccccc-ccCCCc
+
+
+No 9
+>phrog_374 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | 
+Probab=99.28  E-value=2.9e-11  Score=85.16  Aligned_cols=59  Identities=31%  Similarity=0.752  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCccCCCEECeEEEEEEcCCCCCCe-EEEEEeCCCCEEEEECcccCCCceecccccc
+Q Pacc40_gp60_in    3 MPRRHPQLEGQRFGKLVVEQWDPDAKRDG-AWICRCECGGTHIATTTHLRAGRVLSCGCIR   62 (159)
+Q Consensus         3 ~~~~~~~~~G~~~g~l~v~~~~~~~~~~~-~~~c~C~CG~~~~~~~~~l~~g~~~~Cgc~~   62 (159)
+                      ||....|++|++||.|+|++.. ....+. .|.|+|+||++..+...+|++|...+|||..
+T Consensus         1 ~~~~~~~~~g~~~g~l~v~~~~-~~~~~~~~~~c~C~CG~~~~~~~~~l~~g~~~sCgc~~   60 (165)
+T phrog_374         1 MNNHIIDLTGKKFRRLTVKEFV-RSENGNALWKCVCVCGNEKEVLAHNLKRGHVRSCGCLS   60 (165)
+T ss_pred             CCCcceecCCCEECeEEEEEEE-eCCCCCEEEEEEcCCCCEEEEEceeeccCCCccccccc
+
+
+No 10
+>phrog_13470 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | 
+Probab=99.21  E-value=2.5e-10  Score=79.43  Aligned_cols=62  Identities=11%  Similarity=0.133  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCCccCCCEECeEEEEEEcCCCC-CCe-EEEEEeCCCCEEEEECcccCCCceecccccc
+Q Pacc40_gp60_in    1 MLMPRRHPQLEGQRFGKLVVEQWDPDAK-RDG-AWICRCECGGTHIATTTHLRAGRVLSCGCIR   62 (159)
+Q Consensus         1 ~~~~~~~~~~~G~~~g~l~v~~~~~~~~-~~~-~~~c~C~CG~~~~~~~~~l~~g~~~~Cgc~~   62 (159)
+                      +||+.+.+|++|++||.|+|++...... .+. .|.|.|+||.+..+....|+.|...+|||..
+T Consensus         3 ~~~~~~~~~~~g~~~g~l~vi~~~~~~~~~~~~~~~~~c~cg~~~~~~~~~l~~g~~~~cg~~~   66 (153)
+T phrog_13470       3 GIFGRKAEDVQGSIINGVTIIGDTGKRDSSGNQIVIARNKNNEVFESSLSNIKRGVVNGTGEES   66 (153)
+T ss_pred             CCCCCCccccCCCEECeEEEEEECCccCCCCCEEEEEEeCCCCEEEEeCcccCCCcccCCCccc
+
+
+No 11
+>phrog_3190 PHROGs annotation: NA; unknown function || Predicted ECOD domains: DNA-binding domain of intron-encoded endonucleases; GIY-YIG_Cterm; INTRON-ASSOCIATED ENDONUCLEASE 1 | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=99.19  E-value=5.7e-11  Score=86.30  Aligned_cols=63  Identities=17%  Similarity=0.221  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ccccccCCeee-------CCchhcHHHHHHHcCCCC---CCCcEEEECCCCCcccccEEECCHHHHHH-------hCCCC
+Q Pacc40_gp60_in   91 WADYGGRGITV-------CERWRSFPNFLADMGHPP---DGHTIDRIDNDGNYEPGNCRWATPAEQAR-------NRRPR  153 (159)
+Q Consensus        91 ~~~yg~~gi~v-------~~~w~~f~~F~~~~g~~~---~~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~-------~~~~~  153 (159)
+                      +..||++|+++       +.+|.+|.+|+.++|..+   ++++|||+|+++ |.|+||+|++..++.+       |++..
+T Consensus         7 ~r~y~~rG~s~~~~a~~lg~eW~~F~~F~~~~G~~~~~~~g~sLdRid~~~-Y~p~Ncrw~t~~~q~r~~~~~~~n~r~~   85 (177)
+T phrog_3190        7 IRGMAARGFSRSAAAAALGMHWVKFMDLLERMPDIEWGYPYKSFDRRRHAK-NLKGYRFRDSEGRRRSVAALRAVNQARR   85 (177)
+T ss_pred             HHHHHhcCCCHHHHHHHHCCChHHHHHHHHhCCCCCCCCCCceeeeecCcc-cCCCCcccCCHHHHHHHHHHHHHHhccc
+
+
+Q ss_pred             C
+Q Pacc40_gp60_in  154 R  154 (159)
+Q Consensus       154 ~  154 (159)
+                      .
+T Consensus        86 ~   86 (177)
+T phrog_3190       86 H   86 (177)
+T ss_pred             e
+
+
+No 12
+>phrog_18493 PHROGs annotation: NA; unknown function
+Probab=99.01  E-value=3.7e-09  Score=73.85  Aligned_cols=58  Identities=28%  Similarity=0.588  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCccCCCEECeEEEEEEcCCCCCCeEEEEEeCCCCEEEEECcccC--CCceeccc-c
+Q Pacc40_gp60_in    1 MLMPRRHPQLEGQRFGKLVVEQWDPDAKRDGAWICRCECGGTHIATTTHLR--AGRVLSCG-C   60 (159)
+Q Consensus         1 ~~~~~~~~~~~G~~~g~l~v~~~~~~~~~~~~~~c~C~CG~~~~~~~~~l~--~g~~~~Cg-c   60 (159)
+                      .||+....|++|++||.|+|+.......  ..|.|+|+||.........|+  +|...+|+ |
+T Consensus        52 ~~~~~~~~dl~G~k~G~ltVi~~~~~~~--~~w~crC~CG~~~~~~~~~l~~~~g~~~~C~~C  112 (136)
+T phrog_18493      52 PQARRISQQVIGKRCGRLTTLGLSAEKR--GRWVVRCQCGMFTLRTFKALTNPKNNTDCCEQC  112 (136)
+T ss_pred             cccCccceecCCCEECeEEEEEECCCCC--ceEEEEeCCCCEEEEEcccccCCCCCCccchhh
+
+
+No 13
+>phrog_27240 PHROGs annotation: NA; unknown function
+Probab=98.85  E-value=3.3e-08  Score=68.90  Aligned_cols=54  Identities=30%  Similarity=0.641  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CCCCCccCCCEECeEEEEEEcCCCCCCe-EEEEEeCCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in    4 PRRHPQLEGQRFGKLVVEQWDPDAKRDG-AWICRCECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus         4 ~~~~~~~~G~~~g~l~v~~~~~~~~~~~-~~~c~C~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      |.++.+.+|++||.|+|+...... .+. .|.|+|+||+.+.+...+|  |...+|||
+T Consensus         1 m~~~~~~~G~~fg~l~vi~~~~~~-~~~~~w~c~C~CG~~~~~~~~~l--G~~~sCgC   55 (132)
+T phrog_27240       1 VATGKVTAGDVFNNWTVLNEDRRN-RGVQHFMCKCVCGTTRVVRKDNL--GHVQGCGC   55 (132)
+T ss_pred             CCCccccCCCEECeEEEEEeCCCC-CCeeeEEEECCCCCEEEEehhhc--CCcccCch
+
+
+No 14
+>phrog_16521 PHROGs annotation: NA; unknown function || Predicted ECOD domains: tri-helical; MRP-L20; Related to ribosomal protein YmL20, mitochondrial | His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=98.10  E-value=2.2e-05  Score=56.62  Aligned_cols=67  Identities=21%  Similarity=0.292  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHhHHhHHHccCCCCCCcccccccCCeeeCCchhcHHHHHHHcCCCCC------CCcEEEECCCCCcccccEEECCHHHH
+Q Pacc40_gp60_in   73 YRIWQGMHDRCRRPGHKNWADYGGRGITVCERWRSFPNFLADMGHPPD------GHTIDRIDNDGNYEPGNCRWATPAEQ  146 (159)
+Q Consensus        73 y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w~~f~~F~~~~g~~~~------~~~ldRi~~~~~Y~~~Nc~wv~~~~n  146 (159)
+                      +..|..++.+|..           +|+.+...+.+|..+...-|+...      .+.|||+|+..+|.|+||+|++..+|
+T Consensus         2 ~~~~~~~k~~a~~-----------rgi~~~~t~~~f~~~~~~~g~~~~~g~~~~~~~v~rid~~~~y~~~Nl~w~t~~~N   70 (157)
+T phrog_16521       2 KIKYEQQRYNALY-----------RGIPWEFTYDTWIEWWKSTGKLSERGRKGHEYCMCRIGDKGPYSPTNVFCATNADN   70 (157)
+T ss_pred             hHHHHHHHHHHHH-----------cCCCCCCCHHHHHHHHHHcCCcCCCCCCCCCeEeeeeCCCCCCCcccEEEecHHHH
+
+
+Q ss_pred             HHhC
+Q Pacc40_gp60_in  147 ARNR  150 (159)
+Q Consensus       147 ~~~~  150 (159)
+                      ....
+T Consensus        71 ~~~~   74 (157)
+T phrog_16521      71 VRDA   74 (157)
+T ss_pred             HHHH
+
+
+No 15
+>phrog_4578 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | 
+Probab=97.24  E-value=0.0019  Score=41.42  Aligned_cols=44  Identities=27%  Similarity=0.425  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             cCCCCCCCcEEEECCCC-CcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  115 MGHPPDGHTIDRIDNDG-NYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       115 ~g~~~~~~~ldRi~~~~-~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      .|..+++..+|++|.+. .|.|+||+|++..+|..+........+
+T Consensus         3 ~~~~~~~~~v~h~~~~~~~~~~~nl~~~~~~~n~~~~~~~~~~~~   47 (102)
+T phrog_4578        3 YGEIPSGMQIDHKDGNGLNNSIDNLRLVSLGENLKNKSKYTNNTS   47 (102)
+T ss_pred             CCCCCCCCEEEcCCCCCCCCCHHHeEECCHHHHhhcccccCCCCC
+
+
+No 16
+>P03797 Y38_BPT7 Protein 3.8 OS=Escherichia phage T7 OX=10760 GN=3.8 PE=4 SV=1
+Probab=97.06  E-value=0.0047  Score=41.44  Aligned_cols=50  Identities=32%  Similarity=0.358  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEEC-CCCCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRID-NDGNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~-~~~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..|....|..+++..||++| ....|.|+||+|++..+|..+.........
+T Consensus        17 ~~~~~~~~~~~~~~~v~~~~~~~~~~~~~Nl~~~t~~~n~~~~~~~~~~~~   67 (121)
+T P03797           17 QVWEAANGPIPKGYYIDHIDGNPLNDALDNLRLALPKENSWNMKTPKSNTS   67 (121)
+T ss_pred             HHHHHHHCCCCCCceeecCCCCCCCCChHHceeCCHHHHHhcCCCCCCCCC
+
+
+No 17
+>P39420 Y01B_BPT4 Uncharacterized 29.0 kDa protein in dda-modA intergenic region OS=Enterobacteria phage T4 OX=10665 GN=y01B PE=4 SV=1
+Probab=94.10  E-value=0.5  Score=37.70  Aligned_cols=70  Identities=21%  Similarity=0.284  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             hhHHhHHhHHHccCCCCCCcccccccCCeeeCCchhcHHHHHHH-----cCCCCC------CCcEEEECCCCCcccccEE
+Q Pacc40_gp60_in   71 RIYRIWQGMHDRCRRPGHKNWADYGGRGITVCERWRSFPNFLAD-----MGHPPD------GHTIDRIDNDGNYEPGNCR  139 (159)
+Q Consensus        71 ~~y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w~~f~~F~~~-----~g~~~~------~~~ldRi~~~~~Y~~~Nc~  139 (159)
+                      .+...|...+.++..           +|+.+......+.+.+..     +|....      .++|||+++..+|.++|++
+T Consensus        10 ~~~~~~~~~r~rak~-----------rg~~f~lT~~~l~~~~~~~~C~yCG~~l~~~~~~~~~siDrid~~~Gy~~~Nv~   78 (248)
+T P39420           10 KIKRRLEHTQASAKR-----------RSKDFNLDFNYIKNILDQKVCAYSGEPFDNRIEGEKLSLERFDNNVGYIKGNVI   78 (248)
+T ss_pred             HHHHHHHHHHHHHHH-----------cCCCCCCCHHHHHHHHcCCCCcccCCCCCCCCCCCcceeeEEcCCCCCccccEE
+
+
+Q ss_pred             ECCHHHHHHhCC
+Q Pacc40_gp60_in  140 WATPAEQARNRR  151 (159)
+Q Consensus       140 wv~~~~n~~~~~  151 (159)
+                      ++...-|..+..
+T Consensus        79 ~vC~~cN~~K~~   90 (248)
+T P39420           79 AVKKKYNTFRSD   90 (248)
+T ss_pred             EccHHHHHHhcC
+
+
+No 18
+>phrog_20519 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; HypA_1; Probable hydrogenase nickel incorporation protein HypA | Rubredoxin-related; HypA_1; Probable hydrogenase nickel incorporation protein HypA | 
+Probab=93.73  E-value=0.31  Score=35.90  Aligned_cols=50  Identities=18%  Similarity=0.399  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CccCCCEECeEEEEEEcCCCCCCe-EEEEEe-CCCCE-------EEEECcccCCCceecccc
+Q Pacc40_gp60_in    8 PQLEGQRFGKLVVEQWDPDAKRDG-AWICRC-ECGGT-------HIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus         8 ~~~~G~~~g~l~v~~~~~~~~~~~-~~~c~C-~CG~~-------~~~~~~~l~~g~~~~Cgc   60 (159)
+                      .|++|..||.|+|++......+.. .+.++| .||..       ...+..++   ....|.|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~c~~~~~~~~~~~~~~~~~~---~~~~C~C   59 (201)
+T phrog_20519       1 MNRIGMKIAHFTITRIICVDNARNKVYACVCEECSKKTWLGKPVFPGTFQQI---ERLMCWC   59 (201)
+T ss_pred             CCcccceeCcEEEEEEEecCCCCCcEEEEEeCCCCCeeccCCCeecCCHHHh---CCCCccc
+
+
+No 19
+>phrog_1400 PHROGs annotation: Srd anti-sigma factor; moron, auxiliary metabolic gene and host takeover || Predicted ECOD domains: His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | 
+Probab=92.94  E-value=0.68  Score=37.31  Aligned_cols=70  Identities=16%  Similarity=0.075  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             hhHHhHHhHHHccCCCCCCcccccccCCeeeCCchhcHHHHHHH-----cCCCCCC------CcEEEECCCCCcccccEE
+Q Pacc40_gp60_in   71 RIYRIWQGMHDRCRRPGHKNWADYGGRGITVCERWRSFPNFLAD-----MGHPPDG------HTIDRIDNDGNYEPGNCR  139 (159)
+Q Consensus        71 ~~y~~w~~m~~rc~~~~~~~~~~yg~~gi~v~~~w~~f~~F~~~-----~g~~~~~------~~ldRi~~~~~Y~~~Nc~  139 (159)
+                      .+...|..+..++..           +|+.+.-.|..+.+.+..     +|.....      +++||++++.+|.++|++
+T Consensus         8 ~~~~r~~~~r~rAkk-----------rg~~~~lt~e~l~~l~~~~~CaYCG~~~~~~~~~~~~slDhI~~~~gy~~gNvv   76 (261)
+T phrog_1400        8 VIAQRLVQTYKSASS-----------RSKEFNLSMDYLLNIMAQDTCAYSGEKFHKEPGDHQMTLERFNNKIGYVEGNVI   76 (261)
+T ss_pred             HHHHHHHHHHHHHHH-----------CCCCCCCCHHHHHHHHhCCCCCCCCCCCCCCCCCCCceeeeEcCCCCCCcccch
+
+
+Q ss_pred             ECCHHHHHHhCC
+Q Pacc40_gp60_in  140 WATPAEQARNRR  151 (159)
+Q Consensus       140 wv~~~~n~~~~~  151 (159)
+                      ++...-|..+..
+T Consensus        77 p~C~~CN~~K~d   88 (261)
+T phrog_1400       77 PVKLKYNRLRAN   88 (261)
+T ss_pred             hhHHHHHHHhhC
+
+
+No 20
+>PF21817.2 ; CapR ; CapR homology domain
+Probab=89.70  E-value=2  Score=26.48  Aligned_cols=44  Identities=23%  Similarity=0.427  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CeEEEEEEcCCCCCCeEEEEEe-CCCCEEEEECcccCC------Cceecccc
+Q Pacc40_gp60_in   16 GKLVVEQWDPDAKRDGAWICRC-ECGGTHIATTTHLRA------GRVLSCGC   60 (159)
+Q Consensus        16 g~l~v~~~~~~~~~~~~~~c~C-~CG~~~~~~~~~l~~------g~~~~Cgc   60 (159)
+                      |.+++++....... .+|.+.| .||....+....+.+      .....|+|
+T Consensus        15 g~~~f~g~~~~~g~-s~~~~~C~~c~~d~e~~~~~f~~~~~~l~~g~~~c~C   65 (66)
+T I6WMH4_9CAUD/2   15 GKIVVINKIKKLGR-THFEYTCSICSEDKELYPHPFSTTKYNLENGNFNCGC   65 (66)
+T ss_pred             CEEEEEecCcccCc-eEEEEEeCCCCCCCccCCCCeEechhhccCCCcCCCC
+
+
+No 21
+>phrog_3593 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; zf-His_Me_endon_like; INTRON 3 (I-PPO) ENCODED ENDONUCLEASE | GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | A20-like zinc finger; zf-A20; Tumor necrosis factor alpha-induced protein 3 | 
+Probab=87.62  E-value=4.5  Score=29.85  Aligned_cols=51  Identities=24%  Similarity=0.224  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCCCC-cccccEEECCHHHHHHhCCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDNDGN-YEPGNCRWATPAEQARNRRPRRRSVPV  159 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~~~-Y~~~Nc~wv~~~~n~~~~~~~~~~~~~  159 (159)
+                      ..|....|..+++..+|.++.+.. +.|+|+.|++..+|..+.......+.+
+T Consensus        75 ~~~~~~~g~~~~~~~v~h~~~~~~~~~~~nl~~~t~~~n~~~~~~~~~~s~~  126 (179)
+T phrog_3593       75 LCYEWAHGEIPPGMEIDHICHVTLCVNPDHLRVTTAKQNRENRSSGWGRSGV  126 (179)
+T ss_pred             HHHHHHHCCCCCCCEEEecCCCCCccCccceeEeechhhHhhhccCCCCccc
+
+
+No 22
+>phrog_10495 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=87.16  E-value=3  Score=24.84  Aligned_cols=50  Identities=20%  Similarity=0.239  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..|....|..+++..++.++.+ ....++|+.|++..+|..+........+
+T Consensus        13 lv~~~~~g~~~~~~~v~h~~~~~~~~~~~nL~~~t~~~n~~~~~~~~~~~s   63 (63)
+T phrog_10495      13 VMFTNYFGYVPGKKQIDHLCGQRLCCNPAHLEMVTHLTNQKRRAKRAKSKE   63 (63)
+T ss_pred             hHHHHHhCCCCCCcEEEccCCCCCCCCHHHhEECCHHHHHHHHHHhhcCCC
+
+
+No 23
+>phrog_3118 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | 
+Probab=86.63  E-value=1.6  Score=34.19  Aligned_cols=31  Identities=10%  Similarity=0.018  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCcEEEECCCCCcccccEEECCHHHHHHhCC
+Q Pacc40_gp60_in  121 GHTIDRIDNDGNYEPGNCRWATPAEQARNRR  151 (159)
+Q Consensus       121 ~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~~  151 (159)
+                      ...|||+|+..+|.++||+.+-..-|.....
+T Consensus       185 ~~~~drid~~~~y~~~N~~~~c~~cN~~k~~  215 (235)
+T phrog_3118      185 QRVVRVIDDSKPITCDNIQVTSRQIDEIMTA  215 (235)
+T ss_pred             CCeeeeeCCCCCCccccchhhHHHHHHHHhc
+
+
+No 24
+>3M7K_A restriction endonuclease PacI; HNH restriction endonuclease, beta-beta-alpha-metal active site, 8 base-pair rare cutter, HYDROLASE-DNA complex; HET: SO4; 1.92A {Pseudomonas alcaligenes}
+Probab=86.50  E-value=3.2  Score=29.29  Aligned_cols=36  Identities=25%  Similarity=0.222  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCCCCcEEEECCCCCcccccEEECCHHHHHHhCC
+Q Pacc40_gp60_in  116 GHPPDGHTIDRIDNDGNYEPGNCRWATPAEQARNRR  151 (159)
+Q Consensus       116 g~~~~~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~~  151 (159)
+                      +..+..+++|+++++.+|.++|+.|+...-|.....
+T Consensus        83 ~~~~~~~~~d~~~~~~~~~~~N~~~~c~~cN~~k~~  118 (142)
+T 3M7K_A           83 GYHIQCLGVDRSDSFEGYSPQNARLACFICNRIKSN  118 (142)
+T ss_dssp             SCBCCSCEEEESSTTSCBCTTTEEEECHHHHHHHTT
+T ss_pred             CCccccceeeeeCCCCCCCCcceehhhHHHHHHcCC
+
+
+No 25
+>phrog_37115 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=85.31  E-value=4.8  Score=23.42  Aligned_cols=49  Identities=16%  Similarity=0.125  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSV  157 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~  157 (159)
+                      ..+....|..+++..++.++.+ ....++|+.|++..++...+.....-+
+T Consensus         4 ~v~~~~~g~~~~~~~v~h~~~~~~~~~~~nL~~~t~~~~~~~~~~~~~~s   53 (53)
+T phrog_37115       4 IIWVLFNGEIDSNLTIDHNDRNRANKLPKHIYYNGSRVDNNRKKLFARYS   53 (53)
+T ss_pred             hhHHHhhCCCCCCcEEEcCCCCCCCCCHHHeEEcCHHHHHHHHHHHhhcC
+
+
+No 26
+>phrog_35306 PHROGs annotation: NA; unknown function || Predicted ECOD domains: GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | 
+Probab=83.91  E-value=2.4  Score=26.13  Aligned_cols=17  Identities=6%  Similarity=-0.054  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             cccEEECCHHHHHHhCC
+Q Pacc40_gp60_in  135 PGNCRWATPAEQARNRR  151 (159)
+Q Consensus       135 ~~Nc~wv~~~~n~~~~~  151 (159)
+                      ++||+|++..+|..+.+
+T Consensus         2 ~~~~~~~~~~~n~~~~~   18 (90)
+T phrog_35306       2 SNHGVLLKRKLNKHGRG   18 (90)
+T ss_pred             CCceEEcCHHHHHccCC
+
+
+No 27
+>phrog_4842 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; zf-His_Me_endon_like; INTRON 3 (I-PPO) ENCODED ENDONUCLEASE | 
+Probab=81.85  E-value=8.9  Score=28.00  Aligned_cols=41  Identities=12%  Similarity=0.067  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  110 NFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       110 ~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      .|....|..+++..+|.++.+ ....|+|++|++..+|.++.
+T Consensus       104 v~~~~~g~~p~g~~V~h~c~n~~c~~p~nL~~~t~~en~~~~  145 (151)
+T phrog_4842      104 MWEIKDGELPKGARVYRTCDHKQCVRPEHLEVRIEGISIPLV  145 (151)
+T ss_pred             HHHHhhCCCCCCCEEEecCCCCCCCCHHHeEEecHhHHhhhc
+
+
+No 28
+>phrog_30933 PHROGs annotation: NA; unknown function || Predicted ECOD domains: GCC-box binding domain-like; AP2; Ethylene-responsive transcription factor ERF096 | 
+Probab=81.61  E-value=5.7  Score=23.28  Aligned_cols=24  Identities=29%  Similarity=0.517  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             cccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  135 PGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       135 ~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      .+||+|++..+|..+++.......
+T Consensus         1 ~~n~~~~~~~~~~~n~~~~~~~~~   24 (76)
+T phrog_30933       1 MARYEWVSRSVQSRNRRKSKNSKS   24 (76)
+T ss_pred             CCccEeCCHHHHHHhCCCcCCCCC
+
+
+No 29
+>phrog_21964 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=80.98  E-value=10  Score=23.93  Aligned_cols=49  Identities=18%  Similarity=0.212  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHcC-CCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMG-HPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSV  157 (159)
+Q Consensus       109 ~~F~~~~g-~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~  157 (159)
+                      ..+....| ..+++..++.+|.+ ....++|+.|++..++...........
+T Consensus        12 lv~~~~~g~~~~~~~~v~H~d~~~~nn~~~NL~~~~~~~~~~~~~~~~~~~   62 (77)
+T phrog_21964      12 IIAEQAIGRKLQPGEVVHHLDEDKTNNSPENLVICSSFVHRQYHRKSLRQK   62 (77)
+T ss_pred             HHHHHHhCCCCCCCcEEEecCCCCCCCCHHHeEEcCHHHHHHHHHHhhccc
+
+
+No 30
+>PF13392.11 ; HNH_3 ; HNH endonuclease
+Probab=79.92  E-value=8.5  Score=22.54  Aligned_cols=38  Identities=26%  Similarity=0.324  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHHHcCCCCCC---------CcEEEECCC-CCcccccEEECCHHHHHH
+Q Pacc40_gp60_in  111 FLADMGHPPDG---------HTIDRIDND-GNYEPGNCRWATPAEQAR  148 (159)
+Q Consensus       111 F~~~~g~~~~~---------~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~  148 (159)
+                      +....|..+.+         ..++.++.+ ....++|+.|++..++.+
+T Consensus         8 ~~~~~g~~~~~~~~~~~~~~~~v~H~d~~~~n~~~~NL~~~~~~~~~~   55 (55)
+T Q84408_PBCV1/3    8 VELFFGKLPKTVEINGKTHHLIVDHIDDDKQNARLDNLQLLTNQENSK   55 (55)
+T ss_pred             HHHHHCCCCCCcccCCcceeEEEEecCCCCCCCCHHHeEEcChhhhcC
+
+
+No 31
+>2JYN_A UPF0368 protein YPL225W; novel fold, yst0336, YT51, Ontario Centre for Structural Proteomics, OCSP, PSI, Protein Structure Initiative, Northeast Structural; NMR {Saccharomyces cerevisiae}
+Probab=78.29  E-value=9  Score=28.48  Aligned_cols=40  Identities=20%  Similarity=0.261  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             chhcHHHHHHHcCCCCCCCcEEEECCCCCcccccEEECCH
+Q Pacc40_gp60_in  104 RWRSFPNFLADMGHPPDGHTIDRIDNDGNYEPGNCRWATP  143 (159)
+Q Consensus       104 ~w~~f~~F~~~~g~~~~~~~ldRi~~~~~Y~~~Nc~wv~~  143 (159)
+                      .|..|..-++.......-.+|-|.+....|.++|..+|++
+T Consensus        84 ~Wr~f~~~~~~~v~d~nfgTLlR~d~~~~Y~e~Nti~v~r  123 (146)
+T 2JYN_A           84 RWRKFFTIFEKKIEDYNFGTLLRTDASAEYGQFTTCFVVR  123 (146)
+T ss_dssp             HHHHHHHHHTTTCSCTTSCEEEESBTTSCSCSTTEEEECH
+T ss_pred             HHHHHHHHHHHHhhcccCCCeeeccCCcccCCCCeEEehH
+
+
+No 32
+>phrog_14913 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=78.03  E-value=23  Score=25.47  Aligned_cols=51  Identities=16%  Similarity=0.152  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHcCC-CCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGH-PPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVPV  159 (159)
+Q Consensus       109 ~~F~~~~g~-~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~~  159 (159)
+                      ..+...+|. .+++..++.++.+ ....++|+.|++..++...........++
+T Consensus        43 lv~~~~~g~~~~~~~~v~H~~~~~~~n~~~NL~~~t~~~n~~~~~~~~~~~~~   95 (138)
+T phrog_14913      43 YLMCVKVGYIISSDLEVDHIDGDRTNDELSNLQILSKESHRKKTALSKTRSVT   95 (138)
+T ss_pred             hHHHHhhCCCCCCCcEEEeeCCCCCCCCHHHEEECCHHHHHHHHhhcCCCCcc
+
+
+No 33
+>O64175 YOSQ_BPSPB Putative HNH homing endonuclease yosQ OS=Bacillus phage SPbeta OX=66797 GN=yosQ PE=4 SV=1
+Probab=76.46  E-value=10  Score=28.17  Aligned_cols=48  Identities=19%  Similarity=0.104  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCCC-CcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDNDG-NYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~~-~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      +...+|..+++..++.+|.+. ...++|+.|+++.+|...........+
+T Consensus        59 ~~~f~g~~~~~~~v~h~d~~~~n~~~~NL~~~t~~en~~~~~~~~~~~~  107 (173)
+T O64175           59 AKYFIYDIPKGMFVNHIDGNKLNNHVRNLEIVTPKENTLHAMKIGLMSG  107 (173)
+T ss_pred             HHHhcCCCCCCcEEECCCCCCCCCChHhEEEeCHHHHHHHHHHhcccCC
+
+
+No 34
+>Q5UPT4 YL247_MIMIV Uncharacterized HNH endonuclease L247 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L247 PE=4 SV=1
+Probab=76.00  E-value=16  Score=31.51  Aligned_cols=50  Identities=12%  Similarity=0.083  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHHcCCCC-CCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPP-DGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~-~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..+...+|..+ ++..+|.+|.+ ....++|++|++..+|.+|+.....+..
+T Consensus       244 lv~~~~~g~~~~~~~~VdH~d~n~~nn~~~NLr~~t~~~n~~n~~~~~~~~~  295 (398)
+T Q5UPT4          244 LVASYFLKKNNDDHNHVRHKDGNRQNNNVSNLEWCYLGGMDKHKPESHFSHD  295 (398)
+T ss_pred             HHHHHhCCCCCCCCCEEECCCCCCCCCCHHHeEEcChhHHHhhchhhcCCcc
+
+
+No 35
+>P03796 Y77_BPT7 Protein 7.7 OS=Escherichia phage T7 OX=10760 GN=7.7 PE=4 SV=1
+Probab=75.71  E-value=9.3  Score=26.63  Aligned_cols=40  Identities=18%  Similarity=0.337  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      +....|..+.+..++.++.+ ..+.|+|+.|++..+|....
+T Consensus        33 ~~~~~g~~~~~~~v~h~~~~~~~~~~~NL~~~t~~~n~~~~   73 (130)
+T P03796           33 YEETYGPVPTGIVVMHICDNPRCYNIKHLTLGTPKDNSEDM   73 (130)
+T ss_pred             HHHHHCCCCCCcEEeecCCCCCccChhHheecChhccHHHH
+
+
+No 36
+>phrog_3322 PHROGs annotation: endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | 
+Probab=74.62  E-value=3.1  Score=29.30  Aligned_cols=32  Identities=38%  Similarity=0.402  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCcEEEECCCCCcccccEEECCHHHHHHhCCC
+Q Pacc40_gp60_in  121 GHTIDRIDNDGNYEPGNCRWATPAEQARNRRP  152 (159)
+Q Consensus       121 ~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~~~  152 (159)
+                      .++||++++..+|.++|++++....|..+...
+T Consensus        90 ~~~idhi~p~~~~~~~N~~~~~~~cN~~k~~~  121 (138)
+T phrog_3322       90 SPTIDRRDSALGYTMGNCRLVVWAYNAAKNTW  121 (138)
+T ss_pred             CCeEeeecCcCCCChhHHHHHHHHHHHHcccC
+
+
+No 37
+>phrog_30377 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=73.76  E-value=13  Score=23.72  Aligned_cols=40  Identities=15%  Similarity=0.251  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCCC
+Q Pacc40_gp60_in  120 DGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVPV  159 (159)
+Q Consensus       120 ~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~~  159 (159)
+                      ++..+|.++.+ ....++|+.|+++.+|..+........+.
+T Consensus        24 ~~~~v~h~~~~~~~~~~~NL~~~t~~~n~~~~~~~~~~~~~   64 (82)
+T phrog_30377      24 SELTVDHLNGIKTDNRLENLEYVTLSENVKRQHRDGRNTGI   64 (82)
+T ss_pred             CCcEEEccCCCCCCCCHHHeeeCCHHHHHHHHHHcCCCCCC
+
+
+No 38
+>Q5UQL9 YR423_MIMIV Uncharacterized protein R423 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R423 PE=4 SV=1
+Probab=73.28  E-value=6.2  Score=35.40  Aligned_cols=29  Identities=28%  Similarity=0.481  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CcEEEECCCCCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  122 HTIDRIDNDGNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       122 ~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      .+|||+|++.+|.++||+.+-..-|..+.
+T Consensus       414 ~~iDrid~~~gy~~~N~~~~C~~CN~~K~  442 (530)
+T Q5UQL9          414 NGVDRVCNEEGYIPTNCRSCCGDCNYLKK  442 (530)
+T ss_pred             CCCCcccCCCCCCccccHhccHHHHHHHc
+
+
+No 39
+>phrog_28753 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; tRNA-synt_1f_2nd; lysyl-tRNA synthetase | 
+Probab=73.00  E-value=41  Score=20.84  Aligned_cols=45  Identities=18%  Similarity=0.335  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             CCCCCCCCccCCCEECeEEEEEEcCCCCCCeEEEEEeCCCCEEEEEC
+Q Pacc40_gp60_in    1 MLMPRRHPQLEGQRFGKLVVEQWDPDAKRDGAWICRCECGGTHIATT   47 (159)
+Q Consensus         1 ~~~~~~~~~~~G~~~g~l~v~~~~~~~~~~~~~~c~C~CG~~~~~~~   47 (159)
+                      |.......-++=..-|....+........  .+.|+|.||..+.+..
+T Consensus         1 ~~~~~~~a~i~CP~Cg~~k~v~v~~~~~~--~ik~kC~CG~~f~v~~   45 (57)
+T phrog_28753       1 MSSTSHASSLRCVKCGVRDQVRVLKMKGK--RYVCECACGHTYLSES   45 (57)
+T ss_pred             CCCCCCeeEEECCCCCCEEEEEehhhCCC--eEEEEeCCCCEEEEEe
+
+
+No 40
+>P03795 Y28_BPT7 Protein 2.8 OS=Escherichia phage T7 OX=10760 GN=2.8 PE=4 SV=2
+Probab=72.61  E-value=9.9  Score=26.90  Aligned_cols=43  Identities=21%  Similarity=0.258  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             cCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  115 MGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       115 ~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      .| .+++..++.++.+ ....++|+.|++..++...........+
+T Consensus        49 ~g-~p~~~~v~h~~~~~~~n~~~NL~~~t~~~~~~~~~~~~~~~~   92 (139)
+T P03795           49 SN-APKGSTVLHSCDNPLCCNPEHLSIGTPKENSTDMVNKGRSHK   92 (139)
+T ss_pred             cC-CCCCCEEEecCCCCCccCHHHeeEcCchhchhHHHHhCCCCC
+
+
+No 41
+>P20327 Y53_BPT3 Uncharacterized gene 5.3 protein OS=Enterobacteria phage T3 OX=10759 GN=5.3 PE=4 SV=1
+Probab=72.14  E-value=27  Score=23.33  Aligned_cols=50  Identities=20%  Similarity=0.212  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..+....|..+++..++.++.+ ..-.++|+.|++..++.+..........
+T Consensus        50 ~v~~~~~g~~~~~~~v~h~~~~~~~~~~~nL~~~t~~~~~~~~~~~~~~~~  100 (101)
+T P20327           50 WVWEQHKGPIPDGYEIDHICLNRGCCNVEHLQCIPKRDHIIKTNKERKLVK  100 (101)
+T ss_pred             HHHHHHHCCCCCCeEEEEecCCCCCCCHHHeeEccHHHHHHHHHHhhhhcc
+
+
+No 42
+>phrog_20290 PHROGs annotation: lipoprotein; other || Predicted ECOD domains: Rubredoxin-related; polC; DNA-directed DNA polymerase III alpha chain | 
+Probab=70.83  E-value=8.4  Score=23.91  Aligned_cols=28  Identities=14%  Similarity=0.382  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceecccccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCGCIR   62 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cgc~~   62 (159)
+                      |...| .||....+......+|.  .|||..
+T Consensus        16 w~~~C~~Cgkki~v~~dYep~G~--~cGc~G   44 (58)
+T phrog_20290      16 WQWQCENCDRKTSTNELKMPKGW--HFVRCG   44 (58)
+T ss_pred             cceecccCCCccccceecCCCce--eeccce
+
+
+No 43
+>Q5UQL8 YR424_MIMIV Uncharacterized protein R424 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R424 PE=4 SV=1
+Probab=70.32  E-value=26  Score=30.02  Aligned_cols=38  Identities=11%  Similarity=0.058  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCcEEEECCCC-CcccccEEECCHHHHHHhCCCCCCCC
+Q Pacc40_gp60_in  120 DGHTIDRIDNDG-NYEPGNCRWATPAEQARNRRPRRRSV  157 (159)
+Q Consensus       120 ~~~~ldRi~~~~-~Y~~~Nc~wv~~~~n~~~~~~~~~~~  157 (159)
+                      .+..+|.++.+. ...++|++|+++.+|..+++......
+T Consensus        79 ~~~~VdHiN~n~lDNR~eNLr~~t~~~n~~n~~~~~~~~  117 (342)
+T Q5UQL8           79 ISSLVHHINHNTHDNRKVNLISVPKDEFELYQPKYHRTI  117 (342)
+T ss_pred             CCCEEEEeCCCCCCcchhheEeCCHHHHHHhccccCCCC
+
+
+No 44
+>phrog_3118 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | 
+Probab=69.65  E-value=5.7  Score=31.29  Aligned_cols=35  Identities=29%  Similarity=0.422  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CcEEEECCCCCcccccEEECCHHHHHHhCCCCCCC
+Q Pacc40_gp60_in  122 HTIDRIDNDGNYEPGNCRWATPAEQARNRRPRRRS  156 (159)
+Q Consensus       122 ~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~~~~~~~  156 (159)
+                      +++||++++.+|.++|++++...-|..+.......
+T Consensus        53 ~siDhi~p~~g~~~~N~~~~c~~cN~~K~~~~~~~   87 (235)
+T phrog_3118       53 ATVERIDESMPYEPKNCVLVTQLANNVKCNYIEQN   87 (235)
+T ss_pred             ceeeeeCCCCCCChhHHHHHHHHHHHHhCCCCccc
+
+
+No 45
+>phrog_28475 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=69.39  E-value=18  Score=29.12  Aligned_cols=35  Identities=23%  Similarity=0.344  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CCCCCC---------CcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  116 GHPPDG---------HTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       116 g~~~~~---------~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      |..+++         +.+|.+|.+ ....++|++|++..+|.++.
+T Consensus        88 G~~p~~~~~~~~~~~~~VdHiDGnk~NNr~~NLr~vT~~eN~~n~  132 (227)
+T phrog_28475      88 GWRRERRGEVCRAGLMEIHHLDGDPSNNDYSNLWYVSPIENKLLA  132 (227)
+T ss_pred             CCccccCCccccCCceEEEcCCCCCCCCChhHeEeCCHHHHHHHH
+
+
+No 46
+>phrog_15471 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | tetra-helical, lambda repressor-like; SpoIIID; Stage III sporulation protein D | LIM domain-like; YacG; HYPOTHETICAL PROTEIN YacG | 
+Probab=69.14  E-value=45  Score=24.92  Aligned_cols=41  Identities=12%  Similarity=0.001  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHcC-CCCCCCcEEEEC-CCCCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  109 PNFLADMG-HPPDGHTIDRID-NDGNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       109 ~~F~~~~g-~~~~~~~ldRi~-~~~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      ..+....| ..+.+..++.++ ......++|+.|++..++...
+T Consensus        30 lv~~~~~g~~~~~~~~v~h~~~~~~~~~~~NL~~~t~~~~~~~   72 (176)
+T phrog_15471      30 YIAEQIIGRDILLEEDVHHMDEDRSNNSTDNLIVFKTHEDHSR   72 (176)
+T ss_pred             HHHHHHHCCCCCCCceEEeeCCCCCCCChhheEeCCHHHHHHH
+
+
+No 47
+>phrog_12376 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=67.75  E-value=25  Score=27.33  Aligned_cols=35  Identities=9%  Similarity=-0.073  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             cCCCCCCCcEEEECCCC----CcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  115 MGHPPDGHTIDRIDNDG----NYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       115 ~g~~~~~~~ldRi~~~~----~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      .|..+++..++.++.+.    ...++|++|++..+|...
+T Consensus       125 ~g~~p~~~~V~H~dg~~~~~~nn~~~NL~~~T~~eN~~~  163 (192)
+T phrog_12376     125 LENWYAGCFVCHRCETLPYPNRNYPTNLWVGNNSSNQLD  163 (192)
+T ss_pred             cCccCCCcEEEcCCCCCCCCCCCCHHHEEEcCHHHHHHH
+
+
+No 48
+>phrog_1492 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | Trm112p-like; rrmA; Ribosomal RNA large subunit methyltransferase A | Rubredoxin-related; RbpA; uncharacterized protein Mb2076 | 
+Probab=67.62  E-value=30  Score=27.20  Aligned_cols=48  Identities=27%  Similarity=0.378  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      +...+|..+.+..++.++.+ ....++|+.|++..+|............
+T Consensus        84 ~~~f~g~~p~~~~v~H~d~~~~nn~~~NL~~~t~~en~~~~~~~~~~~~  132 (216)
+T phrog_1492       84 LEAFVGPCPDGMECCHNNSVPSDNRLANLRWDTPSENQLDKRRHGRLPN  132 (216)
+T ss_pred             hHhhcCCCCCCCEEEccCCCCCCCchhhEEECCHHHHHHHHHHcCCCCc
+
+
+No 49
+>phrog_959 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=66.06  E-value=28  Score=24.14  Aligned_cols=43  Identities=14%  Similarity=0.216  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCC-CCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  116 GHPPD-GHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       116 g~~~~-~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      |..+. ...++.++.+ ....++|+.|++..+|.+++........
+T Consensus        76 g~~~~~~~~v~h~~~~~~n~~~~NL~~~t~~~n~~~~~~~~~~~~  120 (120)
+T phrog_959        76 PSKPSGNPVIMHKNNNGQDNKISNLKWGTREQNTQDAYDDGLIDK  120 (120)
+T ss_pred             CCCCCCCCEEEccCCCCCCCCHHHEEEcCHHHHHHHHHHcCCCCC
+
+
+No 50
+>PF04669.18 ; PBDC1 ; PBDC1 protein
+Probab=65.43  E-value=30  Score=25.16  Aligned_cols=43  Identities=21%  Similarity=0.273  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CchhcHHHHHHHcCCCCCCCcEEEECCCCCcccccEEECCHHH
+Q Pacc40_gp60_in  103 ERWRSFPNFLADMGHPPDGHTIDRIDNDGNYEPGNCRWATPAE  145 (159)
+Q Consensus       103 ~~w~~f~~F~~~~g~~~~~~~ldRi~~~~~Y~~~Nc~wv~~~~  145 (159)
+                      ..|..|..=++.........+|-|.+.+..|.++|..++++..
+T Consensus        66 ~~Wr~f~~~~~~~v~d~n~gtllR~d~~~~y~~~nti~v~r~q  108 (127)
+T Q5DA39_SCHJA/1   66 AKWRIYCNEFEGKVEDFNLGTLFRLDASKGYCPENTCIVPRIQ  108 (127)
+T ss_pred             HHHHHHHHHhcccccccCCCceEEecCCCCCCCCCeeeecHHH
+
+
+No 51
+>1U3E_M HNH homing endonuclease; HNH catalytic motif, Helix-turn-helix DNA binding domain, protein-DNA complex, DNA binding protein-DNA COMPLEX; HET: EDO; 2.92A {Bacillus phage SPO1} SCOP: d.285.1.1, d.4.1.3
+Probab=64.68  E-value=41  Score=24.64  Aligned_cols=50  Identities=20%  Similarity=0.183  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..+....|..+....++.++.+ ....++|+.|++..++...+........
+T Consensus        58 lv~~~~~~~~~~~~~v~h~~~~~~~~~~~NL~~~t~~~~~~~~~~~~~~~~  108 (174)
+T 1U3E_M           58 LVAIHFCEGYEEGLVVDHKDGNKDNNLSTNLRWVTQKINVENQMSRGTLNV  108 (174)
+T ss_dssp             HHHHHHCTTCCTTCEEEETTSCTTCCCGGGEEEECHHHHHHHHHHHTCCCC
+T ss_pred             HHHHHhcCCccCCeEEECCCCCCCcCChhhEEEccHHHHHHHhHhcCCCCc
+
+
+No 52
+>phrog_25114 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=64.51  E-value=59  Score=24.12  Aligned_cols=40  Identities=15%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHcC--------CCCCCCcEEEECCC-CCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  110 NFLADMG--------HPPDGHTIDRIDND-GNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       110 ~F~~~~g--------~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      .+...+|        ..+++..++.+|.+ ....++|+.|++..++.+.
+T Consensus        80 v~~~~~G~~~~~~~~~~p~~~~V~H~dg~~~nn~~~NL~~~t~~~~~~~  128 (153)
+T phrog_25114      80 IAEQALGRPLKFLGTGNPRTEIVHHINGVKNDNRPENLLVCTHEYHVAL  128 (153)
+T ss_pred             hHHHhhCCChhhcCCCCCCCcEEEEeCCCCCCCCHHHeEECCHHHHHHH
+
+
+No 53
+>P34081 HMUI_BPSP1 DNA endonuclease I-HmuI OS=Bacillus phage SP01 OX=10685 PE=1 SV=1
+Probab=64.06  E-value=46  Score=24.85  Aligned_cols=47  Identities=21%  Similarity=0.237  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRR  155 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~  155 (159)
+                      ..+....|..+++..++.+|.+ ....++|++|++..+|...+.....
+T Consensus        58 lv~~~f~g~~p~~~~v~h~d~~~~~~~~~NL~~~t~~~n~~~~~~~~~  105 (174)
+T P34081           58 LVAIHFCEGYEEGLVVDHKDGNKDNNLSTNLRWVTQKINVENQMSRGT  105 (174)
+T ss_pred             HHHHHhcCCCcCCceeeCCCCCCCCCchhhEEEecHHHHHHhhHhhCC
+
+
+No 54
+>phrog_7410 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; Zn-ribbon_8_2; Putative toxin VapC6 | 
+Probab=63.88  E-value=21  Score=20.44  Aligned_cols=13  Identities=31%  Similarity=0.938  Sum_probs=0.0  Template_Neff=2.200
+
+Q ss_pred             EEEEEe-CCCCEEE
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHI   44 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~   44 (159)
+                      .|...| +||+...
+T Consensus         5 rylIKCdeCG~c~~   18 (42)
+T phrog_7410        5 RYLIKCDECGTCSE   18 (42)
+T ss_pred             eEEEEcCCCCCcee
+
+
+No 55
+>Q5UR39 YL560_MIMIV Uncharacterized HNH endonuclease L560 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L560 PE=4 SV=1
+Probab=62.19  E-value=36  Score=25.60  Aligned_cols=37  Identities=32%  Similarity=0.469  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCC
+Q Pacc40_gp60_in  116 GHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRP  152 (159)
+Q Consensus       116 g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~  152 (159)
+                      +..+.+..+|.++.+ ....++|++|++..++..++..
+T Consensus        90 ~~~~~~~~v~h~~~~~~n~~~~NL~~~~~~~~~~~~~~  127 (187)
+T Q5UR39           90 GKIPSDIYVDHIDHNKLNNTNSNLRLATPQQNSFNKST  127 (187)
+T ss_pred             CCCCCCceeeCCCCCCCCCChhhceecCHHHHHhcCCC
+
+
+No 56
+>phrog_10730 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=61.96  E-value=68  Score=20.89  Aligned_cols=39  Identities=21%  Similarity=0.089  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHcC-CCCCCCcEEEECCC-CCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  111 FLADMG-HPPDGHTIDRIDND-GNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       111 F~~~~g-~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      +....| ..+++..++.+|.+ ....++|+.|++..++.+.
+T Consensus        45 ~~~~~g~~~~~~~~v~H~d~~~~n~~~~NL~~~t~~~~~~~   85 (90)
+T phrog_10730      45 AEKKIGRILKSWETVHHISGDKTDNTWLNLFICTRKEHDRA   85 (90)
+T ss_pred             HHHHhCCCCCCCcEEEccCCCCCCCCHHHEEEcCHHHHHHH
+
+
+No 57
+>phrog_99 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | GCC-box binding domain-like; AP2; ETHYLENE RESPONSIVE ELEMENT BINDING FACTOR 1 | 
+Probab=61.59  E-value=39  Score=24.36  Aligned_cols=43  Identities=23%  Similarity=0.348  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRR  151 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~  151 (159)
+                      ..+....|..+.+..+|.++.+ ....++|+.|++..+|..++.
+T Consensus        59 ~v~~~~~g~~~~~~~v~h~~~~~~~~~~~Nl~~~~~~~n~~~~~  102 (158)
+T phrog_99         59 LVWFMHHGDIPQGLMVDHINLDKADNQIENLRLVDKSGNAQNSV  102 (158)
+T ss_pred             HHHHHHHCCCCCCcEEEecCCCCCCCccccceeeCcchhhhhhh
+
+
+No 58
+>Q5UQL9 YR423_MIMIV Uncharacterized protein R423 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R423 PE=4 SV=1
+Probab=59.33  E-value=33  Score=31.19  Aligned_cols=31  Identities=29%  Similarity=0.339  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CcEEEECCCCCcccccEEECCHHHHHHhCCC
+Q Pacc40_gp60_in  122 HTIDRIDNDGNYEPGNCRWATPAEQARNRRP  152 (159)
+Q Consensus       122 ~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~~~  152 (159)
+                      +.|||+++..+|.++||+++-..-|......
+T Consensus       306 ~~IDhi~p~~g~~~~Nl~~lC~~CN~~K~~~  336 (530)
+T Q5UQL9          306 NGIDRINNNVGYILDNCVTACSMCNNMKNTL  336 (530)
+T ss_pred             CeeceecCCCCCchhhEEEecHHHHHhccCC
+
+
+No 59
+>phrog_1872 PHROGs annotation: endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; zf-His_Me_endon_like; INTRON 3 (I-PPO) ENCODED ENDONUCLEASE | 
+Probab=57.96  E-value=38  Score=23.40  Aligned_cols=50  Identities=12%  Similarity=-0.022  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHcCCCCC-CCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPD-GHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~~-~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..|....|..++ +..++.++.+ ....|+|+.|++..+|..+.........
+T Consensus        59 ~v~~~~~g~~~~~~~~v~h~~~~~~c~~~~nL~~~t~~~n~~~~~~~~~~~~  110 (116)
+T phrog_1872       59 AAWEVEHGERLPSNVLILPTCERPECVNPAHMVKSTLNPGALPKITAARLER  110 (116)
+T ss_pred             HHHHHHHCCCCCCCcEEEccCCCCCCCCHHHeEECCHHHHHHHHHHHhhhhc
+
+
+No 60
+>phrog_20162 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: DNA-binding domain of intron-encoded endonucleases; IENR1; HNH homing endonuclease | 
+Probab=57.95  E-value=23  Score=21.84  Aligned_cols=14  Identities=29%  Similarity=0.069  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             cccEEECCHHHHHH
+Q Pacc40_gp60_in  135 PGNCRWATPAEQAR  148 (159)
+Q Consensus       135 ~~Nc~wv~~~~n~~  148 (159)
+                      ++|++|++..+|..
+T Consensus         4 ~~nlew~t~~eN~~   17 (88)
+T phrog_20162       4 FGKILKGTMKEQNS   17 (88)
+T ss_pred             hhheEEeCHHHHHH
+
+
+No 61
+>phrog_37683 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | tri-helical; MRP-L20; 54S ribosomal protein L20, mitochondrial | Putative DNA-binding domain; EUF07902; AM32 | 
+Probab=55.98  E-value=53  Score=26.46  Aligned_cols=40  Identities=15%  Similarity=0.256  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      +....|..+++..++.+|++ ....++|+.|+++.+|.+..
+T Consensus       143 ~e~f~g~~~~~~~V~h~dg~~~nn~~~NL~~~t~~en~~~~  183 (254)
+T phrog_37683     143 AEKFIDNPEGKEEVNHINGIVDDNSLENLEWVTHTENMEHA  183 (254)
+T ss_pred             HHHhhCCCCCCcEEEeecCCCCCCCHHHhhcCCHHHHHHHh
+
+
+No 62
+>phrog_37416 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon_1; Alpha-aminoadipate carrier protein lysW | 
+Probab=54.60  E-value=75  Score=20.49  Aligned_cols=23  Identities=26%  Similarity=0.417  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCce
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRV   55 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~   55 (159)
+                      +...| .||.+..........+.+
+T Consensus         8 F~IkC~kCG~Eq~~~~g~~~ke~I   31 (64)
+T phrog_37416       8 FKVICQACGSEITITTDYKRDYPI   31 (64)
+T ss_pred             EEEEcCCCCCEEEEcCCCCcCCCE
+
+
+No 63
+>phrog_15625 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Hypothetical protein Ta0289-C; DUF1936; conserved hypothetical protein Ta0289 | 
+Probab=54.17  E-value=29  Score=24.34  Aligned_cols=13  Identities=38%  Similarity=1.434  Sum_probs=0.0  Template_Neff=1.300
+
+Q ss_pred             CCeEEEEEeCCCC
+Q Pacc40_gp60_in   29 RDGAWICRCECGG   41 (159)
+Q Consensus        29 ~~~~~~c~C~CG~   41 (159)
+                      .+..|.|.|-||.
+T Consensus        53 egk~wvcdcgcge   65 (133)
+T phrog_15625      53 EGKVWVCDCGCGE   65 (133)
+T ss_pred             CCeEEEecCCCCC
+
+
+No 64
+>phrog_1891 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | tri-helical; UNK_F_TYPE; Protein timeless homolog | 
+Probab=53.70  E-value=70  Score=24.77  Aligned_cols=48  Identities=21%  Similarity=0.125  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      +....|..+++..++-+|.+ ....++|+.|+++.++.+.....-...|
+T Consensus       117 ~e~~~g~~p~~~~v~h~dg~~~n~~~~NL~~~t~~~~~~~~~~~~~~~~  165 (195)
+T phrog_1891      117 WEEAYGPIPQGYKTVFLDGNSLNFSITNLALVTDAEFLIMNEKHLISSD  165 (195)
+T ss_pred             eHHHhCCCCCCcEEEecCCCCCCCCHHHEEECCHHHHHHHHHhccccCC
+
+
+No 65
+>phrog_12324 PHROGs annotation: intron-like DNA endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | beta-beta-alpha zinc fingers; EUF08693; Zinc finger protein 295 | 
+Probab=52.65  E-value=1e+02  Score=25.96  Aligned_cols=41  Identities=17%  Similarity=0.169  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             HHHHHHcCCCCCC-----CcEEEECCC-CCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  109 PNFLADMGHPPDG-----HTIDRIDND-GNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       109 ~~F~~~~g~~~~~-----~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      ..|....|..+.+     +.++.+|.+ ....++|++|++..++...
+T Consensus         5 lvwe~~~G~iP~g~~~~~~~V~HidGnr~nn~~~NL~~~t~~en~~~   51 (269)
+T phrog_12324       5 KIWIDANGPIPKDSDGRTDEIHHKDGNRENNDLDNLMCLSIQEHYDI   51 (269)
+T ss_pred             hhHHHHHCCCCCCCCCCceEEEecCCCCCCCCHHHEEECCHHHHHHH
+
+
+No 66
+>phrog_38861 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; Zn-ribbon_8_2; Putative toxin VapC6 | 
+Probab=51.96  E-value=49  Score=23.97  Aligned_cols=14  Identities=29%  Similarity=0.892  Sum_probs=0.0  Template_Neff=1.700
+
+Q ss_pred             EEEEe-CCCCEEEEE
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIAT   46 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~   46 (159)
+                      |.|+| .||+.+.+.
+T Consensus       103 YYCqCDnCGNwfqvs  117 (142)
+T phrog_38861     103 YYCICDSCGDSYQLG  117 (142)
+T ss_pred             eEEEeCCCCCEEEEc
+
+
+No 67
+>Q6QGM3 TFLI_BPT5 H-N-H endonuclease F-TflI OS=Escherichia phage T5 OX=10726 GN=hegC PE=2 SV=1
+Probab=51.87  E-value=79  Score=24.53  Aligned_cols=41  Identities=20%  Similarity=0.136  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCCCCcEEEECCC-CCcccccEEECCHHHHHHhC-CCCCCCCC
+Q Pacc40_gp60_in  118 PPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR-RPRRRSVP  158 (159)
+Q Consensus       118 ~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~-~~~~~~~~  158 (159)
+                      .+.+..++.++.+ ....++|+.|+++.+|.... ........
+T Consensus        68 ~~~~~~V~h~~~~~~n~~~~NL~~~t~~en~~~~~~~~~~~~~  110 (194)
+T Q6QGM3           68 FDPELEVDHKDRDRLNLSKDNLQVLSKIEHQRKTNKDNGWSDS  110 (194)
+T ss_pred             CCCCceEecCCCCccccChhhEEEecHHHHHhHhchhcCCCCC
+
+
+No 68
+>phrog_6254 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | helical bundles in heme iron utilization protein-like; HutX; Uncharacterized protein | 
+Probab=50.89  E-value=68  Score=22.76  Aligned_cols=38  Identities=18%  Similarity=0.204  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCCC-CcccccEEECCHHHHHH
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDNDG-NYEPGNCRWATPAEQAR  148 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~~-~Y~~~Nc~wv~~~~n~~  148 (159)
+                      +....|..+++..++.++.+. ...|+|+.|++..++..
+T Consensus        45 ~~~~~g~~~~~~~v~h~~~~~~~~~~~nL~~~t~~~~~~   83 (131)
+T phrog_6254       45 WEESFGSIPDGYEINHKCKNRACSNLEHLEMLEGSEHAI   83 (131)
+T ss_pred             HHHhhCCCCCCcEEEeeCCCCCCCCHHHeEEcccchhhc
+
+
+No 69
+>phrog_23266 PHROGs annotation: NA; unknown function || Predicted ECOD domains: winged; UNK_F_TYPE; Metal-response element-binding transcription factor 2 | 
+Probab=50.81  E-value=46  Score=23.85  Aligned_cols=45  Identities=16%  Similarity=0.297  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             CCeeeCCchhcHHHHHHHcCCCC--CCCcEEEECCCCCcccccEEEC
+Q Pacc40_gp60_in   97 RGITVCERWRSFPNFLADMGHPP--DGHTIDRIDNDGNYEPGNCRWA  141 (159)
+Q Consensus        97 ~gi~v~~~w~~f~~F~~~~g~~~--~~~~ldRi~~~~~Y~~~Nc~wv  141 (159)
+                      +|..+.-.|.+|+.|.+|.....  ..++---....+.....++.||
+T Consensus       104 rgf~i~~~wldfq~faewydimscd~kyspvl~q~kgvid~ttikwi  150 (152)
+T phrog_23266     104 RGFKIQASWLDFQRFAEWYDIMSCDGKYSPVLKQEKGVIDETTIKWI  150 (152)
+T ss_pred             cCeEEeeeEecHHHHHHHHhhhcCCccccccccccCCccchhheeee
+
+
+No 70
+>phrog_9529 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Restriction endonuclease-like; YcjD_like; Uncharacterized protein AbaSI | Rubredoxin-related; DNA_RNApol_7kD; DNA-directed RNA polymerases I, II, and III subunit RPABC4 | 
+Probab=49.39  E-value=55  Score=25.61  Aligned_cols=29  Identities=28%  Similarity=0.494  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEEEEe-CCCCEEEEE---CcccCCCceecc-cc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIAT---TTHLRAGRVLSC-GC   60 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~---~~~l~~g~~~~C-gc   60 (159)
+                      ...+.| .||.+...+   ..++..|....| -|
+T Consensus         1 ~~~~~C~~cg~~~~~~~~~~~~~~~~~~~~C~~C   34 (247)
+T phrog_9529        1 MNLVRCWECGQYISQEASVHFRDLSGGRNLCVEC   34 (247)
+T ss_pred             CEEEEeCCCCCEEEEeccccchHhcCCCccCCCc
+
+
+No 71
+>phrog_21581 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon_1; Alpha-aminoadipate carrier protein lysW | 
+Probab=49.34  E-value=59  Score=21.93  Aligned_cols=18  Identities=28%  Similarity=0.824  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             EEEEe-CCCCEEEEECccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHL   50 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l   50 (159)
+                      |.|+| .||+...+....|
+T Consensus        19 ~~~rCPHC~~~~~~~~d~~   37 (81)
+T phrog_21581      19 YGCYCPHCGNPMFFSESEL   37 (81)
+T ss_pred             EEEeCCCCCCeeeeccccc
+
+
+No 72
+>Q5UQS5 YR328_MIMIV Uncharacterized protein R328 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R328 PE=4 SV=1
+Probab=49.22  E-value=1.6e+02  Score=25.78  Aligned_cols=50  Identities=0%  Similarity=-0.158  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCCC--CcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDNDG--NYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~~--~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      ..|....|..+++..||.+..+.  --.|+|++++++.+|.++.+....+.+
+T Consensus       268 Law~l~~G~iP~g~~IDHiCGNr~lCNRPeHLR~vTrsEN~rN~k~rk~Nk~  319 (343)
+T Q5UQS5          268 LLYSNFVAPLNSSEYLKFNCDNKGICCNINHYEKYKYSKNNVVVKKEPKNKE  319 (343)
+T ss_pred             HHHHHHHCCCCCCCeeeccCCCCCCCCCHHHeeECCHHHHHHHcCCCCCCCC
+
+
+No 73
+>phrog_6725 PHROGs annotation: NA; unknown function
+Probab=47.36  E-value=1e+02  Score=18.27  Aligned_cols=21  Identities=14%  Similarity=0.368  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             EEEcCCCCCCe-EEEEEeCCCC
+Q Pacc40_gp60_in   21 EQWDPDAKRDG-AWICRCECGG   41 (159)
+Q Consensus        21 ~~~~~~~~~~~-~~~c~C~CG~   41 (159)
+                      ++....+...+ -...+|+||.
+T Consensus        15 VE~~~~~~SRr~GvvieC~CGk   36 (47)
+T phrog_6725       15 VELNFSKASRRFGTVIECPCGK   36 (47)
+T ss_pred             EEeeccccccceeEEEEecCCC
+
+
+No 74
+>phrog_22151 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; RbpA; Uncharacterized protein | 
+Probab=47.03  E-value=1.3e+02  Score=18.03  Aligned_cols=28  Identities=14%  Similarity=0.227  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCce--ecc-cc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRV--LSC-GC   60 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~--~~C-gc   60 (159)
+                      +..+| +||..+.+....-.....  ..| .|
+T Consensus        12 y~y~C~~Cg~~fe~~~~~~~~~~~~~~~CP~C   43 (57)
+T phrog_22151      12 RKIICTDCGCIIEKNINYKPPKNNYFQKCNEX   43 (57)
+T ss_pred             eEEEeCCCCCEEEEEecCCCCccccCCcCCCC
+
+
+No 75
+>phrog_34373 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; KOG0466; Eukaryotic translation initiation factor 2 subunit, putative | 
+Probab=46.72  E-value=61  Score=19.92  Aligned_cols=35  Identities=20%  Similarity=0.264  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             CCCCCeEEEEEe-C-CCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   26 DAKRDGAWICRC-E-CGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        26 ~~~~~~~~~c~C-~-CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      ++...+...+.| . ||..+.++...|.......|.+
+T Consensus         9 kkq~tR~~K~~C~~~CGy~vr~srk~l~~~G~p~CP~   45 (53)
+T phrog_34373       9 KSRSGRTIKLRCAAGEDYLVAISRTRLTTLGAPSCPC   45 (53)
+T ss_pred             CCCCCceeEEEeCCCCCeEEEEeHHHHHhhCCCcCCC
+
+
+No 76
+>phrog_59 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | tri-helical; MRP-L20; 54S ribosomal protein L20, mitochondrial | 
+Probab=46.44  E-value=83  Score=22.98  Aligned_cols=28  Identities=14%  Similarity=0.073  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CcEEEEC-CCCCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  122 HTIDRID-NDGNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       122 ~~ldRi~-~~~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      ..++.++ ......++|+.|++..+|...
+T Consensus        70 ~~v~h~d~~~~~~~~~nL~~~t~~~n~~~   98 (161)
+T phrog_59         70 MHVMHGPGGKLDNRVENLSIGTPKQNAAD   98 (161)
+T ss_pred             cEEEEcCCCCCCCccccceecCHHHHHHH
+
+
+No 77
+>phrog_4592 PHROGs annotation: decoy of host sigma70; moron, auxiliary metabolic gene and host takeover || Predicted ECOD domains: His-Me finger endonucleases; HNH_4; CRISPR-associated endonuclease Cas9 | 
+Probab=45.84  E-value=49  Score=24.95  Aligned_cols=29  Identities=21%  Similarity=0.308  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CcEEEECCCCCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  122 HTIDRIDNDGNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       122 ~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      .++|++.+..+|.++|++++....|..+.
+T Consensus       115 ~~iDhi~p~~~~~~~N~~~~c~~cN~~K~  143 (175)
+T phrog_4592      115 RSIERINPKVGYTMENVVIVTARANSQKA  143 (175)
+T ss_pred             ceeeEECCCCCCCHHHhhhhhHHHHHHhc
+
+
+No 78
+>phrog_826 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; zf-His_Me_endon_like; INTRON 3 (I-PPO) ENCODED ENDONUCLEASE | 
+Probab=45.23  E-value=1e+02  Score=22.28  Aligned_cols=41  Identities=15%  Similarity=0.098  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHHHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  109 PNFLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       109 ~~F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      ..|....|..++ ..++.++.+ ....++|+.|++..+|.+..
+T Consensus        50 ~v~~~~~g~~p~-~~v~h~~~~~~~~~~~nL~~~t~~~n~~~~   91 (138)
+T phrog_826        50 GVYRLLVGEITE-ETLDHLCLIKTCVNPEHMDPCSYQENKRRG   91 (138)
+T ss_pred             HHHHHHHCCCCc-cEEECCCCCCCCCChHHcccccHHHHHHHH
+
+
+No 79
+>phrog_19102 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; RNA_POL_M_15KD; DNA-directed RNA polymerase III subunit RPC10 | 
+Probab=44.11  E-value=65  Score=18.37  Aligned_cols=25  Identities=28%  Similarity=0.562  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             EeCCCC-EEEEECcccCCCceecccc
+Q Pacc40_gp60_in   36 RCECGG-THIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        36 ~C~CG~-~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      .|+||. .+......-..-....||+
+T Consensus        10 ~C~CGg~If~~~~~~g~~wQC~~CG~   35 (38)
+T phrog_19102      10 KCDCGGDIYELNTQLGTMYQCKNCGE   35 (38)
+T ss_pred             ecccCCeEEEECCcceeeEEeccccc
+
+
+No 80
+>phrog_10944 PHROGs annotation: NA; unknown function
+Probab=40.90  E-value=1.8e+02  Score=19.27  Aligned_cols=35  Identities=14%  Similarity=0.230  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCccCCCEECeEEEEEEcCCCCCCeEEEEEe-CCC
+Q Pacc40_gp60_in    1 MLMPRRHPQLEGQRFGKLVVEQWDPDAKRDGAWICRC-ECG   40 (159)
+Q Consensus         1 ~~~~~~~~~~~G~~~g~l~v~~~~~~~~~~~~~~c~C-~CG   40 (159)
+                      |||+...     .+|-.+++............+..+| .||
+T Consensus         1 ~~~~r~~-----~r~~~~~l~~d~~~~~~~~~~~~~C~~Cg   36 (79)
+T phrog_10944       1 MSHPTKV-----IAMKNWTLTPDREPDAAPVTHQMKCDVCG   36 (79)
+T ss_pred             CCCCceE-----EEeeceeeeeCCCCCCCCeeEEEEECCCh
+
+
+No 81
+>phrog_21416 PHROGs annotation: NA; unknown function || Predicted ECOD domains: LIM domain-like; YacG; HYPOTHETICAL PROTEIN YacG | Sporulation inhibitor Sda; Sda; Sda | 
+Probab=40.21  E-value=48  Score=25.22  Aligned_cols=26  Identities=31%  Similarity=0.568  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             EEEeCCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   34 ICRCECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        34 ~c~C~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      ...|.||..+.+....|+.|.-..|.
+T Consensus       107 ~~~C~Cgk~F~~r~a~lkrGwGkyCS  132 (153)
+T phrog_21416     107 WMVCHCGTEYPARKADLKRGYGYSCS  132 (153)
+T ss_pred             eEECCCCCeEEeCHHHHhcCCccccC
+
+
+No 82
+>phrog_22897 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; HypA_1; Hydrogenase nickel incorporation protein hypA | 
+Probab=39.84  E-value=61  Score=20.75  Aligned_cols=27  Identities=4%  Similarity=-0.350  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceecc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSC   58 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~C   58 (159)
+                      ...+.| .||.++.....++.+|....|
+T Consensus        47 ki~~~C~~cg~~~~~~~~~~~~g~~~~~   74 (78)
+T phrog_22897      47 LIRIPYYYNMDEIDNILSYLVKKVKQGA   74 (78)
+T ss_pred             eEEEEeCCCCcEEEECHHHHHhccccCc
+
+
+No 83
+>phrog_8931 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; YotD; Rubredoxin | 
+Probab=39.26  E-value=83  Score=19.72  Aligned_cols=13  Identities=38%  Similarity=1.196  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             EEEEEe-CCCCEEE
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHI   44 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~   44 (159)
+                      .|.|.| .||..+.
+T Consensus        22 ~Y~~~C~~CG~~yi   35 (56)
+T phrog_8931       22 GYICLCFVCGNKYL   35 (56)
+T ss_pred             ceeeeeCCCCCeee
+
+
+No 84
+>phrog_20332 PHROGs annotation: NA; unknown function || Predicted ECOD domains: LIM domain-like; YacG; HYPOTHETICAL PROTEIN YacG | 
+Probab=39.14  E-value=61  Score=24.30  Aligned_cols=26  Identities=19%  Similarity=0.470  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             EEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   34 ICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        34 ~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      .+.| .||.++.+....|+.|.-.-|.
+T Consensus         5 ~v~C~~CGKeF~~rps~IKrG~gkFCS   31 (139)
+T phrog_20332       5 EIQCKCCPNMKMVRQADIDRGWGLFCS   31 (139)
+T ss_pred             eeeCCCCCCEEEecHHHccCCCCCcCC
+
+
+No 85
+>PF09723.15 ; Zn-ribbon_8 ; Zinc ribbon domain
+Probab=38.63  E-value=98  Score=16.29  Aligned_cols=28  Identities=32%  Similarity=0.669  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceecc-cc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSC-GC   60 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~C-gc   60 (159)
+                      .+..+| .|| .+.+....-.......| .|
+T Consensus         3 ~y~y~C~~C~-~~e~~~~~~~~~~~~~Cp~C   32 (40)
+T Q7VY49_BORPE/1    3 LYDYACPQCG-PFRAWRALREAGAPLACPQC   32 (40)
+T ss_pred             ceEEECCCCC-CEEEEEehhhcCCCCCCCCC
+
+
+No 86
+>phrog_19902 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | LIM domain-like; UNK_F_TYPE; conserved hypothetical protein | GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | 
+Probab=38.31  E-value=1.1e+02  Score=24.38  Aligned_cols=44  Identities=9%  Similarity=0.135  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cC-CCCCCCcEEEECCC-CCcccccEE-ECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  115 MG-HPPDGHTIDRIDND-GNYEPGNCR-WATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       115 ~g-~~~~~~~ldRi~~~-~~Y~~~Nc~-wv~~~~n~~~~~~~~~~~~  158 (159)
+                      +| ..++...+|.+|.+ ..-.++|++ |++..++..+.........
+T Consensus        98 ~g~~~~~~~~V~Hidgn~~nN~~~NL~l~~t~~~~~~~~~~~~~~~~  144 (221)
+T phrog_19902      98 NGRLVTKEEKVHHVNGDKEDFRPVNLFLCNNMSHHRKVHAQLETLSM  144 (221)
+T ss_pred             CCCCCCCCcEEEecCCCCCCCChhHheecCCHHHHHHHHHHhhhccc
+
+
+No 87
+>phrog_8294 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; polC; DNA-directed DNA polymerase III alpha chain | 
+Probab=37.89  E-value=1.6e+02  Score=17.57  Aligned_cols=15  Identities=27%  Similarity=0.707  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             EEEEEe-CCCCEEEEE
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIAT   46 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~   46 (159)
+                      .+..+| .||....+.
+T Consensus        36 ~~~~~C~kCGk~k~~~   51 (53)
+T phrog_8294       36 RYIIQCKVCGEVSHRD   51 (53)
+T ss_pred             EEEEEeCCCCCEEEEE
+
+
+No 88
+>Q5UPT6 YL245_MIMIV Uncharacterized HNH endonuclease L245 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L245 PE=4 SV=1
+Probab=37.22  E-value=1.4e+02  Score=24.72  Aligned_cols=36  Identities=25%  Similarity=0.484  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  115 MGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       115 ~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      .+..+....+|.+|.+ ....++|++|++..+|..+.
+T Consensus       232 ~~~~~~~~~v~h~~~~~~~~~~~nL~~~t~~~n~~~~  268 (330)
+T Q5UPT6          232 IENPNNYPYVNHIDNNKQNNNITNLEWCTPKQNMIHH  268 (330)
+T ss_pred             CCCCCCCCcccccCCCCCCCChhcEEEcCHHHHHHHh
+
+
+No 89
+>PF05551.16 ; zf-His_Me_endon ; Zinc-binding loop region of homing endonuclease
+Probab=37.00  E-value=3.2e+02  Score=19.10  Aligned_cols=43  Identities=14%  Similarity=0.051  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHHcC---CCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCC
+Q Pacc40_gp60_in  109 PNFLADMG---HPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRR  151 (159)
+Q Consensus       109 ~~F~~~~g---~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~  151 (159)
+                      ..+....|   ..+++..++.++.+ ..-.|+|++|++..+|.+++.
+T Consensus        34 ~v~~~~~g~~~~~~~~~~v~H~c~n~~c~~~~nL~~~t~~~n~~~~~   80 (117)
+T Q8X1S1_BEABA/1   34 LVLWADGLQCNPIRNGQHISHLCANPRCMTLGHLVVEDAAINQSRKG   80 (117)
+T ss_pred             HHHHHcCCCCCCCCCCeEEEEecCCCCcCChhhEEEecHHHHHHhcc
+
+
+No 90
+>phrog_15827 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; RbpA; Uncharacterized protein | 
+Probab=36.96  E-value=1.9e+02  Score=17.71  Aligned_cols=29  Identities=21%  Similarity=0.563  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EE-EEEe-CCCCEEEEECcccCCCc-eecc-cc
+Q Pacc40_gp60_in   32 AW-ICRC-ECGGTHIATTTHLRAGR-VLSC-GC   60 (159)
+Q Consensus        32 ~~-~c~C-~CG~~~~~~~~~l~~g~-~~~C-gc   60 (159)
+                      .+ ...| .||..+.+......... ...| .|
+T Consensus         4 ~y~~~~C~~Cg~~fe~~~~~~~~~~~~~~CP~C   36 (69)
+T phrog_15827       4 IYTSYVCCSCRKEFVLLSEELENTKGYLVCPYC   36 (69)
+T ss_pred             eeEEEEeCCCCCEEEEEEcchhcCCCCeeCCCC
+
+
+No 91
+>4X33_A Diphthamide biosynthesis protein 3; Electron transfer, tRNA modification, Complex, electron transport; HET: DXE, CSO; 1.45A {Saccharomyces cerevisiae}
+Probab=36.26  E-value=1.4e+02  Score=18.34  Aligned_cols=29  Identities=24%  Similarity=0.638  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             EEEEEeCCCCEEEEECcccCCCc-eecc-cc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHLRAGR-VLSC-GC   60 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l~~g~-~~~C-gc   60 (159)
+                      .|...|-||..+.+....+..+. ...| +|
+T Consensus        20 ~~~~~CrCg~~f~i~~~~l~~~~~~~~C~~C   50 (63)
+T 4X33_A           20 MFTYPCPCGDRFQIYLDDMFEGEKVAVCPSC   50 (63)
+T ss_dssp             EEEEECTTSSEEEEEHHHHHTTCCEEECTTS
+T ss_pred             eEEEecCCCCeEEEeHHHHhCCceEEeCCCC
+
+
+No 92
+>phrog_5735 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease |  | 
+Probab=35.52  E-value=2.1e+02  Score=17.43  Aligned_cols=33  Identities=3%  Similarity=-0.032  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCcEEEECCCCCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  116 GHPPDGHTIDRIDNDGNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       116 g~~~~~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      +..+....+++++.+.... +|+.|.+..++...
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~-~nl~~~~~~~~~~~   37 (88)
+T phrog_5735        5 YKDKEFVLVEKKNINELDN-SNINYIDLKDKQYY   37 (88)
+T ss_pred             CCCCCCeEEeCCCCCCCCc-cceEEecHHHHHHH
+
+
+No 93
+>phrog_29406 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; FdhE_3rd; Protein fdhE homolog | 
+Probab=34.96  E-value=65  Score=19.54  Aligned_cols=27  Identities=22%  Similarity=0.517  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             EeCCCCEEEEECcccCCCceecc-cccc
+Q Pacc40_gp60_in   36 RCECGGTHIATTTHLRAGRVLSC-GCIR   62 (159)
+Q Consensus        36 ~C~CG~~~~~~~~~l~~g~~~~C-gc~~   62 (159)
+                      +|.||+........-++...--| .|..
+T Consensus         2 qcscgntihrpsytskskydyicneckg   29 (63)
+T phrog_29406       2 QCSCGNTIHRPSYTSKSKYDYICNECKG   29 (63)
+T ss_pred             CccCCCcccCCCCCCccccceecccCCC
+
+
+No 94
+>phrog_36769 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | GCC-box binding domain-like; UNK_F_TYPE; PF14_0633 protein | Rubredoxin-related; Nudix_N_2; NUDIX hydrolase | 
+Probab=34.94  E-value=90  Score=27.34  Aligned_cols=39  Identities=18%  Similarity=0.227  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCcEEEECCCC-CcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  120 DGHTIDRIDNDG-NYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       120 ~~~~ldRi~~~~-~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      .+..+|.+|.+. ...++|++|++..++..++.....+..
+T Consensus       249 ~~~~V~HingnklDNr~eNL~~~t~~~n~~n~~~~~~n~s  288 (358)
+T phrog_36769     249 TAETVDHANGKTLDNRSSNLRAASFESNNHNSRTSKNKDV  288 (358)
+T ss_pred             CCcEEEccCCCCCCCchhhcHhhcHHHhccccccccccCc
+
+
+No 95
+>Q6QGM6 TFLII_BPT5 H-N-H endonuclease F-TflII OS=Escherichia phage T5 OX=10726 GN=hegD PE=2 SV=1
+Probab=34.84  E-value=2.3e+02  Score=21.95  Aligned_cols=40  Identities=15%  Similarity=0.084  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHHHcCCCC--CCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  111 FLADMGHPP--DGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       111 F~~~~g~~~--~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      +....|..+  .+..++.++.+ ....++|+.|++..++...+
+T Consensus        62 ~~~f~g~~~~~~~~~v~h~~~~~~~~~~~NL~~~t~~~n~~~~  104 (193)
+T Q6QGM6           62 ARVFKDLPSLESELEVDHKDRNKLNFSLDNLVVMTKQDHRIKT  104 (193)
+T ss_pred             HHHhCCCCCCCCCeEEEecCCCCCCCChhhEEEeCHHHHhhHH
+
+
+No 96
+>Q38419 TEV3_BPR03 Intron-associated endonuclease 3 OS=Enterobacteria phage RB3 OX=31533 GN=ITEVIIIR PE=4 SV=1
+Probab=34.06  E-value=3.2e+02  Score=23.01  Aligned_cols=41  Identities=17%  Similarity=0.169  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHcCCCCCC-----CcEEEECCC-CCcccccEEECCHHHHHHh
+Q Pacc40_gp60_in  109 PNFLADMGHPPDG-----HTIDRIDND-GNYEPGNCRWATPAEQARN  149 (159)
+Q Consensus       109 ~~F~~~~g~~~~~-----~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~  149 (159)
+                      ..+....|..+.+     +.++.+|.+ ..-.++|++|++..++...
+T Consensus         5 lv~~~~~G~~p~~~~~~~~~V~H~dgn~~nn~~~NL~~~T~~en~~~   51 (269)
+T Q38419            5 KIWIDANGPIPKDSDGRTDEIHHKDGNRENNDLDNLMCLSIQEHYDI   51 (269)
+T ss_pred             HHHHHHHCCCCCCCCCCceEEEeeCCCCCCCCHHHeEeCCHHHHHHH
+
+
+No 97
+>Q5UPT4 YL247_MIMIV Uncharacterized HNH endonuclease L247 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L247 PE=4 SV=1
+Probab=33.79  E-value=1.8e+02  Score=25.58  Aligned_cols=47  Identities=15%  Similarity=0.248  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHcCCCC--CCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCC
+Q Pacc40_gp60_in  111 FLADMGHPP--DGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSV  157 (159)
+Q Consensus       111 F~~~~g~~~--~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~  157 (159)
+                      +...+|..+  ....+|.+|.+ ....++|++|++..+|...........
+T Consensus        71 ~~~F~g~~~~~~~~~V~Hidgn~~nN~~~NL~w~T~~eN~~~~~~~~~~~  120 (398)
+T Q5UPT4           71 ALTFVKNKDPENKKVVNHINGDKLDNRAENLEWVTASENVQHAVDNNLIT  120 (398)
+T ss_pred             HHHhCCCCCcccCceeeccCCCCCCcchhceEEcCHHHHHHHHHHcCccc
+
+
+No 98
+>phrog_27264 PHROGs annotation: NA; unknown function
+Probab=33.69  E-value=1e+02  Score=19.59  Aligned_cols=11  Identities=36%  Similarity=1.069  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             EEEEeCCCCEE
+Q Pacc40_gp60_in   33 WICRCECGGTH   43 (159)
+Q Consensus        33 ~~c~C~CG~~~   43 (159)
+                      |...|.||.+.
+T Consensus        38 W~~VC~CG~~S   48 (74)
+T phrog_27264      38 WQYVCSCGYES   48 (74)
+T ss_pred             eEEEecCCcee
+
+
+No 99
+>phrog_21717 PHROGs annotation: NA; unknown function || Predicted ECOD domains: UBR box; zf-UBR; F-box only protein 11 | 
+Probab=32.90  E-value=1.5e+02  Score=18.83  Aligned_cols=20  Identities=35%  Similarity=0.841  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             EEEeCCCCEEEEECcccCCC
+Q Pacc40_gp60_in   34 ICRCECGGTHIATTTHLRAG   53 (159)
+Q Consensus        34 ~c~C~CG~~~~~~~~~l~~g   53 (159)
+                      +.+|+||....-+...-..+
+T Consensus        35 ~YrCeCGa~K~G~~~~~~~~   54 (58)
+T phrog_21717      35 FYRCECGAEKYGNAGDLSGG   54 (58)
+T ss_pred             EEEeecCCeeecCccccCCC
+
+
+No 100
+>PF07150.16 ; DUF1390 ; Protein of unknown function (DUF1390)
+Probab=31.94  E-value=96  Score=25.23  Aligned_cols=26  Identities=23%  Similarity=0.652  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             EEEeCCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   34 ICRCECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        34 ~c~C~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      +..|.||.++.......+..++ +|++
+T Consensus         7 ly~C~CGYkT~~~gnAsrHkKt-~C~h   32 (220)
+T Q89414_PBCV1/2    7 LHSCSCGYKTVNTSNANKHKKT-KCGH   32 (220)
+T ss_pred             EEEcCCCceeCCcccccccccC-CCCC
+
+
+No 101
+>PF05207.18 ; zf-CSL ; CSL zinc finger
+Probab=31.69  E-value=1.7e+02  Score=16.69  Aligned_cols=29  Identities=28%  Similarity=0.709  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             EEEEEeCCCCEEEEECcccCCCc-eecc-cc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHLRAGR-VLSC-GC   60 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l~~g~-~~~C-gc   60 (159)
+                      .|...|-||..+.+....+..+. ...| +|
+T Consensus        16 ~~~~~crCg~~~~i~~~~~~~~~~~~~c~~c   46 (55)
+T DPH3_USTMA/7-6   16 VFHYPCPCGDRFEITRQQLKDAEDVARCPSC   46 (55)
+T ss_pred             EEEEecCCCCeEEecHHHHhcCceEEcCCCC
+
+
+No 102
+>PF03128.19 ; CXCXC ; CXCXC repeat
+Probab=31.38  E-value=49  Score=14.14  Aligned_cols=5  Identities=60%  Similarity=2.341  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             EEeCC
+Q Pacc40_gp60_in   35 CRCEC   39 (159)
+Q Consensus        35 c~C~C   39 (159)
+                      |+|.|
+T Consensus         9 C~C~C   13 (13)
+T A0A1X7VVL0_AMP    9 CQCGC   13 (13)
+T ss_pred             CcccC
+
+
+No 103
+>phrog_32704 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; DNA_RNApol_7kD; DNA-directed RNA polymerases II, IV and V subunit 12 | 
+Probab=31.30  E-value=1.9e+02  Score=14.92  Aligned_cols=23  Identities=35%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             Ee-CCCCEEEEECcccCCCceecc-cc
+Q Pacc40_gp60_in   36 RC-ECGGTHIATTTHLRAGRVLSC-GC   60 (159)
+Q Consensus        36 ~C-~CG~~~~~~~~~l~~g~~~~C-gc   60 (159)
+                      .| .||....  ...+..+....| .|
+T Consensus         3 ~Cp~Cg~~~~--~~~~~~~~~~~C~~C   27 (35)
+T phrog_32704       3 RCEGCGRRTN--DGRLSTLGRFLCPGC   27 (35)
+T ss_pred             eCCCCCCEEe--CcccccCCeEECCCC
+
+
+No 104
+>phrog_4208 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=30.53  E-value=2.7e+02  Score=22.40  Aligned_cols=51  Identities=10%  Similarity=-0.030  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             HHHHHHHcCCC--CC-CCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCCC
+Q Pacc40_gp60_in  108 FPNFLADMGHP--PD-GHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSVP  158 (159)
+Q Consensus       108 f~~F~~~~g~~--~~-~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~~  158 (159)
+                      +..|...++..  +. ...++.+|.+ .....+|++|++..+|.+..........
+T Consensus        79 a~~F~~~~~~~~~~~~~~~V~HkDgdk~NN~~~NL~w~t~~~n~~~~~~~~~~lt  133 (200)
+T phrog_4208       79 AHTFPEMISQSRGDLKNGHVCFKDGDRSNCHVDNMFIGKGNVNKNIYKLNDSYLT  133 (200)
+T ss_pred             HHHcccccccccccccCCEEEccCCCCCCCCHHHEEEcCHHHHHHhHhcCCCCCC
+
+
+No 105
+>6ZOP_A DDE_Tnp_1_7 domain-containing protein; zinc-finger, transposase, piggyMac, cysteine-riche domain, GENE REGULATION; HET: ZN; NMR {Paramecium tetraurelia}
+Probab=30.43  E-value=1.2e+02  Score=19.50  Aligned_cols=12  Identities=42%  Similarity=1.052  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             EEEe-CCCCEEEE
+Q Pacc40_gp60_in   34 ICRC-ECGGTHIA   45 (159)
+Q Consensus        34 ~c~C-~CG~~~~~   45 (159)
+                      +..| +||++..+
+T Consensus        25 ivkcsecgnetkv   37 (84)
+T 6ZOP_A           25 IVKCSECGNETKV   37 (84)
+T ss_dssp             EEECSSSCSEEEE
+T ss_pred             EEeccccCCceee
+
+
+No 106
+>Q5UPT6 YL245_MIMIV Uncharacterized HNH endonuclease L245 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L245 PE=4 SV=1
+Probab=30.26  E-value=1.7e+02  Score=24.23  Aligned_cols=47  Identities=13%  Similarity=0.156  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             HHHHcCCCCCCCcEEEECCC-CCcccccEEECCHHHHHHhCCCCCCCC
+Q Pacc40_gp60_in  111 FLADMGHPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNRRPRRRSV  157 (159)
+Q Consensus       111 F~~~~g~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~~~~~~~~  157 (159)
+                      +...++..++...++.+|.+ ....++|+.|++..+|...........
+T Consensus        60 ~~~f~~~~~~~~~v~H~d~~~~~~~~~NL~~~t~~~n~~~~~~~~~~~  107 (330)
+T Q5UPT6           60 ARIFINNPSKFNVVNHKDGNKLNNNSSNLEWTNYKHNANHAITNGLKK  107 (330)
+T ss_pred             HHHhCCCCCCCCEEeCCCCCCcCcChhhceecChHHHHHHHHHccCcc
+
+
+No 107
+>phrog_22080 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; RbpA; Uncharacterized protein | 
+Probab=29.98  E-value=2.4e+02  Score=18.07  Aligned_cols=27  Identities=19%  Similarity=0.434  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             EEEEEeCCCCEEEEECcccCCCceecc-cc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHLRAGRVLSC-GC   60 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l~~g~~~~C-gc   60 (159)
+                      .+...|.||..+.+....  ......| .|
+T Consensus         4 ~Y~y~C~cg~~fe~~~~~--~~~~~~Cp~C   31 (74)
+T phrog_22080       4 TKTFVCPNGHSTTSVVEH--FVSTIDCAKC   31 (74)
+T ss_pred             EEEEECCCCCEEEEEEEc--CCCCccCCCC
+
+
+No 108
+>4QIW_W DNA-directed RNA polymerase subunit P; Transcription, DNA-directed RNA polymerase; HET: ZN; 3.5A {Thermococcus kodakarensis}
+Probab=28.92  E-value=2.3e+02  Score=14.99  Aligned_cols=28  Identities=29%  Similarity=0.546  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      .+...| .||.........-.......||
+T Consensus         3 ~~~~~C~~C~~~~~~~~~~~~~~~Cp~C~   31 (49)
+T 4QIW_W            3 TAVYRCAKCGKEVELDLATAREVRCPYCG   31 (49)
+T ss_dssp             -----CCCCSSSCCCCCCCCSSCCCTTTC
+T ss_pred             eeEEEcCCCCCeeEEccccCCceeCCCCC
+
+
+No 109
+>phrog_11913 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; RbpA; Uncharacterized protein | winged; TFA2_2nd; Transcription initiation factor IIE subunit beta | 
+Probab=28.91  E-value=2.4e+02  Score=19.26  Aligned_cols=27  Identities=15%  Similarity=0.316  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      .+...| +||..+. ....-..-....||
+T Consensus        13 iYeY~C~~Cg~~fe-~~~~~~~~~CP~Cg   40 (86)
+T phrog_11913      13 VLTYECEDCKHFED-WGHDEEPEECSECG   40 (86)
+T ss_pred             cEEEEeCCCCCEEe-CCCCCCCccCCCCC
+
+
+No 110
+>phrog_9735 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; DNA_RNApol_7kD; DNA-DIRECTED RNA POLYMERASES I, II, AND III SUBUNIT RPABC4 | 
+Probab=28.81  E-value=2.1e+02  Score=21.31  Aligned_cols=26  Identities=23%  Similarity=0.654  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceecc-cc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSC-GC   60 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~C-gc   60 (159)
+                      +.+.| .||..........+...  .| +|
+T Consensus        12 i~ykCP~CG~e~e~~~~~~rKp~--~C~~C   39 (126)
+T phrog_9735       12 YFCKCPYCGFDNEVEVKKGLKPK--ICCIC   39 (126)
+T ss_pred             EEEECCCCCCcceeeecCCCCCe--eCCCC
+
+
+No 111
+>phrog_4538 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Restriction endonuclease-like; YcjD_like; Uncharacterized protein AbaSI | tetra-helical, lambda repressor-like; SpoIIID; Stage III sporulation protein D | Rubredoxin-related; HypA_1; Probable hydrogenase nickel incorporation protein HypA | Rubredoxin-related; ADK_lid; ADENYLATE KINASE | 
+Probab=28.76  E-value=3.1e+02  Score=23.85  Aligned_cols=36  Identities=6%  Similarity=-0.054  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CeEEEEEEcCCCCCCe-EEEEEeCCCCEEEEECcccCCCc
+Q Pacc40_gp60_in   16 GKLVVEQWDPDAKRDG-AWICRCECGGTHIATTTHLRAGR   54 (159)
+Q Consensus        16 g~l~v~~~~~~~~~~~-~~~c~C~CG~~~~~~~~~l~~g~   54 (159)
+                      |.+.+++......... .|.|   ||.+..++..++.+|.
+T Consensus        52 g~~~i~~~~y~~~~~k~~~~C---~g~~~~~~~~~~~~g~   88 (386)
+T phrog_4538       52 GDIKILDSYRKNDERYLKVEV---KNETYEIRSSNFKNCE   88 (386)
+T ss_pred             CEEEEEeeeecCCCceEEEEE---CCcEEEEchhHhhccc
+
+
+No 112
+>3VPB_E Alpha-aminoadipate carrier protein lysW; ATP-dependent amine/thiol ligase family, ATP-dependent amine/thiol ligase, LysW, Enzyme-Carrier protein complex, LIGASE; HET: GLU, SO4, ADP; 1.8A {Sulfolobus tokodaii}
+Probab=28.75  E-value=2.4e+02  Score=17.09  Aligned_cols=26  Identities=19%  Similarity=0.598  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             EEEe-CCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   34 ICRC-ECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        34 ~c~C-~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      ...| .||....+. ..+..|..-.|.|
+T Consensus         3 ~~~CP~C~~~i~~~-~~~~~g~~v~C~C   29 (56)
+T 3VPB_E            3 VLKCPVCNGDVNVP-DDALPGEIVEHEC   29 (56)
+T ss_dssp             EEECTTTCCEEEEC-TTCCTTCEEECTT
+T ss_pred             eEeCCCCCCEEEcC-CCCCCCCEEEeCC
+
+
+No 113
+>2GMG_A hypothetical protein Pf0610; winged-helix like protein with metal binding site, Structural Genomics, PSI, Protein Structure Initiative, Northeast Structural Genomics; NMR {Pyrococcus furiosus} SCOP: a.4.5.82, l.1.1.1
+Probab=27.48  E-value=1.9e+02  Score=20.18  Aligned_cols=26  Identities=23%  Similarity=0.345  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      .|...| .||..+...  .-.......||
+T Consensus        65 ~~~~~C~~Cg~~f~~~--~~~~~~CP~Cg   91 (105)
+T 2GMG_A           65 IKPAQCRKCGFVFKAE--INIPSRCPKCK   91 (105)
+T ss_dssp             ECCCBBTTTCCBCCCC--SSCCSSCSSSC
+T ss_pred             cceeEeCCCCCEEecc--CCCCccCCCCC
+
+
+No 114
+>phrog_385 PHROGs annotation: transcriptional regulator; transcription regulation || Predicted ECOD domains: Rubredoxin-related; RbpA; Uncharacterized protein | 
+Probab=26.92  E-value=2.3e+02  Score=18.26  Aligned_cols=14  Identities=7%  Similarity=0.060  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEEEe-CCCCEEEE
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIA   45 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~   45 (159)
+                      .|..+| +||..+++
+T Consensus         3 ~Y~y~C~~Cg~~~e~   17 (82)
+T phrog_385         3 TYNFKHRESDAEIET   17 (82)
+T ss_pred             eEEEEcCCCCCEEEE
+
+
+No 115
+>phrog_11983 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Desulforedoxin; Desulfoferrod_N; DESULFOFERRODOXIN | 
+Probab=26.30  E-value=5.1e+02  Score=19.63  Aligned_cols=36  Identities=22%  Similarity=0.538  Sum_probs=0.0  Template_Neff=1.100
+
+Q ss_pred             eEEEEEEcCCCCCCeEEEEEe-CCCCEEEEECcccCC
+Q Pacc40_gp60_in   17 KLVVEQWDPDAKRDGAWICRC-ECGGTHIATTTHLRA   52 (159)
+Q Consensus        17 ~l~v~~~~~~~~~~~~~~c~C-~CG~~~~~~~~~l~~   52 (159)
+                      .++|.+.....-....++..| +||........++.+
+T Consensus        34 kfkvtefsfmg~psdsylytcadcggiqinvfps~qs   70 (186)
+T phrog_11983      34 KFKVTQFSFMGIPSDSYLYTCADCGGIQINVFPSIQT   70 (186)
+T ss_pred             ceEEEEEEEcCCCCCceEEEecccCCeEEEEeCCcce
+
+
+No 116
+>PF11403.13 ; Yeast_MT ; Yeast metallothionein
+Probab=26.09  E-value=80  Score=17.43  Aligned_cols=8  Identities=50%  Similarity=1.747  Sum_probs=0.0  Template_Neff=1.100
+
+Q ss_pred             EEEeCCCC
+Q Pacc40_gp60_in   34 ICRCECGG   41 (159)
+Q Consensus        34 ~c~C~CG~   41 (159)
+                      .|+|.||.
+T Consensus         6 ~cqc~cgs   13 (39)
+T MTCU1_YEAST/9-    6 ECQCQCGS   13 (39)
+T ss_pred             ccccccCC
+
+
+No 117
+>9EH1_L RNA polymerase II subunit K; SETD2, Transcription, H3K36me3, TRANSFERASE-RNA-DNA complex; HET: TPO, SEP; 3.1A {Sus scrofa}
+Probab=25.97  E-value=2.4e+02  Score=15.66  Aligned_cols=25  Identities=28%  Similarity=0.527  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      ....| .||........  ..-....||
+T Consensus         4 ~~y~C~~Cg~~~~~~~~--~~~~C~~Cg   29 (47)
+T 9EH1_L            4 MIYICGECHTENEIKSR--DPIRCRECG   29 (47)
+T ss_dssp             CEEEESSSCCEEECCTT--SCCCCSSSC
+T ss_pred             eEEECCCCCCEEecCCC--CCeeCCCCC
+
+
+No 118
+>5IP7_L DNA-directed RNA polymerases I, II, and III subunit RPABC4; transcription; 3.52A {Saccharomyces cerevisiae}
+Probab=25.28  E-value=2.1e+02  Score=15.86  Aligned_cols=25  Identities=28%  Similarity=0.522  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      ....| +||.+.........  ....||
+T Consensus         3 ~~y~C~~C~~~~~~~~~~~~--~Cp~Cg   28 (46)
+T 5IP7_L            3 LKYICAECSSKLSLSRTDAV--RCKDCG   28 (46)
+T ss_dssp             CSEEESSSCCBCCCCSSSCS--SCSSSC
+T ss_pred             eEEECCCCCCEeccCCCCCE--eCCCCC
+
+
+No 119
+>PF10122.14 ; Mu-like_Com ; Mu-like prophage protein Com
+Probab=25.10  E-value=2.3e+02  Score=16.03  Aligned_cols=27  Identities=19%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      +...| .||....+............||
+T Consensus         3 ~~~~C~~C~~~~~~~~~~~~~~~Cp~Cg   30 (51)
+T Q727X2_DESVH/6    3 REVRCGHCHRLLAKGEALDLTIKCPRCG   30 (51)
+T ss_pred             eEEECCCCCCEEeecccCCCEEECCCCC
+
+
+No 120
+>phrog_6361 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Metalloproteases (zincins) catalytic domain; Peptidase_M56; Projannalysin | Rubredoxin-related; Zn-ribbon_8_2; Putative toxin VapC6 | 
+Probab=24.99  E-value=2.3e+02  Score=21.94  Aligned_cols=31  Identities=13%  Similarity=0.052  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceecccccc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSCGCIR   62 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~Cgc~~   62 (159)
+                      .+.+.| .||.........+.+...-.|++..
+T Consensus       167 ~~~~~C~~C~~~~~~~~~~~~~~~~~~C~~C~  198 (204)
+T phrog_6361      167 IKLQCASGEDYVVSISKARLEAYGAPKCPCCD  198 (204)
+T ss_pred             eEEEEcCCCCCEEEecchhHhhcCCCccCCCC
+
+
+No 121
+>phrog_33739 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; MqsA_antitoxin; HTH-type transcriptional regulator MQSA (YGIT/b3021) | 
+Probab=24.54  E-value=3e+02  Score=17.45  Aligned_cols=19  Identities=32%  Similarity=0.866  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             EEEEEeCCCCEEEEECccc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHL   50 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l   50 (159)
+                      .+.-.|+||.+.......+
+T Consensus         6 ~ykt~cdcg~emvs~~~d~   24 (69)
+T phrog_33739       6 IYKTECDCGGEMVSVTHDL   24 (69)
+T ss_pred             EEEeecCCCCeEEEEEEec
+
+
+No 122
+>1RJU_V Metallothionein; Yeast Cu(I) metallothionein, Cu(I) metallothionein fragments, Cu(I)-thiolate, METAL BINDING PROTEIN; 1.44A {N/A} SCOP: g.46.1.1
+Probab=24.53  E-value=80  Score=17.20  Aligned_cols=7  Identities=57%  Similarity=2.124  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             EEeCCCC
+Q Pacc40_gp60_in   35 CRCECGG   41 (159)
+Q Consensus        35 c~C~CG~   41 (159)
+                      |+|.||.
+T Consensus         3 cqcqcgs    9 (36)
+T 1RJU_V            3 CQCQCGS    9 (36)
+T ss_dssp             CCCCSTT
+T ss_pred             CcCccCC
+
+
+No 123
+>phrog_19178 PHROGs annotation: NA; unknown function
+Probab=24.20  E-value=5.7e+02  Score=19.70  Aligned_cols=35  Identities=6%  Similarity=-0.198  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CCCEECeEEEEEEcCCCCCCeEEEEEe-CCCCEEEEE
+Q Pacc40_gp60_in   11 EGQRFGKLVVEQWDPDAKRDGAWICRC-ECGGTHIAT   46 (159)
+Q Consensus        11 ~G~~~g~l~v~~~~~~~~~~~~~~c~C-~CG~~~~~~   46 (159)
+                      +|+.+-..+|++......+.. +...| .||....++
+T Consensus       106 iGdii~~~~Ii~~~~~~~~~k-Y~~~c~~~~~~~~i~  141 (145)
+T phrog_19178     106 QGDIIKNCEVLKVVDTHLGTQ-LYVYNIKEEVYGKVV  141 (145)
+T ss_pred             cCcEEeCCEEEEEEEecCCcE-EEEEEeccCCeEEEe
+
+
+No 124
+>phrog_17408 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; ZF_C2H2,Rep_fac-A_C_N; Putative uncharacterized protein | 
+Probab=24.11  E-value=1.3e+02  Score=21.87  Aligned_cols=14  Identities=64%  Similarity=1.614  Sum_probs=0.0  Template_Neff=1.300
+
+Q ss_pred             EEEEeCCCCEEEEEC
+Q Pacc40_gp60_in   33 WICRCECGGTHIATT   47 (159)
+Q Consensus        33 ~~c~C~CG~~~~~~~   47 (159)
+                      |.|.| ||....+..
+T Consensus        96 w~c~c-cggvhd~~t  109 (151)
+T phrog_17408      96 WHCEC-CGGVHDTTT  109 (151)
+T ss_pred             eeccc-cCceeecee
+
+
+No 125
+>2L6L_A DnaJ homolog subfamily C member 24; Dph4, Zn-CSL, J-domain, Chaperone; HET: ZN; NMR {Homo sapiens}
+Probab=24.04  E-value=2.2e+02  Score=20.55  Aligned_cols=29  Identities=24%  Similarity=0.707  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEEEEeCCCCEEEEECcccCCCceecc-cc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHLRAGRVLSC-GC   60 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l~~g~~~~C-gc   60 (159)
+                      .|...|.||....+....+..+....| +|
+T Consensus       110 ~~~~~c~c~~~~~~~~~~~~~~~~~~C~~c  139 (155)
+T 2L6L_A          110 SFYLSCRCGGKYSVSKDEAEEVSLISCDTC  139 (155)
+T ss_dssp             EEEEECSSSCEEEEETTHHHHCCEEECSSS
+T ss_pred             eEEEEecCCCeEEeCHHHHhCCceecCCCC
+
+
+No 126
+>1TWF_L DNA-directed RNA polymerases I, II, and III 7.7 kDa polypeptide; TRANSCRIPTION, MRNA, MULTIPROTEIN COMPLEX, MOLECULAR MACHINE, ZINC MOTIFS; HET: UTP; 2.3A {Saccharomyces cerevisiae} SCOP: g.41.9.2
+Probab=23.44  E-value=2.2e+02  Score=18.25  Aligned_cols=26  Identities=27%  Similarity=0.486  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      +...| .||.++.+......  ....||+
+T Consensus        27 ~~y~C~~Cg~~~~i~~~~~i--rCp~Cg~   53 (70)
+T 1TWF_L           27 LKYICAECSSKLSLSRTDAV--RCKDCGH   53 (70)
+T ss_dssp             CCEECSSSCCEECCCTTSTT--CCSSSCC
+T ss_pred             EEEECCCCCCEeccCcCCCe--ecCCCCC
+
+
+No 127
+>5XOG_L RNA polymerase subunit ABC10-alpha; transcription, complex; HET: APC; 3.0A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=23.22  E-value=2.4e+02  Score=18.26  Aligned_cols=26  Identities=19%  Similarity=0.410  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      +...| .||.+..+......  ....||.
+T Consensus        29 v~Y~C~~Cg~~~~~~~~~~i--rCp~Cg~   55 (72)
+T 5XOG_L           29 VKYTCGACAHNFSLNKSDPV--RCKECGH   55 (72)
+T ss_dssp             EEEEETTTCCEEEECSSSCS--SCTTTCC
+T ss_pred             eEEEcCCCCCEecCCcCCCc--cCCCCCC
+
+
+No 128
+>phrog_29975 PHROGs annotation: NA; unknown function || Predicted ECOD domains: tri-helical; MRP-L20; 54S ribosomal protein L20, mitochondrial | winged; HTH_43; uncharacterized protein YP_928783.1 | 
+Probab=23.14  E-value=1.6e+02  Score=21.78  Aligned_cols=14  Identities=21%  Similarity=0.347  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             cccEEECCHHHHHH
+Q Pacc40_gp60_in  135 PGNCRWATPAEQAR  148 (159)
+Q Consensus       135 ~~Nc~wv~~~~n~~  148 (159)
+                      ++|+.|+++.+|..
+T Consensus         7 ~~NLew~T~~eN~~   20 (160)
+T phrog_29975       7 PKHLFLVTPKDNIS   20 (160)
+T ss_pred             HHHeEEeCHHHHHH
+
+
+No 129
+>1GH9_A 8.3 KDA PROTEIN (GENE MTH1184); BETA+ALPHA COMPLEX STRUCTURE, STRUCTURAL GENOMICS, PSI, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, UNKNOWN FUNCTION; NMR {Methanothermobacter thermautotrophicus} SCOP: g.41.6.1
+Probab=23.11  E-value=3.8e+02  Score=17.43  Aligned_cols=26  Identities=27%  Similarity=0.722  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             EEEEEeCCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      +....|.||....+.. .-+..... ||
+T Consensus         2 y~Vv~C~Cg~~~~~~~-~~kt~~Cp-Cg   27 (71)
+T 1GH9_A            2 YIIFRCDCGRALYSRE-GAKTRKCV-CG   27 (71)
+T ss_dssp             EEEEEETTSCCEEEET-TCSEEEET-TT
+T ss_pred             eEEEEccCCCeEEEeC-CCccEECC-CC
+
+
+No 130
+>phrog_5768 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon_1; Alpha-aminoadipate carrier protein lysW | 
+Probab=23.07  E-value=2.1e+02  Score=18.57  Aligned_cols=54  Identities=19%  Similarity=0.269  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             CCCCCCCCccCCCEECeE--EEEEEcCCCCCCeEEEEEeCCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in    1 MLMPRRHPQLEGQRFGKL--VVEQWDPDAKRDGAWICRCECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus         1 ~~~~~~~~~~~G~~~g~l--~v~~~~~~~~~~~~~~c~C~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      |+|+.+++..+-..=|.+  .++...++     .+.|.|-|.-........+..+...+|+
+T Consensus         1 ~~~~~~~~~~V~~~dG~~~~f~l~v~Gk-----~frC~CG~N~FHkp~~~~~~~y~CNaC~   56 (63)
+T phrog_5768        1 MNKEDKHKNAVRTPDGKIQSFVLTVGGK-----PFRCHCGANCFHKPDKNDLEIYACNACN   56 (63)
+T ss_pred             CChhhhcccceeCCCCCEEEEEEEECCe-----EeecCccceeeeCCCCCCceEEEeCccc
+
+
+No 131
+>Q6QGE6 ENDO2_BPT5 Putative endonuclease OS=Escherichia phage T5 OX=10726 GN=T5.141 PE=2 SV=1
+Probab=22.67  E-value=5.4e+02  Score=20.40  Aligned_cols=41  Identities=17%  Similarity=0.390  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEEEEEcCCCCCCe-EEEEEe-CCCCEEEEECcccC-CCceecc-cc
+Q Pacc40_gp60_in   18 LVVEQWDPDAKRDG-AWICRC-ECGGTHIATTTHLR-AGRVLSC-GC   60 (159)
+Q Consensus        18 l~v~~~~~~~~~~~-~~~c~C-~CG~~~~~~~~~l~-~g~~~~C-gc   60 (159)
+                      +++++....-.+.. .+.+.| .||.....+..++. .|.  .| .|
+T Consensus        92 ~~~~~~~~~~~~~~~~~~~~C~~~g~~~~~~~~~~~~~g~--~Cp~C  136 (250)
+T Q6QGE6           92 YNFLSWSSTYINKDSKIILKCLKDGCIWDVSIHHFINHDT--GCPDC  136 (250)
+T ss_pred             CeEEEecCCcccCceEEEEEECCCCCEEEeeHhHHhcCCC--CCCCC
+
+
+No 132
+>phrog_22195 PHROGs annotation: NA; unknown function || Predicted ECOD domains: His-Me finger endonucleases; UNK_F_TYPE; restriction endonuclease PacI | 
+Probab=22.66  E-value=85  Score=22.45  Aligned_cols=33  Identities=6%  Similarity=0.145  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             cCCCEECeEEEEEEcCCCCCCe-EEEEEeCCCCEE
+Q Pacc40_gp60_in   10 LEGQRFGKLVVEQWDPDAKRDG-AWICRCECGGTH   43 (159)
+Q Consensus        10 ~~G~~~g~l~v~~~~~~~~~~~-~~~c~C~CG~~~   43 (159)
+                      ..+..++.+.++......+... .|.| |+||..+
+T Consensus        54 ~~~~~~~y~~~~~r~~~~~~~~~i~~C-~~cg~~~   87 (136)
+T phrog_22195      54 FRSGTVEYTAMHHRLYVDRGQASSHRC-IDCDNEA   87 (136)
+T ss_pred             CCCcchhhHhhhhhhhccCCCCccEEe-cCCCccH
+
+
+No 133
+>phrog_22597 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon_1; Alpha-aminoadipate carrier protein lysW | 
+Probab=22.61  E-value=3.4e+02  Score=20.58  Aligned_cols=28  Identities=25%  Similarity=0.522  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCC-Cceecc-cc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRA-GRVLSC-GC   60 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~-g~~~~C-gc   60 (159)
+                      ....| .||..+.+....+.. +....| .|
+T Consensus        14 ~~y~Cp~Cg~~~ev~~~d~~~~gE~I~CP~C   44 (133)
+T phrog_22597      14 MMFHCDSCGVNISIDTYDVLTAEDNLHCPLC   44 (133)
+T ss_pred             eEEECCCCCCEEeeCCcchhccCCcEeCCCC
+
+
+No 134
+>phrog_21057 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon; TRANSCRIPTION INITIATION FACTOR IIE SUBUNIT ALPHA | 
+Probab=22.61  E-value=1.6e+02  Score=19.32  Aligned_cols=18  Identities=22%  Similarity=0.435  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             EEEEe-CCCCEEEEECccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHL   50 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l   50 (159)
+                      ..+.| .||.++.+....|
+T Consensus        23 i~~~CP~Cg~e~~vdl~~l   41 (73)
+T phrog_21057      23 IITYCGDCKKELQMDSEWL   41 (73)
+T ss_pred             EEEECCCCCCEEEeCHHHH
+
+
+No 135
+>phrog_17657 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | 
+Probab=22.50  E-value=2.8e+02  Score=20.63  Aligned_cols=33  Identities=18%  Similarity=-0.049  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHcCCCCC----CCcEEEECCC-CCcccccEEECCH
+Q Pacc40_gp60_in  111 FLADMGHPPD----GHTIDRIDND-GNYEPGNCRWATP  143 (159)
+Q Consensus       111 F~~~~g~~~~----~~~ldRi~~~-~~Y~~~Nc~wv~~  143 (159)
+                      +...+|..++    +..++.+|++ .....+|++|+++
+T Consensus       118 ~~~F~~~~~~~~~~~~~V~H~dgn~~nn~~~NL~w~t~  155 (156)
+T phrog_17657     118 GSIFVPSFLPVGLTQLAPLHKDYDLTNNEYSNLEWNLK  155 (156)
+T ss_pred             hhHhCCCCCCCCCCCeEEEccCCCCCCCCHHHEEEccC
+
+
+No 136
+>3H0G_L DNA-directed RNA polymerases I, II, and III subunit RPABC4; Transcription, Multi-protein complex, Polymerase, DNA-binding, DNA-directed RNA polymerase, Magnesium, Metal-binding, Nucleotidyltransferase, Nucleus, Phosphoprotein, Transferase, Zinc-finger; HET: ZN; 3.65A {Schizosaccharomyces pombe}
+Probab=22.47  E-value=2.9e+02  Score=17.46  Aligned_cols=26  Identities=27%  Similarity=0.676  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             EEEEe-CCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   33 WICRC-ECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        33 ~~c~C-~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      +...| .||.++.+......  ....||.
+T Consensus        20 v~Y~C~~Cg~~~~~~~~~~i--rCp~Cg~   46 (63)
+T 3H0G_L           20 MIYLCADCGARNTIQAKEVI--RCRECGH   46 (63)
+T ss_dssp             CCCBCSSSCCBCCCCSSSCC--CCSSSCC
+T ss_pred             EEEECCCCCCEeccccCCCe--ecCCCCC
+
+
+No 137
+>PF09845.14 ; DUF2072 ; Zn-ribbon containing protein
+Probab=22.25  E-value=1.3e+02  Score=22.38  Aligned_cols=24  Identities=29%  Similarity=0.726  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             Ee-CCCCEEEEECcccCCCceecccc
+Q Pacc40_gp60_in   36 RC-ECGGTHIATTTHLRAGRVLSCGC   60 (159)
+Q Consensus        36 ~C-~CG~~~~~~~~~l~~g~~~~Cgc   60 (159)
+                      +| .||.........+..+ +..||.
+T Consensus         3 ~C~~Cg~~~~~~~~~~~~~-Cp~CG~   27 (136)
+T Q8THD7_METAC/8    3 RCTRCGTIFEDGDSVILSG-CPNCGW   27 (136)
+T ss_pred             eCCCCCCcccCCCcccccc-CCCCCc
+
+
+No 138
+>phrog_3212 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; RbpA; Uncharacterized protein | 
+Probab=22.23  E-value=3.4e+02  Score=18.48  Aligned_cols=14  Identities=7%  Similarity=0.036  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             EEEEEe-CCCCEEEE
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIA   45 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~   45 (159)
+                      .+..+| +||..+++
+T Consensus         3 ~Ydy~C~~Cg~~fE~   17 (84)
+T phrog_3212        3 IYKFEDTKTGEVEEK   17 (84)
+T ss_pred             eEEEEeCCCCCEEEE
+
+
+No 139
+>phrog_4538 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Restriction endonuclease-like; YcjD_like; Uncharacterized protein AbaSI | tetra-helical, lambda repressor-like; SpoIIID; Stage III sporulation protein D | Rubredoxin-related; HypA_1; Probable hydrogenase nickel incorporation protein HypA | Rubredoxin-related; ADK_lid; ADENYLATE KINASE | 
+Probab=21.78  E-value=5.6e+02  Score=22.43  Aligned_cols=43  Identities=12%  Similarity=0.123  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EEEEEEcCCCCCCe-EEEEEe-CCCCEEEEECcccCCCceecccccc
+Q Pacc40_gp60_in   18 LVVEQWDPDAKRDG-AWICRC-ECGGTHIATTTHLRAGRVLSCGCIR   62 (159)
+Q Consensus        18 l~v~~~~~~~~~~~-~~~c~C-~CG~~~~~~~~~l~~g~~~~Cgc~~   62 (159)
+                      +++++......... .+.+.| .||.+..++..++..|.  .|.+..
+T Consensus       108 ~~~~~~y~~~~~~~~~~~~~C~~cg~~~~~~~~~~~~g~--gCp~C~  152 (386)
+T phrog_4538      108 CKVIGKRLNPRSKEREYKMLCLNTNLTFYRRESRIDVGA--PSPYIS  152 (386)
+T ss_pred             eeeecccCCCCCCceEEEEEeCCCCCEEEEehhHHhcCC--CCcccc
+
+
+No 140
+>phrog_2834 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Class II aaRS and biotin synthetases; CpXC_like; uncharacterized protein PF0385 | 
+Probab=21.67  E-value=2.3e+02  Score=17.60  Aligned_cols=20  Identities=15%  Similarity=0.315  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccC
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLR   51 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~   51 (159)
+                      .....| .||.........+.
+T Consensus         9 ~~~~~Cp~Cg~~~~~~~~d~~   29 (65)
+T phrog_2834        9 KLITVCESCRTGLAYELDDIQ   29 (65)
+T ss_pred             cEEEECCCCCCEEEEeHHHHh
+
+
+No 141
+>phrog_34162 PHROGs annotation: NA; unknown function
+Probab=21.33  E-value=88  Score=20.86  Aligned_cols=13  Identities=46%  Similarity=1.444  Sum_probs=0.0  Template_Neff=1.300
+
+Q ss_pred             eeeCCchhcHHHH
+Q Pacc40_gp60_in   99 ITVCERWRSFPNF  111 (159)
+Q Consensus        99 i~v~~~w~~f~~F  111 (159)
+                      +-||++|.+|..|
+T Consensus        47 vmvcerwkdy~~f   59 (94)
+T phrog_34162      47 VMVCERWKDYSKF   59 (94)
+T ss_pred             eeehhhccchhcC
+
+
+No 142
+>phrog_37038 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; HypA_1; Probable hydrogenase nickel incorporation protein HypA | 
+Probab=21.10  E-value=3.6e+02  Score=16.99  Aligned_cols=14  Identities=21%  Similarity=0.425  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             EEEEEe-CCCCEEEE
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIA   45 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~   45 (159)
+                      .+...| +||.....
+T Consensus        17 ~~~F~C~~Cg~~w~~   31 (61)
+T phrog_37038      17 TVKFMCDGCSHEYVA   31 (61)
+T ss_pred             eEEEECCCCCCEEEE
+
+
+No 143
+>phrog_5841 PHROGs annotation: NA; unknown function
+Probab=21.08  E-value=5.3e+02  Score=17.37  Aligned_cols=19  Identities=21%  Similarity=0.593  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CCCeEEEEEe-CCCCEEEEE
+Q Pacc40_gp60_in   28 KRDGAWICRC-ECGGTHIAT   46 (159)
+Q Consensus        28 ~~~~~~~c~C-~CG~~~~~~   46 (159)
+                      ......++.| +||....+.
+T Consensus        48 ~rK~IvIlkC~kCGKlKk~v   67 (71)
+T phrog_5841       48 NRKHIVVLKCDDCGKIKKIV   67 (71)
+T ss_pred             CCcEEEEEEeCCCCceeeeE
+
+
+No 144
+>Q5UQM9 YL426_MIMIV Uncharacterized protein L426 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L426 PE=3 SV=1
+Probab=21.07  E-value=1.4e+02  Score=23.49  Aligned_cols=33  Identities=15%  Similarity=-0.010  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCcEEEECC------------CCCcccccEEECCHHHHHHhCCCC
+Q Pacc40_gp60_in  121 GHTIDRIDN------------DGNYEPGNCRWATPAEQARNRRPR  153 (159)
+Q Consensus       121 ~~~ldRi~~------------~~~Y~~~Nc~wv~~~~n~~~~~~~  153 (159)
+                      .+.||++.+            ..+|.++|++.+....|..+....
+T Consensus       162 ~~~iDHi~p~~~~~~~~~~~~~~~~~~~Nl~~~c~~cN~~K~~~~  206 (227)
+T Q5UQM9          162 YWHIDHVIPCKSFDLTEEEEISQCFNWENMRPLEGIENDIKNDKI  206 (227)
+T ss_pred             CeeEeeEeechhcCCCCHHHHHHHcChhhcccccHHHhhcccCCC
+
+
+No 145
+>phrog_17137 PHROGs annotation: NA; unknown function || Predicted ECOD domains: LIM domain-like; YacG; HYPOTHETICAL PROTEIN YacG | 
+Probab=21.05  E-value=2.2e+02  Score=19.98  Aligned_cols=27  Identities=19%  Similarity=0.393  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccCCCceecc
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLRAGRVLSC   58 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~~g~~~~C   58 (159)
+                      .....| .||.++......+..|...-|
+T Consensus         5 ~v~v~C~~CGk~F~~~~~~vk~g~~~FC   32 (95)
+T phrog_17137       5 TVEVTCKCCPDKFLARVADRKRGWAQFC   32 (95)
+T ss_pred             ceEEeCCCCCCeeeecHHHhcCCcccCC
+
+
+No 146
+>9BZ0_L RNA polymerase II subunit K; DNA repair, RNA polymerase II, Co-transcriptional process, TRANSCRIPTION, TRANSCRIPTION-DNA-RNA complex; HET: ZN; 1.9A {Sus scrofa}
+Probab=20.87  E-value=3.2e+02  Score=16.46  Aligned_cols=24  Identities=29%  Similarity=0.563  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             EEEe-CCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   34 ICRC-ECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        34 ~c~C-~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      ...| .||........  .......||
+T Consensus        16 ~y~C~~Cg~~~~~~~~--~~~~Cp~Cg   40 (58)
+T 9BZ0_L           16 IYICGECHTENEIKSR--DPIRCRECG   40 (58)
+T ss_dssp             EEEETTTCCEEECCTT--CCCCCTTTC
+T ss_pred             EEECCCCCCEEEcccC--CCeeCCCCC
+
+
+No 147
+>phrog_20891 PHROGs annotation: HNH endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: His-Me finger endonucleases; HNH_3; HNH homing endonuclease | LIM domain-like; YacG; HYPOTHETICAL PROTEIN YacG | Rubredoxin-related; PhnA_Zn_Ribbon; RNA-binding protein | 
+Probab=20.76  E-value=2.1e+02  Score=22.38  Aligned_cols=38  Identities=11%  Similarity=0.126  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHcC-CCCCCCcEEEECCC-CCcccccEEECCHHHHHHhC
+Q Pacc40_gp60_in  113 ADMG-HPPDGHTIDRIDND-GNYEPGNCRWATPAEQARNR  150 (159)
+Q Consensus       113 ~~~g-~~~~~~~ldRi~~~-~~Y~~~Nc~wv~~~~n~~~~  150 (159)
+                      ..+| ..+++..+|.|+++ ....++|++|++...+....
+T Consensus       161 ~~~g~~~~~~~~v~Hi~~~~~nn~~~NL~~~~~~~~~~~~  200 (222)
+T phrog_20891     161 EVLGRPLQRHEEVHHKNGIRNDNRPENLELWVKRQPGGTR  200 (222)
+T ss_pred             HHHCCCCCCCcEEeccCCCCCCCCHHHeEEcccccccccc
+
+
+No 148
+>phrog_9579 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon; Transcription initiation factor IIE, alpha subunit | 
+Probab=20.68  E-value=4.6e+02  Score=16.00  Aligned_cols=20  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             EEEEEe-CCCCEEEEECcccC
+Q Pacc40_gp60_in   32 AWICRC-ECGGTHIATTTHLR   51 (159)
+Q Consensus        32 ~~~c~C-~CG~~~~~~~~~l~   51 (159)
+                      .+...| .||....+......
+T Consensus        11 ~~~~~CP~Cg~~~e~~~~~~~   31 (56)
+T phrog_9579       11 KYFCKCPYCGFDNEVEVKKGL   31 (56)
+T ss_pred             eEEEECCCCCCEEeeeeCCCC
+
+
+No 149
+>PF09082.15 ; DUF1922 ; Domain of unknown function (DUF1922)
+Probab=20.53  E-value=4.6e+02  Score=16.00  Aligned_cols=26  Identities=27%  Similarity=0.695  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             EEEEEeCCCCEEEEECcccCCCceeccc
+Q Pacc40_gp60_in   32 AWICRCECGGTHIATTTHLRAGRVLSCG   59 (159)
+Q Consensus        32 ~~~c~C~CG~~~~~~~~~l~~g~~~~Cg   59 (159)
+                      +....|.||....+. ..-+..... ||
+T Consensus         2 y~Vv~C~Cg~~~~~~-~~~kt~~Cp-Cg   27 (56)
+T A0A328SLE8_9EU    2 YLIYRCDCGRVLYSK-EGTKTRKCT-CG   27 (56)
+T ss_pred             EEEEEeeCCCEEEEe-CCCeeEECC-CC
+
+
+No 150
+>phrog_6489 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; TF_Zn_Ribbon; TRANSCRIPTION INITIATION FACTOR IIE SUBUNIT ALPHA, TFA1 | 
+Probab=20.49  E-value=1.2e+02  Score=17.85  Aligned_cols=8  Identities=50%  Similarity=1.489  Sum_probs=0.0  Template_Neff=1.600
+
+Q ss_pred             Ee-CCCCEE
+Q Pacc40_gp60_in   36 RC-ECGGTH   43 (159)
+Q Consensus        36 ~C-~CG~~~   43 (159)
+                      .| +||.++
+T Consensus         3 ~CdDCgREF   11 (47)
+T phrog_6489        3 RCDDCGREF   11 (47)
+T ss_pred             ccccccccc
+
+
+No 151
+>phrog_10481 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; Zn-ribbon_8_2; Putative toxin VapC6 | 
+Probab=20.44  E-value=2.8e+02  Score=19.22  Aligned_cols=12  Identities=33%  Similarity=1.115  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             EEEEe-CCCCEEE
+Q Pacc40_gp60_in   33 WICRC-ECGGTHI   44 (159)
+Q Consensus        33 ~~c~C-~CG~~~~   44 (159)
+                      +.|.| +||..+.
+T Consensus        18 Y~~~C~~C~~~~~   30 (85)
+T phrog_10481      18 YTCRCSNCSERYT   30 (85)
+T ss_pred             eEeecCCCCCeee
+
+
+No 152
+>phrog_31283 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; Sdh5; Transcription factor E | 
+Probab=20.39  E-value=4e+02  Score=21.80  Aligned_cols=26  Identities=35%  Similarity=0.962  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             EEEe-CCCCEEEEECcccCCCceecc-ccccc
+Q Pacc40_gp60_in   34 ICRC-ECGGTHIATTTHLRAGRVLSC-GCIRP   63 (159)
+Q Consensus        34 ~c~C-~CG~~~~~~~~~l~~g~~~~C-gc~~~   63 (159)
+                      ..+| +||....+  .....|.  +| .|...
+T Consensus         5 lYKC~eCGki~Iv--~~~kDG~--~C~KCGG~   32 (207)
+T phrog_31283       5 LCECQKCGKTFIV--DKNKDGL--RCNNCEGA   32 (207)
+T ss_pred             eEeecccCCEEEe--cccCCCc--ccCCCCCe
+
+
+No 153
+>phrog_9496 PHROGs annotation: endonuclease; DNA, RNA and nucleotide metabolism || Predicted ECOD domains: LIM domain-like; YacG; HYPOTHETICAL PROTEIN YacG | 
+Probab=20.20  E-value=2e+02  Score=18.34  Aligned_cols=25  Identities=16%  Similarity=0.485  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             EEEe-CCCCEEE---EECcccCCCceecc
+Q Pacc40_gp60_in   34 ICRC-ECGGTHI---ATTTHLRAGRVLSC   58 (159)
+Q Consensus        34 ~c~C-~CG~~~~---~~~~~l~~g~~~~C   58 (159)
+                      ...| .||.++.   .....++.+...-|
+T Consensus         6 ~~~C~~Cgk~F~~~~~~~~~ik~~~~~FC   34 (61)
+T phrog_9496        6 RGVCANCHTVFEVSKKQRRKIKEGKSVFC   34 (61)
+T ss_pred             eEECCCCCCEEEecccCHHHcccCCCccc
+
+
+No 154
+>phrog_22070 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Rubredoxin-related; DNA_RNApol_7kD; DNA-directed RNA polymerases I, II, and III subunit RPABC4 | 
+Probab=20.18  E-value=5.6e+02  Score=17.00  Aligned_cols=24  Identities=21%  Similarity=0.290  Sum_probs=0.0  Template_Neff=1.400
+
+Q ss_pred             CCCe-EEEEEe-CCCCEEEEECcccC
+Q Pacc40_gp60_in   28 KRDG-AWICRC-ECGGTHIATTTHLR   51 (159)
+Q Consensus        28 ~~~~-~~~c~C-~CG~~~~~~~~~l~   51 (159)
+                      ..+. ....+| .||..+.+....|.
+T Consensus        48 ~dgeyivey~c~~c~d~fel~eg~ll   73 (79)
+T phrog_22070      48 DDGEYIVEYRCDNCEDTFELSKGALL   73 (79)
+T ss_pred             cCCcEEEEEEeCCccCeEEecccccc
+
+
+No 155
+>8J07_c2 IQ and ubiquitin-like domain-containing protein; cilia, microtubule, dynein, STRUCTURAL PROTEIN; HET: GDP, MG, GTP; 4.1A {Homo sapiens}
+Probab=20.17  E-value=3.6e+02  Score=26.84  Aligned_cols=28  Identities=25%  Similarity=0.316  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCcEEEECCCCCcccccEEECCHHHHHH
+Q Pacc40_gp60_in  121 GHTIDRIDNDGNYEPGNCRWATPAEQAR  148 (159)
+Q Consensus       121 ~~~ldRi~~~~~Y~~~Nc~wv~~~~n~~  148 (159)
+                      ++.|-|.|.+..++|.||..++..+...
+T Consensus       695 ~L~LvRWd~~~~WSPWNcILLTk~EA~~  722 (791)
+T 8J07_c2         695 DLVMVRWNKSLEWSPWNCILLTKDEAAA  722 (791)
+T ss_pred             cceeeecCCCCCCChhhEEEecHHHHHH
+
+

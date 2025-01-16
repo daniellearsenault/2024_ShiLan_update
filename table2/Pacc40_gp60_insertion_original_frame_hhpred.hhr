@@ -1,0 +1,973 @@
+Query         Pacc40_gp60_insertion_orig
+Match_columns 161
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 140033
+Date          Thu Jan 16 22:48:31 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -d /cluster/toolkit/production/databases/hh-suite/phrogs/phrogs_v4 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -o ../results/Pacc40_orig.hhr -oa3m ../results/Pacc40_orig.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FUC_A Aminoglycoside phosphot  71.7     5.8 4.2E-05   27.2   0.8   12    2-13    183-194 (272)
+  2 PF02958.25 ; EcKL ; Ecdysteroi  69.7     6.4 4.5E-05   27.1   0.7    8    3-10    211-218 (290)
+  3 5IQI_C Bifunctional AAC/APH; K  66.6     8.3 5.9E-05   27.2   0.8    9    2-10    194-202 (305)
+  4 9CX8_A Fructosamine-3-kinase;   66.1      10 7.2E-05   26.6   1.1   12    2-13    193-204 (291)
+  5 PF03881.19 ; Fructosamin_kin ;  65.6     9.6 6.9E-05   26.8   0.9   11    3-13    203-213 (302)
+  6 8I82_B Viomycin kinase; Phosph  65.2     9.2 6.5E-05   26.8   0.8    8    3-10    184-191 (286)
+  7 6CTZ_A Gentamicin resistance p  65.0     9.5 6.8E-05   26.7   0.8    9    2-10    186-194 (297)
+  8 2PUL_A Methylthioribose kinase  65.0      10 7.2E-05   29.4   1.0   12    2-13    227-238 (397)
+  9 PF04655.19 ; APH_6_hur ; Amino  64.9     8.5 6.1E-05   27.0   0.6    9    2-10    152-160 (248)
+ 10 5IGI_A Macrolide 2'-phosphotra  64.1      11 7.9E-05   26.8   1.0   12    2-13    194-205 (301)
+ 11 6CD7_B APH(2'')-Id; STRUCTURAL  63.5      11 7.6E-05   26.6   0.8    9    2-10    192-200 (302)
+ 12 4DCA_A Aminoglycoside phosphot  62.9     9.9 7.1E-05   27.6   0.6   12    2-13    207-218 (320)
+ 13 PF01633.25 ; Choline_kinase ;   61.2      13 9.4E-05   26.3   1.0   11    3-13    149-159 (215)
+ 14 3TM0_A Aminoglycoside 3'-phosp  59.9      15 0.00011   25.0   1.0   12    2-13    183-194 (263)
+ 15 2Q83_A YtaA protein; 2635576,   59.4      13 9.1E-05   27.1   0.7   12    2-13    222-233 (346)
+ 16 5IWU_A Macrolide 2'-phosphotra  57.5      13 9.4E-05   27.2   0.5    9    2-10    194-202 (302)
+ 17 5UXD_B Macrolide 2'-phosphotra  57.2      15 0.00011   27.0   0.8    9    2-10    192-200 (300)
+ 18 2PYW_B Uncharacterized protein  57.1      15  0.0001   30.2   0.7    8    3-10    233-240 (420)
+ 19 3F7W_A putative fructosamine-3  56.0      19 0.00014   24.9   1.0   12    2-13    188-199 (288)
+ 20 7F0A_A Capreomycin phosphotran  55.9      17 0.00012   26.0   0.8    8    3-10    181-188 (294)
+ 21 3CSV_A Aminoglycoside phosphot  55.8      18 0.00013   27.2   1.0   12    2-13    183-194 (333)
+ 22 4OCV_A N-acetylhexosamine 1-ph  55.1      17 0.00012   27.4   0.7    9    2-10    222-230 (379)
+ 23 phrog_21938 PHROGs annotation:  54.8      18 0.00013   26.7   0.8    9    2-10    174-182 (320)
+ 24 1ZYL_A Hypothetical protein yi  54.5      17 0.00012   26.3   0.6    9    2-10    195-203 (328)
+ 25 3MES_B Choline kinase; choline  53.8      19 0.00013   28.6   0.8    9    2-10    262-270 (424)
+ 26 3JR1_A Putative fructosamine-3  53.4      19 0.00013   26.8   0.7    9    2-10    207-215 (312)
+ 27 5FTG_A CHOLINE KINASE ALPHA; T  52.2      23 0.00016   26.6   1.0   11    3-13    222-232 (378)
+ 28 phrog_15084 PHROGs annotation:  52.0      22 0.00016   24.0   0.8    8    3-10    185-192 (264)
+ 29 3DXQ_B choline/ethanolamine ki  52.0      17 0.00012   27.0   0.3    9    2-10    173-181 (301)
+ 30 3I1A_A Spectinomycin phosphotr  51.3      22 0.00015   26.4   0.7    9    2-10    206-214 (339)
+ 31 4PDY_A Aminoglycoside phosphot  50.4      18 0.00013   27.2   0.3    9    2-10    219-227 (351)
+ 32 4H05_A Aminoglycoside-O-phosph  50.3      24 0.00017   24.9   0.8    9    2-10    184-192 (273)
+ 33 3FEG_A Choline/ethanolamine ki  50.1      26 0.00019   27.6   1.0   12    2-13    220-231 (379)
+ 34 6YXS_A Choline kinase; Choline  50.0      25 0.00018   27.6   1.0   12    2-13    224-235 (382)
+ 35 6OID_A Protein-ribulosamine 3-  48.4      22 0.00016   26.0   0.4    8    3-10    216-223 (317)
+ 36 2QG7_D ethanolamine kinase Pv0  48.0      71  0.0005   28.3   3.3   41    2-42    290-349 (458)
+ 37 7S3L_A Aminoglycoside phosphot  48.0      27 0.00019   24.5   0.8    9    2-10    160-168 (269)
+ 38 6IY9_A Hygromycin-B 7''-O-kina  47.2      26 0.00018   25.8   0.6    9    2-10    217-225 (340)
+ 39 1ND4_B Aminoglycoside 3'-phosp  47.2      32 0.00023   24.0   1.0   12    2-13    184-195 (264)
+ 40 PF01636.28 ; APH ; Phosphotran  46.7      28  0.0002   24.2   0.7    9    2-10    169-177 (243)
+ 41 2PPQ_A Homoserine kinase; homo  46.0      29 0.00021   25.7   0.7   12    2-13    187-198 (322)
+ 42 3DXP_A putative acyl-CoA dehyd  46.0      32 0.00023   25.2   0.9   10    1-10    215-224 (359)
+ 43 6SUN_A APH domain-containing p  45.4      33 0.00023   25.4   0.9   12    2-13    197-208 (335)
+ 44 PF07914.16 ; DUF1679 ; Unchara  45.1      30 0.00022   26.7   0.7    9    2-10    264-272 (409)
+ 45 4R78_A Choline kinase; protein  44.5      30 0.00021   25.7   0.6    9    2-10    190-198 (309)
+ 46 6EF6_A Aminoglycoside phosphot  44.0      32 0.00023   25.9   0.7    9    2-10    225-233 (354)
+ 47 3ATS_A Putative uncharacterize  43.4      39 0.00028   25.4   1.0   12    2-13    222-233 (357)
+ 48 9ETO_A 4-hydroxytryptamine kin  41.8      38 0.00027   25.3   0.8   11    3-13    221-231 (364)
+ 49 6SUL_B Phosphotransferase enzy  40.3      40 0.00029   25.8   0.8   11    3-13    197-207 (335)
+ 50 1NW1_B Choline kinase (49.2 kD  40.2      43 0.00031   28.9   1.0   12    2-13    249-260 (429)
+ 51 6WHP_A Choline kinase; SSGCID,  39.9      45 0.00032   27.4   1.0   12    2-13    262-273 (440)
+ 52 7W15_A Macrolide 2'-phosphotra  39.5      42  0.0003   25.4   0.8    9    2-10    188-196 (302)
+ 53 5JY7_M Maltokinase; complex, i  38.4      44 0.00032   28.3   0.8    9    2-10    298-306 (441)
+ 54 4GKH_C Aminoglycoside 3'-phosp  37.9      51 0.00037   22.7   0.9   12    2-13    193-204 (272)
+ 55 3W0O_A Hygromycin-B 4-O-kinase  37.8      47 0.00033   25.3   0.8    9    2-10    192-200 (349)
+ 56 4O7O_B Maltokinase; maltose ki  36.0      51 0.00036   28.1   0.8    9    2-10    316-324 (455)
+ 57 4U98_A Maltokinase; Maltose, G  34.4      56  0.0004   28.4   0.8    9    2-10    299-307 (454)
+ 58 9DK3_A Kinase; Kinase, Lyase,   33.5      53 0.00038   26.3   0.5    9    2-10    217-225 (403)
+ 59 8BI6_B Choline kinase alpha; I  32.3      69 0.00049   28.3   1.0   12    2-13    300-311 (457)
+ 60 phrog_4098 PHROGs annotation:   29.9      76 0.00054   27.6   0.9   12    2-13    370-381 (557)
+ 61 6HWJ_B Glucosamine kinase; Glu  28.4      80 0.00057   27.4   0.8    9    2-10    294-302 (451)
+ 62 PF10009.14 ; DUF2252 ; Unchara  27.8      80 0.00057   28.4   0.7    9    2-10     41-49  (403)
+ 63 8V3V_B Acyl-Coenzyme A dehydro  25.8      94 0.00067   27.3   0.7    9    2-10    213-221 (778)
+ 64 phrog_29599 PHROGs annotation:  24.9   1E+02 0.00075   24.5   0.8    8    3-10    369-376 (479)
+ 65 phrog_24015 PHROGs annotation:  23.0 1.2E+02 0.00083   26.3   0.8    8    3-10    367-374 (507)
+
+No 1
+>6FUC_A Aminoglycoside phosphotransferase; Streptomyces rimosus, aminoglycoside phosphotransferase, antibiotic resistance, streptomycin, phosphorylation, ATP binding, kinase activity, TRANSFERASE; 1.17A {Streptomyces rimosus} SCOP: d.144.1.0
+Probab=71.70  E-value=5.8  Score=27.24  Aligned_cols=12  Identities=33%  Similarity=0.836  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       183 ~~l~HgD~~~~N  194 (272)
+T 6FUC_A          183 TVVCHGDLCLPN  194 (272)
+T ss_dssp             CEEECSCCCGGG
+T ss_pred             eeEEecCCCccc
+
+
+No 2
+>PF02958.25 ; EcKL ; Ecdysteroid kinase-like family
+Probab=69.66  E-value=6.4  Score=27.07  Aligned_cols=8  Identities=63%  Similarity=1.232  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      +|||||+|
+T Consensus       211 ~l~HgD~~  218 (290)
+T Q9GZ72_DROME/5  211 TLCHGDYV  218 (290)
+T ss_pred             EEEeCccc
+
+
+No 3
+>5IQI_C Bifunctional AAC/APH; Kinase, Antibiotic, Aminoglycoside, Resistance, Transferase; HET: GNP; 2.15A {Staphylococcus aureus}
+Probab=66.59  E-value=8.3  Score=27.17  Aligned_cols=9  Identities=56%  Similarity=1.538  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       194 ~~l~HgD~~  202 (305)
+T 5IQI_C          194 KCLCHNDFS  202 (305)
+T ss_dssp             EEEECSCCC
+T ss_pred             ceEECCCCC
+
+
+No 4
+>9CX8_A Fructosamine-3-kinase; kinase, apo-state, TRANSFERASE; HET: SO4, EDO; 1.67A {Homo sapiens}
+Probab=66.08  E-value=10  Score=26.58  Aligned_cols=12  Identities=33%  Similarity=0.653  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       193 ~~l~HgD~~~~N  204 (291)
+T 9CX8_A          193 PALLHGDLWSGN  204 (291)
+T ss_dssp             CEEECSCCCGGG
+T ss_pred             CEEEecCCCCCC
+
+
+No 5
+>PF03881.19 ; Fructosamin_kin ; Fructosamine kinase
+Probab=65.59  E-value=9.6  Score=26.83  Aligned_cols=11  Identities=36%  Similarity=0.724  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             eeecccccccc
+Q Pacc40_gp60_in    3 CLCHGDIHNSK   13 (161)
+Q Consensus         3 clchgdihnsk   13 (161)
+                      +|||||+|...
+T Consensus       203 ~~~HgDl~~~N  213 (302)
+T Q2JIU3_SYNJB/4  203 ALLHGDLWGGN  213 (302)
+T ss_pred             eEECccCCcCc
+
+
+No 6
+>8I82_B Viomycin kinase; Phosphotransferase, Capreomycin, Cph, Resistance, TRANSFERASE; HET: DPP, MYN, ACT; 1.95A {Streptosporangium roseum}
+Probab=65.21  E-value=9.2  Score=26.83  Aligned_cols=8  Identities=25%  Similarity=0.771  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      ++||||+|
+T Consensus       184 ~~~HgD~~  191 (286)
+T 8I82_B          184 AVVHGNLG  191 (286)
+T ss_dssp             EEECSCCC
+T ss_pred             eEECCCCC
+
+
+No 7
+>6CTZ_A Gentamicin resistance protein; aminoglycoside resistance, kinase, kanamycin, TRANSFERASE-ANTIBIOTIC complex; HET: KAN, GDP; 1.34A {Enterococcus gallinarum}
+Probab=65.04  E-value=9.5  Score=26.66  Aligned_cols=9  Identities=44%  Similarity=0.730  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       186 ~~l~HgD~~  194 (297)
+T 6CTZ_A          186 PRLIHGDLS  194 (297)
+T ss_dssp             CEEECSCCC
+T ss_pred             cEEecCCCC
+
+
+No 8
+>2PUL_A Methylthioribose kinase; 5-methylthioribose kinase, methionine recycling pathway, TRANSFERASE; HET: CPS, ACP; 2.0A {Bacillus subtilis} SCOP: d.144.1.6
+Probab=64.99  E-value=10  Score=29.41  Aligned_cols=12  Identities=42%  Similarity=0.830  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .||||||.|...
+T Consensus       227 ~~l~HGDl~~~N  238 (397)
+T 2PUL_A          227 ETLIHGDLHTGS  238 (397)
+T ss_dssp             CEEECSCCCGGG
+T ss_pred             CeEEcCCCCccc
+
+
+No 9
+>PF04655.19 ; APH_6_hur ; Aminoglycoside/hydroxyurea antibiotic resistance kinase
+Probab=64.85  E-value=8.5  Score=27.01  Aligned_cols=9  Identities=44%  Similarity=0.678  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       152 ~~l~HgD~~  160 (248)
+T Q9RX60_DEIRA/1  152 VGPLHGDLH  160 (248)
+T ss_pred             cceecCCCC
+
+
+No 10
+>5IGI_A Macrolide 2'-phosphotransferase; macrolide phosphotransferase, kinase, TRANSFERASE-ANTIBIOTIC complex; HET: GMP, IPA, ZIT; 1.2A {Escherichia coli}
+Probab=64.09  E-value=11  Score=26.80  Aligned_cols=12  Identities=25%  Similarity=0.509  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       194 ~~l~HgD~~~~N  205 (301)
+T 5IGI_A          194 SVVVHGDLYVGH  205 (301)
+T ss_dssp             CEEECSSCSGGG
+T ss_pred             eEEEccCCCCcc
+
+
+No 11
+>6CD7_B APH(2'')-Id; STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES, CSGID, EUKARYOTIC PROTEIN KINASE-LIKE FOLD, AMINOGLYCOSIDE PHOSPHOTRANSFERASE; HET: EDS; 1.53A {Enterococcus casseliflavus}
+Probab=63.46  E-value=11  Score=26.62  Aligned_cols=9  Identities=44%  Similarity=0.940  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .++||||+|
+T Consensus       192 ~~~~HgD~~  200 (302)
+T 6CD7_B          192 PCLIHNDFS  200 (302)
+T ss_dssp             CEEECSCCC
+T ss_pred             CEEEcCCCC
+
+
+No 12
+>4DCA_A Aminoglycoside phosphotransferase; STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES, CSGID, EUKARYOTIC PROTEIN KINASE-LIKE FOLD, TRANSFERASE, AMINOGLYCOSIDE; HET: MSE, ADP; 1.8A {Escherichia coli}
+Probab=62.93  E-value=9.9  Score=27.57  Aligned_cols=12  Identities=33%  Similarity=0.775  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .++||||+|...
+T Consensus       207 ~~~~HgD~~~~N  218 (320)
+T 4DCA_A          207 PCLVHNDFSANN  218 (320)
+T ss_dssp             CEEECSCCSGGG
+T ss_pred             CceecCCCCccc
+
+
+No 13
+>PF01633.25 ; Choline_kinase ; Choline/ethanolamine kinase
+Probab=61.23  E-value=13  Score=26.27  Aligned_cols=11  Identities=27%  Similarity=0.930  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeecccccccc
+Q Pacc40_gp60_in    3 CLCHGDIHNSK   13 (161)
+Q Consensus         3 clchgdihnsk   13 (161)
+                      ++||||+|...
+T Consensus       149 ~~~HgD~~~~N  159 (215)
+T Q7RT78_PLAYO/1  149 TFCHNDLQENN  159 (215)
+T ss_pred             EEEcCCCCccc
+
+
+No 14
+>3TM0_A Aminoglycoside 3'-phosphotransferase; protein kinase, phosphorylation, TRANSFERASE-ANTIBIOTIC complex; HET: ANP, B31; 2.1A {Enterococcus faecalis} SCOP: d.144.1.6
+Probab=59.88  E-value=15  Score=24.99  Aligned_cols=12  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .++||||+|...
+T Consensus       183 ~~~~HgDl~~~N  194 (263)
+T 3TM0_A          183 LVFSHGDLGDSN  194 (263)
+T ss_dssp             EEEECSSCCTTS
+T ss_pred             eEEECCCCCccc
+
+
+No 15
+>2Q83_A YtaA protein; 2635576, ytaA, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, TRANSFERASE; HET: SO4, UNL, ADN, CIT, EDO, MSE; 2.5A {Bacillus subtilis}
+Probab=59.35  E-value=13  Score=27.10  Aligned_cols=12  Identities=33%  Similarity=0.614  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       222 ~~l~HgD~~~~N  233 (346)
+T 2Q83_A          222 PNLCHQDYGTGN  233 (346)
+T ss_dssp             CCEECSSCSTTS
+T ss_pred             CCeecCCCCccc
+
+
+No 16
+>5IWU_A Macrolide 2'-phosphotransferase II; macrolide phosphotransferase, kinase, TRANSFERASE, TRANSFERASE-ANTIBIOTIC complex; HET: GOL, ERY; 1.3A {Escherichia coli}
+Probab=57.46  E-value=13  Score=27.24  Aligned_cols=9  Identities=56%  Similarity=1.003  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       194 ~~l~HgD~~  202 (302)
+T 5IWU_A          194 TGLIHGDVH  202 (302)
+T ss_dssp             CEEECSCCS
+T ss_pred             Cceeccccc
+
+
+No 17
+>5UXD_B Macrolide 2'-phosphotransferase MphH; antibiotic resistance, macrolide, cave bacterium, phosphotransferase, kinase, alpha/beta protein, azithromycin, structural genomics, Center for Structural Genomics; HET: SO4, ZIT; 1.7A {Brachybacterium faecium (strain ATCC 43885 / DSM 4810 / NCIB 9860)}
+Probab=57.18  E-value=15  Score=27.01  Aligned_cols=9  Identities=33%  Similarity=0.711  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       192 ~~l~HgD~~  200 (300)
+T 5UXD_B          192 SVLTHGELY  200 (300)
+T ss_dssp             CEEECSCCS
+T ss_pred             cEEecCCCC
+
+
+No 18
+>2PYW_B Uncharacterized protein; 5-methylthioribose kinase, plant methionine recycling, refolding, Transferase; HET: SR1, ADP, EDO; 1.9A {Arabidopsis thaliana} SCOP: d.144.1.0
+Probab=57.14  E-value=15  Score=30.21  Aligned_cols=8  Identities=63%  Similarity=1.228  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      ||||||+|
+T Consensus       233 ~liHGDl~  240 (420)
+T 2PYW_B          233 ALIHGDLH  240 (420)
+T ss_dssp             EEECSCCS
+T ss_pred             eEecCCCC
+
+
+No 19
+>3F7W_A putative fructosamine-3-kinase; YP_290396.1, putative fructosamine-3-kinase, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, Unknown; HET: MSE, EDO; 1.85A {Thermobifida fusca YX}
+Probab=55.97  E-value=19  Score=24.87  Aligned_cols=12  Identities=33%  Similarity=0.573  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .++||||+|...
+T Consensus       188 ~~~~HgD~~~~N  199 (288)
+T 3F7W_A          188 PARIHGDLWNGN  199 (288)
+T ss_dssp             CEEECSCCSGGG
+T ss_pred             CeeecCCCCCCC
+
+
+No 20
+>7F0A_A Capreomycin phosphotransferase; Cph, phosphotransferase, capreomycin, resistance, TRANSFERASE; 1.95A {Saccharothrix mutabilis subsp. capreolus}
+Probab=55.85  E-value=17  Score=25.97  Aligned_cols=8  Identities=50%  Similarity=0.862  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      ++||||+|
+T Consensus       181 ~~~HgDl~  188 (294)
+T 7F0A_A          181 GLVHGDLG  188 (294)
+T ss_dssp             EEECSCCS
+T ss_pred             eEEcCCCC
+
+
+No 21
+>3CSV_A Aminoglycoside phosphotransferase; YP_614837.1, Putative Aminoglycoside Phosphotransferase, Phosphotransferase enzyme family, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein; HET: MSE, EDO; 2.15A {Silicibacter sp.}
+Probab=55.77  E-value=18  Score=27.22  Aligned_cols=12  Identities=25%  Similarity=0.493  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||.|...
+T Consensus       183 ~~l~HgD~~~~N  194 (333)
+T 3CSV_A          183 MVFVHRDFHAQN  194 (333)
+T ss_dssp             CEEECSCCSGGG
+T ss_pred             cEEEcccCCccc
+
+
+No 22
+>4OCV_A N-acetylhexosamine 1-phosphate kinase; kinase, TRANSFERASE; HET: ANP, NDG, SO4; 1.472A {Bifidobacterium longum subsp. infantis}
+Probab=55.10  E-value=17  Score=27.42  Aligned_cols=9  Identities=22%  Similarity=0.298  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       222 ~~l~HgD~~  230 (379)
+T 4OCV_A          222 LRVTHNDTK  230 (379)
+T ss_dssp             CEEECSCCC
+T ss_pred             ceEecCCCC
+
+
+No 23
+>phrog_21938 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Protein kinase; Fructosamin_kin; Hygromycin-B 4-O-kinase | 
+Probab=54.83  E-value=18  Score=26.68  Aligned_cols=9  Identities=33%  Similarity=0.593  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .++||||.|
+T Consensus       174 ~~l~HGDl~  182 (320)
+T phrog_21938     174 FYFIHGDLC  182 (320)
+T ss_pred             cEEEcCCCC
+
+
+No 24
+>1ZYL_A Hypothetical protein yihE; hypothetical protein, putative protein kinase, Structural Genomics, PSI, Protein Structure Initiative, Montreal-Kingston Bacterial Structural Genomics Initiative; 2.8A {Escherichia coli} SCOP: d.144.1.6
+Probab=54.50  E-value=17  Score=26.33  Aligned_cols=9  Identities=44%  Similarity=0.556  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       195 ~~l~HgDl~  203 (328)
+T 1ZYL_A          195 VLRLHGDCH  203 (328)
+T ss_dssp             CEECCSSCS
+T ss_pred             eeEeCeecc
+
+
+No 25
+>3MES_B Choline kinase; choline kinase, malaria, Structural Genomics, Structural Genomics Consortium, SGC, Kinase, TRANSFERASE; HET: PT3, DME, ADP; 2.35A {Cryptosporidium parvum}
+Probab=53.82  E-value=19  Score=28.58  Aligned_cols=9  Identities=22%  Similarity=0.571  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       262 ~~l~HgDl~  270 (424)
+T 3MES_B          262 LVFAHNDLQ  270 (424)
+T ss_dssp             EEEECSCCC
+T ss_pred             EEEECCCCC
+
+
+No 26
+>3JR1_A Putative fructosamine-3-kinase; YP_719053.1, Putative fructosamine-3-kinase, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, Fructosamine; HET: UNL, MSE, EDO; 2.32A {Haemophilus somnus 129PT}
+Probab=53.41  E-value=19  Score=26.75  Aligned_cols=9  Identities=22%  Similarity=0.641  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       207 ~~l~HgDl~  215 (312)
+T 3JR1_A          207 PSILHGNLW  215 (312)
+T ss_dssp             CEEECSSCS
+T ss_pred             CeEEccCCc
+
+
+No 27
+>5FTG_A CHOLINE KINASE ALPHA; TRANSFERASE, BISCATIONIC INHIBITOR, DOCKING STUDIES; HET: NBR, EDO; 1.45A {HOMO SAPIENS} SCOP: d.144.1.8
+Probab=52.15  E-value=23  Score=26.63  Aligned_cols=11  Identities=27%  Similarity=0.812  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             eeecccccccc
+Q Pacc40_gp60_in    3 CLCHGDIHNSK   13 (161)
+Q Consensus         3 clchgdihnsk   13 (161)
+                      +|||||+|...
+T Consensus       222 ~l~HgD~~~~N  232 (378)
+T 5FTG_A          222 VFCHNDCQEGN  232 (378)
+T ss_dssp             EEECSCCSGGG
+T ss_pred             EEECCCCCccc
+
+
+No 28
+>phrog_15084 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Protein kinase; Fructosamin_kin; AMINOGLYCOSIDE 3'-PHOSPHOTRANSFERASE | 
+Probab=51.97  E-value=22  Score=23.98  Aligned_cols=8  Identities=38%  Similarity=0.866  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      ++||||+|
+T Consensus       185 ~~~H~D~~  192 (264)
+T phrog_15084     185 VFSHGDLG  192 (264)
+T ss_pred             EEECCCCC
+
+
+No 29
+>3DXQ_B choline/ethanolamine kinase family protein; NP_106042.1, choline/ethanolamine kinase family protein, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative; HET: MSE; 2.55A {Mesorhizobium loti}
+Probab=51.97  E-value=17  Score=26.96  Aligned_cols=9  Identities=33%  Similarity=0.475  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||.|
+T Consensus       173 ~~l~HgD~~  181 (301)
+T 3DXQ_B          173 LAACHCDPL  181 (301)
+T ss_dssp             CEEECSCCC
+T ss_pred             CcccCCCCC
+
+
+No 30
+>3I1A_A Spectinomycin phosphotransferase; protein kinase, aminoglycoside phosphotransferase, antibiotic resistance, TRANSFERASE; HET: MES, PG4; 1.7A {Legionella pneumophila}
+Probab=51.30  E-value=22  Score=26.44  Aligned_cols=9  Identities=67%  Similarity=1.287  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       206 ~~l~HgDl~  214 (339)
+T 3I1A_A          206 YVLCHSDIH  214 (339)
+T ss_dssp             CEEECSCCC
+T ss_pred             eeEeCCCCC
+
+
+No 31
+>4PDY_A Aminoglycoside phosphotransferase; Structural Genomics, PSI-Biology, Midwest Center for Structural Genomics, MCSG, aminoglycoside phosphotransferase, TRANSFERASE; HET: MSE, SCN, HIS; 1.35A {Alicyclobacillus acidocaldarius subsp. acidocaldarius}
+Probab=50.37  E-value=18  Score=27.20  Aligned_cols=9  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       219 ~~l~HgDl~  227 (351)
+T 4PDY_A          219 GGWCHLDVI  227 (351)
+T ss_dssp             BCEECCCCC
+T ss_pred             CCccCCCCc
+
+
+No 32
+>4H05_A Aminoglycoside-O-phosphotransferase VIII; protein kinase, ATP binding, Aminoglycoside phosphotransferase VIII  aminoglycoside antibiotic, phosphorilation, TRANSFERASE; 2.15A {Streptomyces rimosus} SCOP: d.144.1.0, l.1.1.1
+Probab=50.26  E-value=24  Score=24.94  Aligned_cols=9  Identities=44%  Similarity=1.125  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .++||||+|
+T Consensus       184 ~~~~HgD~~  192 (273)
+T 4H05_A          184 LAVCHGDLC  192 (273)
+T ss_dssp             EEEECSSCC
+T ss_pred             eEEEcCCCC
+
+
+No 33
+>3FEG_A Choline/ethanolamine kinase; non-protein kinase, choline kinase, Structural Genomics Consortium, SGC, hemicholinium-3, phosphorylation, Kinase, Phosphoprotein, Transferase; HET: AMP, HC7, ADP; 1.302A {Homo sapiens} SCOP: d.144.1.8
+Probab=50.11  E-value=26  Score=27.61  Aligned_cols=12  Identities=33%  Similarity=0.830  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       220 ~~l~HgDl~~~N  231 (379)
+T 3FEG_A          220 VVFCHNDIQEGN  231 (379)
+T ss_dssp             EEEECSCCCGGG
+T ss_pred             eEEEcCCCCCCc
+
+
+No 34
+>6YXS_A Choline kinase; Choline Kinase, Apo form, Plasmodium falciparum, TRANSFERASE; HET: GOL, 1PE; 2.0A {Plasmodium falciparum (isolate 3D7)}
+Probab=49.99  E-value=25  Score=27.58  Aligned_cols=12  Identities=25%  Similarity=0.800  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       224 ~~l~HgDl~~~N  235 (382)
+T 6YXS_A          224 IVFCHNDLQENN  235 (382)
+T ss_dssp             EEEECSCCCGGG
+T ss_pred             eEEEcCCCCccc
+
+
+No 35
+>6OID_A Protein-ribulosamine 3-kinase, chloroplastic; Kinase, Fructosamine-3-Kinase, Small Molecule Kinase, Protein Repair, Phosphotransferase, Deglycation, PLANT PROTEIN, TRANSFERASE; HET: ADP, SO4, EDO; 2.365A {Arabidopsis thaliana}
+Probab=48.39  E-value=22  Score=26.01  Aligned_cols=8  Identities=63%  Similarity=1.385  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      +|||||+|
+T Consensus       216 ~l~HgD~~  223 (317)
+T 6OID_A          216 CLLHGDLW  223 (317)
+T ss_dssp             EEECSCCS
+T ss_pred             cEEeeecc
+
+
+No 36
+>2QG7_D ethanolamine kinase Pv091845; malaria, ethanolamine kinase, Pv091845, SGC, Structural Genomics Consortium, TRANSFERASE; 2.407A {Plasmodium vivax}
+Probab=48.03  E-value=71  Score=28.26  Aligned_cols=41  Identities=17%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ceeecccccccccccc-------------------cccccCCCccCCCcCCCCCCCccee
+Q Pacc40_gp60_in    2 RCLCHGDIHNSKANDS-------------------ASSSSNNGTRTPSATAPGSADASVV   42 (161)
+Q Consensus         2 rclchgdihnskands-------------------assssnngtrtpsatapgsadasvv   42 (161)
+                      .+|||||+|.+..--.                   .+-..|+...++..+..+..+...+
+T Consensus       290 ~~l~HgDl~~~Nil~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i  349 (458)
+T 2QG7_D          290 IVLCHCDLLSSNIINTVGGGEAGELGEAGETGEGGETGEGGETGEGGETGEGGEGDSISF  349 (458)
+T ss_dssp             EEEECSCCCGGGEEECCC-------------------------------------CCEEE
+T ss_pred             EEEECCCCCccceeecCCCccccccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCcEEE
+
+
+No 37
+>7S3L_A Aminoglycoside phosphotransferase family protein; Kinase, DNA replication, DNA damage, cell division, CELL CYCLE; HET: ANP, MSE; 2.6A {Bacillus subtilis PY79}
+Probab=47.97  E-value=27  Score=24.52  Aligned_cols=9  Identities=33%  Similarity=1.073  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .++||||+|
+T Consensus       160 ~~~~HgD~~  168 (269)
+T 7S3L_A          160 KVVCHCDVN  168 (269)
+T ss_dssp             CEEECSCCC
+T ss_pred             eEEEcccCC
+
+
+No 38
+>6IY9_A Hygromycin-B 7''-O-kinase; Kinase, Complex, TRANSFERASE; HET: NHE, FLC, HY0, MSE; 2.4A {Streptomyces hygroscopicus}
+Probab=47.24  E-value=26  Score=25.83  Aligned_cols=9  Identities=44%  Similarity=0.925  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       217 ~~l~HgD~~  225 (340)
+T 6IY9_A          217 PRFVHGDLH  225 (340)
+T ss_dssp             CEEEESCCC
+T ss_pred             CeEEEeeCc
+
+
+No 39
+>1ND4_B Aminoglycoside 3'-phosphotransferase; phosphotransferase, protein kinase, ATPase, kanamycin, transferase; HET: KAN; 2.1A {Klebsiella pneumoniae} SCOP: d.144.1.6
+Probab=47.17  E-value=32  Score=23.98  Aligned_cols=12  Identities=25%  Similarity=0.349  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+++|||+|...
+T Consensus       184 ~~~~HgD~~~~N  195 (264)
+T 1ND4_B          184 LVVTHGDACLPN  195 (264)
+T ss_dssp             EEEECSSCCGGG
+T ss_pred             eEEECCCCCCcc
+
+
+No 40
+>PF01636.28 ; APH ; Phosphotransferase enzyme family
+Probab=46.74  E-value=28  Score=24.25  Aligned_cols=9  Identities=44%  Similarity=0.682  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .++||||+|
+T Consensus       169 ~~~~HgDl~  177 (243)
+T Q83D34_COXBU/2  169 RLISHRDIG  177 (243)
+T ss_pred             ceeecCCCc
+
+
+No 41
+>2PPQ_A Homoserine kinase; homoserine kinase, structural genomics, MCSG, PSI-2, Protein Structure Initiative, Midwest Center for Structural Genomics, TRANSFERASE; HET: MSE; 2.0A {Agrobacterium tumefaciens str.} SCOP: d.144.1.6
+Probab=46.04  E-value=29  Score=25.73  Aligned_cols=12  Identities=17%  Similarity=0.390  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       187 ~~l~HgDl~~~N  198 (322)
+T 2PPQ_A          187 AGVIHADLFQDN  198 (322)
+T ss_dssp             EEEECSCCCGGG
+T ss_pred             ceEEeecCCccc
+
+
+No 42
+>3DXP_A putative acyl-CoA dehydrogenase; Protein kinase-like fold, structural genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, transferase; HET: MSE; 2.32A {Ralstonia eutropha JMP134}
+Probab=45.99  E-value=32  Score=25.23  Aligned_cols=10  Identities=30%  Similarity=0.614  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             Cceeeccccc
+Q Pacc40_gp60_in    1 CRCLCHGDIH   10 (161)
+Q Consensus         1 crclchgdih   10 (161)
+                      ..++||||+|
+T Consensus       215 ~~~~~HgD~~  224 (359)
+T 3DXP_A          215 LTSIVHGDYR  224 (359)
+T ss_dssp             CCEEECSSCS
+T ss_pred             CcEEEcCCCC
+
+
+No 43
+>6SUN_A APH domain-containing protein, amicoumacin kinase; ANTIMICROBIAL PROTEIN, KINASE, AMICOUMACIN; HET: UAM, ANP; 1.35A {Bacillus pumilus}
+Probab=45.37  E-value=33  Score=25.38  Aligned_cols=12  Identities=33%  Similarity=0.628  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .++||||+|...
+T Consensus       197 ~~~~HgD~~~~N  208 (335)
+T 6SUN_A          197 YGLVHADLHHGN  208 (335)
+T ss_dssp             EEEECCCCSTTS
+T ss_pred             eEEeecccCccc
+
+
+No 44
+>PF07914.16 ; DUF1679 ; Uncharacterized oxidoreductase dhs-27
+Probab=45.09  E-value=30  Score=26.73  Aligned_cols=9  Identities=33%  Similarity=0.888  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       264 ~~l~HgD~~  272 (409)
+T Q20584_CAEEL/3  264 KVFVHGDLW  272 (409)
+T ss_pred             eeEEcCCCc
+
+
+No 45
+>4R78_A Choline kinase; protein kinase-like fold, Transferase; HET: AMP, MES; 1.45A {Streptococcus pneumoniae}
+Probab=44.51  E-value=30  Score=25.74  Aligned_cols=9  Identities=44%  Similarity=0.678  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       190 ~~l~HgDl~  198 (309)
+T 4R78_A          190 RKSCHIDLV  198 (309)
+T ss_dssp             CEEECSCCC
+T ss_pred             cceeCCCCC
+
+
+No 46
+>6EF6_A Aminoglycoside phosphotransferase; aminopropanol kinase, TRANSFERASE; HET: BEZ, JFN; 1.35A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=44.04  E-value=32  Score=25.88  Aligned_cols=9  Identities=33%  Similarity=0.508  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       225 ~~l~HgDl~  233 (354)
+T 6EF6_A          225 YGLIHADLR  233 (354)
+T ss_dssp             EEEECSCCC
+T ss_pred             eEEecCCCC
+
+
+No 47
+>3ATS_A Putative uncharacterized protein; hypothetical protein, putative aminoglycoside phosphortransferase, TRANSFERASE; 1.67A {Mycobacterium tuberculosis}
+Probab=43.43  E-value=39  Score=25.41  Aligned_cols=12  Identities=25%  Similarity=0.304  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .++||||+|...
+T Consensus       222 ~~~~HgD~~~~N  233 (357)
+T 3ATS_A          222 PVLLWGDARVGN  233 (357)
+T ss_dssp             CEEECSSCSGGG
+T ss_pred             CeEEcCCCCcCc
+
+
+No 48
+>9ETO_A 4-hydroxytryptamine kinase; Kinase, TRANSFERASE; HET: RWB, SO4, PEG; 2.54A {Psilocybe cubensis}
+Probab=41.78  E-value=38  Score=25.28  Aligned_cols=11  Identities=18%  Similarity=0.350  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             eeecccccccc
+Q Pacc40_gp60_in    3 CLCHGDIHNSK   13 (161)
+Q Consensus         3 clchgdihnsk   13 (161)
+                      .+||||+|...
+T Consensus       221 ~~~HgD~~~~N  231 (364)
+T 9ETO_A          221 TLVMADLWSGN  231 (364)
+T ss_dssp             EEECSCCSGGG
+T ss_pred             EEEEeccCccc
+
+
+No 49
+>6SUL_B Phosphotransferase enzyme family protein, amicoumacin kinase; ANTIMICROBIAL PROTEIN, KINASE, AMICOUMACIN; HET: CL, ANP, UAM; 1.35A {Bacillus pumilus}
+Probab=40.28  E-value=40  Score=25.78  Aligned_cols=11  Identities=36%  Similarity=0.740  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeecccccccc
+Q Pacc40_gp60_in    3 CLCHGDIHNSK   13 (161)
+Q Consensus         3 clchgdihnsk   13 (161)
+                      ++||||+|...
+T Consensus       197 ~~~HgD~~~~N  207 (335)
+T 6SUL_B          197 GLVHADLHHGN  207 (335)
+T ss_dssp             EEECSCCCTTS
+T ss_pred             eeccccCccCc
+
+
+No 50
+>1NW1_B Choline kinase (49.2 kD); choline kinase, phospholipid synthesis, protein kinase fold, TRANSFERASE; 2.02A {Caenorhabditis elegans} SCOP: d.144.1.8
+Probab=40.21  E-value=43  Score=28.90  Aligned_cols=12  Identities=25%  Similarity=0.783  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       249 ~~l~HgDl~~~N  260 (429)
+T 1NW1_B          249 VTFCHNDLQEGN  260 (429)
+T ss_dssp             EEEECSCCCGGG
+T ss_pred             eEEeCCCCCCCc
+
+
+No 51
+>6WHP_A Choline kinase; SSGCID, Choline kinase, Cryptococcus neoformans, Structural Genomics, Seattle Structural Genomics Center for Infectious Disease, TRANSFERASE; HET: EDO; 2.25A {Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)}
+Probab=39.92  E-value=45  Score=27.42  Aligned_cols=12  Identities=17%  Similarity=0.335  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       262 ~~l~HgDl~~~N  273 (440)
+T 6WHP_A          262 VVFAHNDTQYGN  273 (440)
+T ss_dssp             CEEECSCCCGGG
+T ss_pred             eEEECCCCCcCC
+
+
+No 52
+>7W15_A Macrolide 2'-phosphotransferase; Antibotic resistance, TRANSFERASE; HET: GTP, ERY, GOL; 1.77A {Acinetobacter baumannii}
+Probab=39.45  E-value=42  Score=25.36  Aligned_cols=9  Identities=33%  Similarity=0.600  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      ..|||||+|
+T Consensus       188 ~~l~HgD~~  196 (302)
+T 7W15_A          188 TQFIHGDLY  196 (302)
+T ss_dssp             CEEECSSCS
+T ss_pred             eEEEccCCC
+
+
+No 53
+>5JY7_M Maltokinase; complex, isomerase, kinase, alpha glucan synthesis, isomerase-transferase complex; 3.6A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=38.43  E-value=44  Score=28.28  Aligned_cols=9  Identities=44%  Similarity=0.722  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      +++||||.|
+T Consensus       298 ~~~iHGDlh  306 (441)
+T 5JY7_M          298 VQRVHGDLH  306 (441)
+T ss_dssp             EBCCCSSCC
+T ss_pred             EEEEcCCCC
+
+
+No 54
+>4GKH_C Aminoglycoside 3'-phosphotransferase AphA1-IAB; PYRAZOLOPYRIMIDINE, 1-NA-PP1, BUMPED KINASE INHIBITOR, BKI, PROTEIN KINASE INHIBITOR, CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES; HET: ACT, MSE, 0J9, PEG, NA, KAN; 1.863A {Acinetobacter baumannii} SCOP: d.144.1.0
+Probab=37.86  E-value=51  Score=22.66  Aligned_cols=12  Identities=25%  Similarity=0.487  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+++|||+|...
+T Consensus       193 ~~~~HgDl~~~N  204 (272)
+T 4GKH_C          193 SVVTHGDFSLDN  204 (272)
+T ss_dssp             CEEECSCCCTTS
+T ss_pred             CEEEccCCCchh
+
+
+No 55
+>3W0O_A Hygromycin-B 4-O-kinase; phosphotransferase, TRANSFERASE-ANTIBIOTIC complex; HET: HY0, ADP; 1.5A {Escherichia coli}
+Probab=37.83  E-value=47  Score=25.27  Aligned_cols=9  Identities=44%  Similarity=0.674  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       192 ~~l~HgD~~  200 (349)
+T 3W0O_A          192 RHLVHADFG  200 (349)
+T ss_dssp             CEEECSSCS
+T ss_pred             cEEEcccCC
+
+
+No 56
+>4O7O_B Maltokinase; maltose kinase, kinase, ATP binding, maltose binding, transferase; 2.4006A {Mycobacterium tuberculosis}
+Probab=36.03  E-value=51  Score=28.08  Aligned_cols=9  Identities=44%  Similarity=0.722  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      +++||||.|
+T Consensus       316 ~~~iHGDlh  324 (455)
+T 4O7O_B          316 VQRVHGDLH  324 (455)
+T ss_dssp             EECCCSSCS
+T ss_pred             eEEECCCCC
+
+
+No 57
+>4U98_A Maltokinase; Maltose, Glycogen, AppCp, transferase; HET: ACP; 1.15A {Mycobacterium vanbaalenii}
+Probab=34.43  E-value=56  Score=28.39  Aligned_cols=9  Identities=44%  Similarity=0.722  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      +++||||.|
+T Consensus       299 ~~~iHGDlh  307 (454)
+T 4U98_A          299 VQRVHGDLH  307 (454)
+T ss_dssp             EECCCSSCS
+T ss_pred             eEEECCCCC
+
+
+No 58
+>9DK3_A Kinase; Kinase, Lyase, lanthipeptide dehydratase, complex, BIOSYNTHETIC PROTEIN; HET: GOL, ADP, PO4, PEG; 2.3A {Streptomyces rochei}
+Probab=33.53  E-value=53  Score=26.27  Aligned_cols=9  Identities=22%  Similarity=0.320  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       217 ~~l~HgDl~  225 (403)
+T 9DK3_A          217 LAPAHCDLR  225 (403)
+T ss_dssp             CEEECSSCC
+T ss_pred             CCeecCCCC
+
+
+No 59
+>8BI6_B Choline kinase alpha; Inhibitor, Structural Genomics, Structural Genomics Consortium, SGC; HET: CIQ, PO4, EDO, PEG; 2.4A {Homo sapiens}
+Probab=32.25  E-value=69  Score=28.33  Aligned_cols=12  Identities=25%  Similarity=0.689  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+|||||+|...
+T Consensus       300 ~~l~HgDl~~~N  311 (457)
+T 8BI6_B          300 VVFCHNDCQEGN  311 (457)
+T ss_dssp             EEEECSCCSGGG
+T ss_pred             EEEEcCCCcccc
+
+
+No 60
+>phrog_4098 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Protein kinase; Fructosamin_kin; Gentamicin resistance protein | Nucleotide-diphospho-sugar transferases; NTP_transferase; Nucleotidyl transferase | 
+Probab=29.87  E-value=76  Score=27.61  Aligned_cols=12  Identities=50%  Similarity=0.584  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             ceeecccccccc
+Q Pacc40_gp60_in    2 RCLCHGDIHNSK   13 (161)
+Q Consensus         2 rclchgdihnsk   13 (161)
+                      .+++|||.|.+.
+T Consensus       370 ~~liHgDl~~~N  381 (557)
+T phrog_4098      370 YQLIHGDPHYSN  381 (557)
+T ss_pred             cEEEecCCCccc
+
+
+No 61
+>6HWJ_B Glucosamine kinase; Glucosamine kinase, TRANSFERASE; HET: PEG, BTB; 1.979A {Streptacidiphilus jiangxiensis}
+Probab=28.35  E-value=80  Score=27.39  Aligned_cols=9  Identities=44%  Similarity=0.630  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .++||||+|
+T Consensus       294 ~~~iHGDlh  302 (451)
+T 6HWJ_B          294 LIDVHGDFH  302 (451)
+T ss_dssp             EECCCSSCS
+T ss_pred             EEEeCCCCC
+
+
+No 62
+>PF10009.14 ; DUF2252 ; Uncharacterized protein conserved in bacteria (DUF2252)
+Probab=27.85  E-value=80  Score=28.43  Aligned_cols=9  Identities=44%  Similarity=0.870  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      +++||||.|
+T Consensus        41 ~~~ihGD~H   49 (403)
+T Q8G4S4_BIFLO/6   41 PVQCVGDAH   49 (403)
+T ss_pred             CeEEEcccc
+
+
+No 63
+>8V3V_B Acyl-Coenzyme A dehydrogenase family, member 11; acyl-CoA dehydrogenases, Dihedral, mitochondrial, OXIDOREDUCTASE; HET: FAD;{Mus musculus}
+Probab=25.79  E-value=94  Score=27.31  Aligned_cols=9  Identities=56%  Similarity=1.287  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             ceeeccccc
+Q Pacc40_gp60_in    2 RCLCHGDIH   10 (161)
+Q Consensus         2 rclchgdih   10 (161)
+                      .+|||||+|
+T Consensus       213 ~~l~HgD~~  221 (778)
+T 8V3V_B          213 ECLVHGDFK  221 (778)
+T ss_dssp             -CCCCSSCC
+T ss_pred             ceeEcCCCc
+
+
+No 64
+>phrog_29599 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Protein kinase; Fructosamin_kin; Bifunctional AAC/APH | Acyl-CoA N-acyltransferases (Nat); Acetyltransf_8; Bifunctional AAC/APH | 
+Probab=24.91  E-value=1e+02  Score=24.53  Aligned_cols=8  Identities=63%  Similarity=1.618  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      +|+|||+|
+T Consensus       369 ~l~HgDl~  376 (479)
+T phrog_29599     369 CLCHNDFS  376 (479)
+T ss_pred             EEECCCCC
+
+
+No 65
+>phrog_24015 PHROGs annotation: NA; unknown function || Predicted ECOD domains: Nucleotide-diphospho-sugar transferases; NTP_transferase_1; Nucleoside-diphosphate-sugar pyrophosphorylase | Protein kinase; Fructosamin_kin; Aminoglycoside phosphotransferase | 
+Probab=23.00  E-value=1.2e+02  Score=26.33  Aligned_cols=8  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             eeeccccc
+Q Pacc40_gp60_in    3 CLCHGDIH   10 (161)
+Q Consensus         3 clchgdih   10 (161)
+                      ++||||+|
+T Consensus       367 ~~iHGDl~  374 (507)
+T phrog_24015     367 SLIHGDFC  374 (507)
+T ss_pred             EEEcCCCC
+
+
