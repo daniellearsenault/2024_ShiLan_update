@@ -1,0 +1,17 @@
+;; Masterfile modified automatically by mfannot version 
+;; on Wed Nov 27 19:53:23 2024 by user shiny on host ea48c4e3ec6a
+;;    - Gene Totals: 0
+;;
+;; end mfannot
+;;
+
+
+>put_G1_intron gc=11
+     1  TGGAATAGCGTAGCCACCGCAGCTGCGTAAGCAGCTGTTAGCAACCTCACCATA
+;; mfannot:     /group=I(derived) (2.53e-07)
+    55  tcggtggaagcccgccattacatgggtaataccgaggaaaccagcacattgggttccgta
+   115  cagactaaacgtgaggctccatcattgaatcgttgcgaatgtgtatcgcaacgtggagat
+   175  ggatgaagttatagtcg
+;; mfannot:
+   192  GGTCTGCATCGATGGTAAAGATGCAGAGAGCCTCGATTATCCCGTAAGCCTTGGGAACTT
+   252  TTTTCGCTGAGTAACAAGGGACGTACGCAGTC
