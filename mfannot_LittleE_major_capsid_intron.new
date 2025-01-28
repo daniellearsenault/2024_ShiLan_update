@@ -2,8 +2,6 @@
 ;;
 ;; end mfannot
 ;;
-
-
 >put_G1_intron gc=11
      1  TGGAATAGCGTAGCCACCGCAGCTGCGTAAGCAGCTGTTAGCAACCTCACCATA
 ;; mfannot:     /group=I(derived) (2.53e-07)
