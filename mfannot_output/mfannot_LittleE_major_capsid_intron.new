@@ -1,0 +1,13 @@
+;;    - Gene Totals: 0
+;;
+;; end mfannot
+;;
+>put_G1_intron gc=11
+     1  TGGAATAGCGTAGCCACCGCAGCTGCGTAAGCAGCTGTTAGCAACCTCACCATA
+;; mfannot:     /group=I(derived) (2.53e-07)
+    55  tcggtggaagcccgccattacatgggtaataccgaggaaaccagcacattgggttccgta
+   115  cagactaaacgtgaggctccatcattgaatcgttgcgaatgtgtatcgcaacgtggagat
+   175  ggatgaagttatagtcg
+;; mfannot:
+   192  GGTCTGCATCGATGGTAAAGATGCAGAGAGCCTCGATTATCCCGTAAGCCTTGGGAACTT
+   252  TTTTCGCTGAGTAACAAGGGACGTACGCAGTC
